@@ -14,7 +14,7 @@ const nextSettings = {
     },
     // Change your site title here
     env: {
-        title: 'Dawood',
+        title: 'Dawood Super Mart',
         // titleDescription: 'Online',
     },
 };
