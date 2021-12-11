@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 const MainHead = () => (
     <Head>
-        <title>Martfury - React eCommerce Template</title>
+        <title>Dawood-Online</title>
         <link rel="shortcut icon" href="/static/img/favi.png" />
         <link rel="icon" href="/static/img/favi.png" sizes="32x32" />
         <link rel="icon" href="/static/img/favi.png" sizes="192x192" />
@@ -14,10 +14,7 @@ const MainHead = () => (
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="author" content="nouthemes" />
         <meta name="keywords" content="Martfury, React, eCommerce, Template" />
-        <meta
-            name="description"
-            content="Martfury - React eCommerce Template"
-        />
+        <meta name="description" content="" />
         <link
             href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&amp;amp;subset=latin-ext"
             rel="stylesheet"
