@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
+// import Link from 'next/link';
 import { notification } from 'antd';
 import Menu from '../../elements/menu/Menu';
-
 import menuData from '../../../public/static/data/menu';
-import CurrencyDropdown from '../headers/modules/CurrencyDropdown';
-import LanguageSwicher from '../headers/modules/LanguageSwicher';
+// import CurrencyDropdown from '../headers/modules/CurrencyDropdown';
+// import LanguageSwicher from '../headers/modules/LanguageSwicher';
 import MenuCategoriesDropdown from '~/components/shared/menus/MenuCategoriesDropdown';
 
 class NavigationDefault extends Component {
@@ -29,7 +28,9 @@ class NavigationDefault extends Component {
                     <div className="navigation__left">
                         <MenuCategoriesDropdown />
                     </div>
-                    <div className="navigation__right">
+                    <div
+                        className="navigation__right"
+                        style={{ fontSize: '5px' }}>
                         <Menu
                             source={menuData.menuPrimary.menu_1}
                             className="menu"
