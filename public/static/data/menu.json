@@ -381,7 +381,7 @@
         {
             "icon": "icon-laundry",
             "text": "Consumer Electronic",
-            "url": "/shop",
+            "url": "/consumerElectronics",
             "extraClass": "menu-item-has-children has-mega-menu",
             "subClass": "sub-menu",
             "mega": true,
