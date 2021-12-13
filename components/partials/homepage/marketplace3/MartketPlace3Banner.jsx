@@ -31,7 +31,7 @@ class MartketPlace3Banner extends Component {
                                     <a>
                                         <img
                                             src="/static/img/slider/home-5/1.jpg"
-                                            alt="Dawood Online"
+                                            alt="dawood-online"
                                         />
                                     </a>
                                 </Link>
@@ -41,7 +41,7 @@ class MartketPlace3Banner extends Component {
                                     <a>
                                         <img
                                             src="/static/img/slider/home-5/2.jpg"
-                                            alt="Dawood Online"
+                                            alt="dawood-online"
                                         />
                                     </a>
                                 </Link>
@@ -51,7 +51,7 @@ class MartketPlace3Banner extends Component {
                                     <a>
                                         <img
                                             src="/static/img/slider/home-5/3.jpg"
-                                            alt="Dawood Online"
+                                            alt="dawood-online"
                                         />
                                     </a>
                                 </Link>
@@ -62,7 +62,7 @@ class MartketPlace3Banner extends Component {
                             <a>
                                 <img
                                     src="/static/img/slider/home-5/promotion-6.jpg"
-                                    alt="Dawood Online"
+                                    alt="dawood-online"
                                 />
                             </a>
                         </Link>
@@ -72,7 +72,7 @@ class MartketPlace3Banner extends Component {
                             <a>
                                 <img
                                     src="/static/img/slider/home-5/promotion-1.jpg"
-                                    alt="Dawood Online"
+                                    alt="dawood-online"
                                 />
                             </a>
                         </Link>
@@ -80,7 +80,7 @@ class MartketPlace3Banner extends Component {
                             <a>
                                 <img
                                     src="/static/img/slider/home-5/promotion-2.jpg"
-                                    alt="Dawood Online"
+                                    alt="dawood-online"
                                 />
                             </a>
                         </Link>
@@ -88,7 +88,7 @@ class MartketPlace3Banner extends Component {
                             <a className="wide">
                                 <img
                                     src="/static/img/slider/home-5/promotion-3.jpg"
-                                    alt="Dawood Online"
+                                    alt="dawood-online"
                                 />
                             </a>
                         </Link>
@@ -96,7 +96,7 @@ class MartketPlace3Banner extends Component {
                             <a>
                                 <img
                                     src="/static/img/slider/home-5/promotion-4.jpg"
-                                    alt="Dawood Online"
+                                    alt="dawood-online"
                                 />
                             </a>
                         </Link>
@@ -104,7 +104,7 @@ class MartketPlace3Banner extends Component {
                             <a>
                                 <img
                                     src="/static/img/slider/home-5/promotion-5.jpg"
-                                    alt="Dawood Online"
+                                    alt="dawood-online"
                                 />
                             </a>
                         </Link>

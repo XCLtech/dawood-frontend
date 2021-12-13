@@ -8,7 +8,7 @@ const MarketPlacePromotion = () => (
                     <a className="ps-collection" href="#">
                         <img
                             src="/static/img/promotions/home-3-1.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                     </a>
                 </div>
@@ -16,7 +16,7 @@ const MarketPlacePromotion = () => (
                     <a className="ps-collection" href="#">
                         <img
                             src="/static/img/promotions/home-3-2.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                     </a>
                 </div>
@@ -24,7 +24,7 @@ const MarketPlacePromotion = () => (
                     <a className="ps-collection" href="#">
                         <img
                             src="/static/img/promotions/home-3-3.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                     </a>
                 </div>

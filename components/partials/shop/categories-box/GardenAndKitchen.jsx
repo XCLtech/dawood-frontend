@@ -28,7 +28,7 @@ const GardenAndKitchen = ({ data }) => (
                                 key={category.text}>
                                 <img
                                     src={category.imagePath}
-                                    alt="Dawood Online"
+                                    alt="dawood-online"
                                 />
                             </div>
                         );
@@ -40,7 +40,7 @@ const GardenAndKitchen = ({ data }) => (
                                 </Link>
                                 <img
                                     src={category.imagePath}
-                                    alt="Dawood Online"
+                                    alt="dawood-online"
                                 />
                                 <p>{category.text} </p>
                                 <span>{category.item} Items</span>

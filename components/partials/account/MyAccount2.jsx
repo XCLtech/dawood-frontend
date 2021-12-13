@@ -131,7 +131,7 @@ class MyAccount extends Component {
                                     Sign up today and you will be able to:
                                 </figcaption>
                                 <p>
-                                    Dawood Online Buyer Protection has you
+                                    dawood-online Buyer Protection has you
                                     covered from click to delivery. Sign up or
                                     sign in and you will be able to:
                                 </p>
@@ -161,9 +161,9 @@ class MyAccount extends Component {
                                         A small gift for your first purchase
                                     </h5>
                                     <p>
-                                        Dawood Online give $25 as a small gift
+                                        dawood-online give $25 as a small gift
                                         for your first purchase. Welcome to
-                                        Dawood Online!
+                                        dawood-online!
                                     </p>
                                 </aside>
                             </div>

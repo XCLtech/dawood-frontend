@@ -8,7 +8,7 @@ const PostHorizontal = ({ data }) => {
                 <Link href="/post/[pid]" as={`/post/${data.id}`}>
                     <a className="ps-post__overlay"></a>
                 </Link>
-                <img src={data.thumbnail} alt="Dawood Online" />
+                <img src={data.thumbnail} alt="dawood-online" />
                 {data && data.badge ? (
                     <div className="ps-post__badge">
                         <i className={data.badge}></i>

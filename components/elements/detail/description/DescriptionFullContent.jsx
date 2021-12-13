@@ -25,7 +25,7 @@ const DescriptionFullContent = () => (
             <img
                 className="mb-30"
                 src="/static/img/products/description.jpg"
-                alt="Dawood Online"
+                alt="dawood-online"
             />
             <h5>What do you get</h5>
             <p>

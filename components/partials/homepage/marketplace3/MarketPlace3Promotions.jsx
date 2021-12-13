@@ -7,7 +7,7 @@ const MarketPlace3Promotions = () => (
             <a>
                 <img
                     src="/static/img/promotions/home-5/simple.jpg"
-                    alt="Dawood Online"
+                    alt="dawood-online"
                 />
             </a>
         </Link>

@@ -144,14 +144,14 @@ const FooterSecond = ({ classes }) => (
                 </div>
             </div>
             <div className="ps-footer__copyright">
-                <p>&copy;2021 Dawood Online. All Rights Reserved</p>
+                <p>&copy;2021 dawood-online. All Rights Reserved</p>
                 <p>
                     <span>We Using Safe Payment For:</span>
                     <Link href="/page/blank">
                         <a>
                             <img
                                 src="/static/img/payment-method/1.jpg"
-                                alt="Dawood Online"
+                                alt="dawood-online"
                             />
                         </a>
                     </Link>
@@ -159,7 +159,7 @@ const FooterSecond = ({ classes }) => (
                         <a>
                             <img
                                 src="/static/img/payment-method/2.jpg"
-                                alt="Dawood Online"
+                                alt="dawood-online"
                             />
                         </a>
                     </Link>
@@ -167,7 +167,7 @@ const FooterSecond = ({ classes }) => (
                         <a>
                             <img
                                 src="/static/img/payment-method/3.jpg"
-                                alt="Dawood Online"
+                                alt="dawood-online"
                             />
                         </a>
                     </Link>
@@ -175,7 +175,7 @@ const FooterSecond = ({ classes }) => (
                         <a>
                             <img
                                 src="/static/img/payment-method/4.jpg"
-                                alt="Dawood Online"
+                                alt="dawood-online"
                             />
                         </a>
                     </Link>
@@ -183,7 +183,7 @@ const FooterSecond = ({ classes }) => (
                         <a>
                             <img
                                 src="/static/img/payment-method/5.jpg"
-                                alt="Dawood Online"
+                                alt="dawood-online"
                             />
                         </a>
                     </Link>

@@ -23,7 +23,7 @@ const TechnologyBanner = () => {
                     }}>
                     <img
                         src="/static/img/slider/home-10/1.jpg"
-                        alt="Dawood Online"
+                        alt="dawood-online"
                     />
                     <div className="ps-banner__content">
                         <h4>Weekend Promotions</h4>
@@ -44,7 +44,7 @@ const TechnologyBanner = () => {
                     }}>
                     <img
                         src="/static/img/slider/home-10/2.jpg"
-                        alt="Dawood Online"
+                        alt="dawood-online"
                     />
                     <div className="ps-banner__content">
                         <h4>Weekend Promotions</h4>

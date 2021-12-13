@@ -13,7 +13,7 @@ const HomeDefaultTopCategories = () => (
                         </Link>
                         <img
                             src="/static/img/categories/1.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                         <p>Electronics</p>
                     </div>
@@ -25,7 +25,7 @@ const HomeDefaultTopCategories = () => (
                         </Link>
                         <img
                             src="/static/img/categories/2.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                         <p>Clothings</p>
                     </div>
@@ -37,7 +37,7 @@ const HomeDefaultTopCategories = () => (
                         </Link>
                         <img
                             src="/static/img/categories/3.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                         <p>Computers</p>
                     </div>
@@ -49,7 +49,7 @@ const HomeDefaultTopCategories = () => (
                         </Link>
                         <img
                             src="/static/img/categories/4.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                         <p>Home & Kitchen</p>
                     </div>
@@ -61,7 +61,7 @@ const HomeDefaultTopCategories = () => (
                         </Link>
                         <img
                             src="/static/img/categories/5.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                         <p>Health & Beauty</p>
                     </div>
@@ -73,7 +73,7 @@ const HomeDefaultTopCategories = () => (
                         </Link>
                         <img
                             src="/static/img/categories/6.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                         <p>Health & Beauty</p>
                     </div>
@@ -85,7 +85,7 @@ const HomeDefaultTopCategories = () => (
                         </Link>
                         <img
                             src="/static/img/categories/7.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                         <p>Jewelry & Watch</p>
                     </div>
@@ -97,7 +97,7 @@ const HomeDefaultTopCategories = () => (
                         </Link>
                         <img
                             src="/static/img/categories/8.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                         <p>Technology Toys</p>
                     </div>

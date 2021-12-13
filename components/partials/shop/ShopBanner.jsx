@@ -19,11 +19,11 @@ const ShopBanner = () => {
             <Slider {...carouselSetting} fade={true} className="ps-carousel">
                 <img
                     src="/static/img/slider/shop-default/1.jpg"
-                    alt="Dawood Online"
+                    alt="dawood-online"
                 />
                 <img
                     src="/static/img/slider/shop-default/2.jpg"
-                    alt="Dawood Online"
+                    alt="dawood-online"
                 />
             </Slider>
         </div>

@@ -86,7 +86,7 @@ class ElectronicTopCategories extends Component {
                                     <div className="ps-block__thumbnail">
                                         <img
                                             src={category.thumbnail}
-                                            alt="Dawood Online"
+                                            alt="dawood-online"
                                         />
                                     </div>
                                     <div className="ps-block__content">

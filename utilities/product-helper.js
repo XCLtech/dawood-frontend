@@ -99,7 +99,7 @@ export function StrapiProductThumbnail(product) {
                     <LazyLoad>
                         <img
                             src="/static/img/not-found.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                     </LazyLoad>
                 </a>

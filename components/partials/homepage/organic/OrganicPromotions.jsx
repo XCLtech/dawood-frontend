@@ -10,7 +10,7 @@ const OrganicPromotions = () => (
                         <a className="ps-collection">
                             <img
                                 src="/static/img/promotions/home-9/1.jpg"
-                                alt="Dawood Online"
+                                alt="dawood-online"
                             />
                         </a>
                     </Link>
@@ -20,7 +20,7 @@ const OrganicPromotions = () => (
                         <a className="ps-collection">
                             <img
                                 src="/static/img/promotions/home-9/2.jpg"
-                                alt="Dawood Online"
+                                alt="dawood-online"
                             />
                         </a>
                     </Link>

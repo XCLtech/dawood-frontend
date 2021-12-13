@@ -5,7 +5,7 @@ const FurniturePromotions = () => (
         <div className="container">
             <div className="ps-section__header">
                 <h3>
-                    WELCOME TO <span>Dawood Online</span> – CUSTOM FURNITURE
+                    WELCOME TO <span>dawood-online</span> – CUSTOM FURNITURE
                     <span>SHOPPING STORE ONLINE</span>
                 </h3>
                 <p>Designer furniture. Locally designed. Globally Crafted.</p>
@@ -15,7 +15,7 @@ const FurniturePromotions = () => (
                     <a className="ps-collection" href="#">
                         <img
                             src="/static/img/promotions/home-8/1.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                     </a>
                 </div>
@@ -23,7 +23,7 @@ const FurniturePromotions = () => (
                     <a className="ps-collection" href="#">
                         <img
                             src="/static/img/promotions/home-8/2.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                     </a>
                 </div>

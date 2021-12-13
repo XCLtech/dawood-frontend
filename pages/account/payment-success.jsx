@@ -51,7 +51,7 @@ const PaymentSuccessPage = () => {
                                                     any questions about your
                                                     purchase, email us at{' '}
                                                     <a
-                                                        href="mailto@contact@Dawood Online.com"
+                                                        href="mailto@contact@dawood-online.com"
                                                         className="ps-highlight">
                                                         <strong>
                                                             contact@Dawood

@@ -15,11 +15,11 @@ const MainHead = () => (
         <meta name="author" content="nouthemes" />
         <meta
             name="keywords"
-            content="Dawood Online, React, eCommerce, Template"
+            content="dawood-online, React, eCommerce, Template"
         />
         <meta
             name="description"
-            content="Dawood Online - React eCommerce Template"
+            content="dawood-online - React eCommerce Template"
         />
         <link
             href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&amp;amp;subset=latin-ext"

@@ -1,4 +1,4 @@
-## Dawood Online TEMPLATE - REACT VERSION v2.2.0 (Using Strapi CMS)
+## dawood-online TEMPLATE - REACT VERSION v2.2.0 (Using Strapi CMS)
 
 ### Version 2.2.0
 

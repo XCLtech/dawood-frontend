@@ -9,7 +9,7 @@ const BannerItem = ({ source }) => {
                 <a>
                     <img
                         src={`${baseUrl}${source.image.url}`}
-                        alt="Dawood Online"
+                        alt="dawood-online"
                     />
                 </a>
             </Link>
@@ -21,7 +21,7 @@ const BannerItem = ({ source }) => {
                     <a className="ps-collection">
                         <img
                             src="/static/img/not-found.jpg"
-                            alt="Dawood Online"
+                            alt="dawood-online"
                         />
                     </a>
                 </a>

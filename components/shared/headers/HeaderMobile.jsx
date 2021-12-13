@@ -14,13 +14,13 @@ class HeaderMobile extends Component {
             <header className="header header--mobile">
                 <div className="header__top">
                     <div className="header__left">
-                        <p>Welcome to Dawood Online Online Shopping Store !</p>
+                        <p>Welcome to dawood-online Online Shopping Store !</p>
                     </div>
                     <div className="header__right">
                         <ul className="navigation__extra">
                             <li>
                                 <Link href="/vendor/become-a-vendor">
-                                    <a>Sell on Dawood Online</a>
+                                    <a>Sell on dawood-online</a>
                                 </Link>
                             </li>
                             <li>
@@ -43,7 +43,7 @@ class HeaderMobile extends Component {
                             <a className="ps-logo">
                                 <img
                                     src="/static/img/dawood-logo.png"
-                                    alt="Dawood Online"
+                                    alt="dawood-online"
                                     width={50}
                                 />
                             </a>

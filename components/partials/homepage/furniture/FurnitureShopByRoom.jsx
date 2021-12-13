@@ -60,7 +60,7 @@ class FurnitureShopByRoom extends Component {
                                                 <a>
                                                     <img
                                                         src={room.imagePath}
-                                                        alt="Dawood Online"
+                                                        alt="dawood-online"
                                                     />
                                                 </a>
                                             </Link>
