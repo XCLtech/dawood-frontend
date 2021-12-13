@@ -113,7 +113,7 @@ const ShopItems = ({ columns = 4, pageSize = 12 }) => {
 
     return (
         <div className="ps-shopping">
-            <div className="ps-shopping__header">
+            {/* <div className="ps-shopping__header">
                 <p>
                     <strong className="mr-2">{total}</strong>
                     Products found
@@ -140,18 +140,18 @@ const ShopItems = ({ columns = 4, pageSize = 12 }) => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="ps-shopping__content">{productItemsView}</div>
             <div className="ps-shopping__footer text-center">
                 <div className="ps-pagination">
-                    <Pagination
+                    {/* <Pagination
                         total={total - 1}
                         pageSize={pageSize}
                         responsive={true}
                         showSizeChanger={false}
                         current={page !== undefined ? parseInt(page) : 1}
                         onChange={(e) => handlePagination(e)}
-                    />
+                    /> */}
                 </div>
             </div>
         </div>

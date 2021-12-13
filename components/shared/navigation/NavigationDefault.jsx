@@ -24,13 +24,11 @@ class NavigationDefault extends Component {
     render() {
         return (
             <nav className="navigation">
-                <div className="ps-container">
-                    <div className="navigation__left">
+                <div className="ps-container ">
+                    <div className="navigation__left ">
                         <MenuCategoriesDropdown />
                     </div>
-                    <div
-                        className="navigation__right"
-                        style={{ fontSize: '5px' }}>
+                    <div className="navigation__right col-12 ">
                         <Menu
                             source={menuData.menuPrimary.menu_1}
                             className="menu"

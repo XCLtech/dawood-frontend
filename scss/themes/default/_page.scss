@@ -30,6 +30,7 @@
         .ps-container {
             display: flex;
             height: 100%;
+
             > * {
                 flex: 1;
                 flex-basis: 100%;
@@ -37,11 +38,11 @@
 
             .ps-section__left {
                 padding-right: 30px;
-                max-width: calc(100% - 390px);
+                max-width: calc(100% - 500px);
             }
 
             .ps-section__right {
-                max-width: 390px;
+                max-width: 500px;
             }
 
             @include media('<lg') {
@@ -82,7 +83,7 @@
             }
         }
 
-        @include media("<xs") {
+        @include media('<xs') {
             .ps-section__left {
                 height: 150px;
             }
@@ -92,7 +93,6 @@
     .ps-site-features {
         padding-bottom: 90px;
         @media screen and (max-width: 480px) {
-
         }
     }
 
