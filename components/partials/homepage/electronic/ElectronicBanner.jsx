@@ -25,21 +25,30 @@ class ElectronicBanner extends Component {
                             <div className="item">
                                 <Link href="/shop">
                                     <a>
-                                        <img src="/static/img/slider/home-7/1.jpg" alt="martfury" />
+                                        <img
+                                            src="/static/img/slider/home-7/1.jpg"
+                                            alt="Dawood Online"
+                                        />
                                     </a>
                                 </Link>
                             </div>
                             <div className="item">
                                 <Link href="/shop">
                                     <a>
-                                        <img src="/static/img/slider/home-7/2.jpg" alt="martfury" />
+                                        <img
+                                            src="/static/img/slider/home-7/2.jpg"
+                                            alt="Dawood Online"
+                                        />
                                     </a>
                                 </Link>
                             </div>
                             <div className="item">
                                 <Link href="/shop">
                                     <a>
-                                        <img src="/static/img/slider/home-7/3.jpg" alt="martfury" />
+                                        <img
+                                            src="/static/img/slider/home-7/3.jpg"
+                                            alt="Dawood Online"
+                                        />
                                     </a>
                                 </Link>
                             </div>
@@ -48,12 +57,18 @@ class ElectronicBanner extends Component {
                     <div className="ps-section__right">
                         <Link href="/shop">
                             <a className="ps-collection">
-                                <img src="/static/img/slider/home-7/promotion-1.jpg" alt="martfury" />
+                                <img
+                                    src="/static/img/slider/home-7/promotion-1.jpg"
+                                    alt="Dawood Online"
+                                />
                             </a>
                         </Link>
                         <Link href="/shop">
                             <a className="ps-collection">
-                                <img src="/static/img/slider/home-7/promotion-2.jpg" alt="martfury" />
+                                <img
+                                    src="/static/img/slider/home-7/promotion-2.jpg"
+                                    alt="Dawood Online"
+                                />
                             </a>
                         </Link>
                     </div>

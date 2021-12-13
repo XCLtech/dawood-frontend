@@ -4,7 +4,6 @@ import Slider from 'react-slick';
 import { carouselSingle } from '~/utilities/carousel-helpers';
 
 const ShopCarouselBanner = () => {
-
     return (
         <div className="ps-shop-banner">
             <Slider {...carouselSingle} className="ps-carousel inside">
@@ -12,7 +11,7 @@ const ShopCarouselBanner = () => {
                     <Link href="/shop">
                         <img
                             src="/static/img/slider/shop-default/1.jpg"
-                            alt="martfury"
+                            alt="Dawood Online"
                         />
                     </Link>
                 </div>
@@ -20,7 +19,7 @@ const ShopCarouselBanner = () => {
                     <Link href="/shop">
                         <img
                             src="/static/img/slider/shop-default/2.jpg"
-                            alt="martfury"
+                            alt="Dawood Online"
                         />
                     </Link>
                 </div>

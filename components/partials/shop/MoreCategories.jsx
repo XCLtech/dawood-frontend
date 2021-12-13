@@ -20,17 +20,22 @@ const MoreCategories = ({ data }) => (
             </ul>
         </div>
         <div className="ps-section__content">
-            {data.map(category => {
+            {data.map((category) => {
                 if (category.id < 6) {
                     return (
-                        <div className="ps-block--category-vertical" key={category.id}>
+                        <div
+                            className="ps-block--category-vertical"
+                            key={category.id}>
                             <div className="ps-block__thumbnail">
-                                <img src={category.thumbnail} alt="martfury" />
+                                <img
+                                    src={category.thumbnail}
+                                    alt="Dawood Online"
+                                />
                             </div>
                             <div className="ps-block__content">
                                 <h4>{category.title}</h4>
                                 <ul>
-                                    {category.links.map(item => (
+                                    {category.links.map((item) => (
                                         <li key={item}>
                                             <Link href="/shop">
                                                 <a>{item}</a>

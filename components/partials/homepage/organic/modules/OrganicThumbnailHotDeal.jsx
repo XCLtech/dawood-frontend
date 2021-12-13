@@ -36,14 +36,14 @@ class OrganicThumbnailDealHot extends Component {
                     <div className="ps-wrapper">
                         <Slider
                             {...gallerySetting}
-                            ref={slider => (this.slider1 = slider)}
+                            ref={(slider) => (this.slider1 = slider)}
                             asNavFor={this.state.variantCarousel}
                             className="ps-product__gallery ps-carousel inside">
                             <div className="item">
                                 <a href="/static/img/products/home-9/a-1.jpg">
                                     <img
                                         src="/static/img/products/home-9/a-1.jpg"
-                                        alt="martfury"
+                                        alt="Dawood Online"
                                     />
                                 </a>
                             </div>
@@ -51,7 +51,7 @@ class OrganicThumbnailDealHot extends Component {
                                 <a href="/static/img/products/home-9/a-2.jpg">
                                     <img
                                         src="/static/img/products/home-9/a-2.jpg"
-                                        alt="martfury"
+                                        alt="Dawood Online"
                                     />
                                 </a>
                             </div>
@@ -59,7 +59,7 @@ class OrganicThumbnailDealHot extends Component {
                                 <a href="/static/img/products/home-9/a-3.jpg">
                                     <img
                                         src="/static/img/products/home-9/a-3.jpg"
-                                        alt="martfury"
+                                        alt="Dawood Online"
                                     />
                                 </a>
                             </div>
@@ -68,20 +68,29 @@ class OrganicThumbnailDealHot extends Component {
                 </figure>
                 <Slider
                     asNavFor={this.state.galleryCarousel}
-                    ref={slider => (this.slider2 = slider)}
+                    ref={(slider) => (this.slider2 = slider)}
                     swipeToSlide={true}
                     slidesToShow={3}
                     vertical={true}
                     focusOnSelect={true}
                     className="ps-product__variants">
                     <div className="item">
-                        <img src="/static/img/products/home-9/a-1.jpg" alt="martfury" />
+                        <img
+                            src="/static/img/products/home-9/a-1.jpg"
+                            alt="Dawood Online"
+                        />
                     </div>
                     <div className="item">
-                        <img src="/static/img/products/home-9/a-2.jpg" alt="martfury" />
+                        <img
+                            src="/static/img/products/home-9/a-2.jpg"
+                            alt="Dawood Online"
+                        />
                     </div>
                     <div className="item">
-                        <img src="/static/img/products/home-9/a-3.jpg" alt="martfury" />
+                        <img
+                            src="/static/img/products/home-9/a-3.jpg"
+                            alt="Dawood Online"
+                        />
                     </div>
                 </Slider>
             </div>

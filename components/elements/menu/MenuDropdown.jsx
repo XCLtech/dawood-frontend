@@ -6,7 +6,7 @@ const MenuDropdown = ({ source }) => {
         <li className="menu-item-has-children dropdown">
             {
                 <Link href={source.url}>
-                    <a>{source.text}</a>
+                    <a style={{ fontSize: '13px' }}>{source.text}</a>
                 </Link>
             }
             {source.subMenu && (

@@ -20,7 +20,10 @@ const MartketPlace4Banner = () => {
                     style={{
                         backgroundImage: `url(/static/img/slider/home-6/1.jpg)`,
                     }}>
-                    <img src="/static/img/slider/home-6/1.jpg" alt="martfury" />
+                    <img
+                        src="/static/img/slider/home-6/1.jpg"
+                        alt="Dawood Online"
+                    />
                     <div className="ps-banner__content">
                         <h4>Limit Edition</h4>
                         <h3>
@@ -37,7 +40,10 @@ const MartketPlace4Banner = () => {
                     style={{
                         backgroundImage: `url(/static/img/slider/home-6/2.jpg)`,
                     }}>
-                    <img src="/static/img/slider/home-6/2.jpg" alt="martfury" />
+                    <img
+                        src="/static/img/slider/home-6/2.jpg"
+                        alt="Dawood Online"
+                    />
                     <div className="ps-banner__content">
                         <h4>Version 2018</h4>
                         <h3>

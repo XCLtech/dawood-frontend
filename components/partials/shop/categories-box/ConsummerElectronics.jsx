@@ -20,11 +20,16 @@ const ConsummerElectronics = ({ data }) => (
         </div>
         <div className="ps-block__content">
             {data &&
-                data.map(category => {
+                data.map((category) => {
                     if (category.type === 'large') {
                         return (
-                            <div className="ps-block__banner" key={category.text}>
-                                <img src={category.imagePath} alt="martfury" />
+                            <div
+                                className="ps-block__banner"
+                                key={category.text}>
+                                <img
+                                    src={category.imagePath}
+                                    alt="Dawood Online"
+                                />
                             </div>
                         );
                     } else {
@@ -33,7 +38,10 @@ const ConsummerElectronics = ({ data }) => (
                                 <Link href="/shop">
                                     <a className="ps-block__overlay"></a>
                                 </Link>
-                                <img src={category.imagePath} alt="martfury" />
+                                <img
+                                    src={category.imagePath}
+                                    alt="Dawood Online"
+                                />
                                 <p>{category.text} </p>
                                 <span>{category.item} Items</span>
                             </div>

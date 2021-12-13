@@ -6,12 +6,12 @@ class VendorTestimonials extends Component {
         super(props);
     }
 
-    handleCarouselPrev = e => {
+    handleCarouselPrev = (e) => {
         e.preventDefault();
         this.slider.slickPrev();
     };
 
-    handleCarouselNext = e => {
+    handleCarouselNext = (e) => {
         e.preventDefault();
         this.slider.slickNext();
     };
@@ -85,54 +85,69 @@ class VendorTestimonials extends Component {
                     </div>
                     <div className="ps-section__content">
                         <Slider
-                            ref={slider => (this.slider = slider)}
+                            ref={(slider) => (this.slider = slider)}
                             {...carouselSetting}
                             className="ps-carousel outside">
                             <div className="ps-block--testimonial">
                                 <div className="ps-block__header">
-                                    <img src="/static/img/users/1.jpg" alt="martfury" />
+                                    <img
+                                        src="/static/img/users/1.jpg"
+                                        alt="Dawood Online"
+                                    />
                                 </div>
                                 <div className="ps-block__content">
                                     <i className="icon-quote-close"></i>
                                     <h4>
-                                        Kanye West<span>Head Chef at BBQ Restaurant</span>
+                                        Kanye West
+                                        <span>Head Chef at BBQ Restaurant</span>
                                     </h4>
                                     <p>
-                                        Sed elit quam, iaculis sed semper sit amet udin vitae nibh.
-                                        at magna akal semperFusce commodo molestie luctus.Lorem
-                                        ipsum Dolor tusima olatiup.
+                                        Sed elit quam, iaculis sed semper sit
+                                        amet udin vitae nibh. at magna akal
+                                        semperFusce commodo molestie
+                                        luctus.Lorem ipsum Dolor tusima olatiup.
                                     </p>
                                 </div>
                             </div>
                             <div className="ps-block--testimonial">
                                 <div className="ps-block__header">
-                                    <img src="/static/img/users/2.png" alt="martfury" />
+                                    <img
+                                        src="/static/img/users/2.png"
+                                        alt="Dawood Online"
+                                    />
                                 </div>
                                 <div className="ps-block__content">
                                     <i className="icon-quote-close"></i>
                                     <h4>
-                                        Anabella Kleva<span>Boss at TocoToco</span>
+                                        Anabella Kleva
+                                        <span>Boss at TocoToco</span>
                                     </h4>
                                     <p>
-                                        Sed elit quam, iaculis sed semper sit amet udin vitae nibh.
-                                        at magna akal semperFusce commodo molestie luctus.Lorem
-                                        ipsum Dolor tusima olatiup.
+                                        Sed elit quam, iaculis sed semper sit
+                                        amet udin vitae nibh. at magna akal
+                                        semperFusce commodo molestie
+                                        luctus.Lorem ipsum Dolor tusima olatiup.
                                     </p>
                                 </div>
                             </div>
                             <div className="ps-block--testimonial">
                                 <div className="ps-block__header">
-                                    <img src="/static/img/users/3.jpg" alt="martfury" />
+                                    <img
+                                        src="/static/img/users/3.jpg"
+                                        alt="Dawood Online"
+                                    />
                                 </div>
                                 <div className="ps-block__content">
                                     <i className="icon-quote-close"></i>
                                     <h4>
-                                        William Roles<span>Head Chef at BBQ Restaurant</span>
+                                        William Roles
+                                        <span>Head Chef at BBQ Restaurant</span>
                                     </h4>
                                     <p>
-                                        Sed elit quam, iaculis sed semper sit amet udin vitae nibh.
-                                        at magna akal semperFusce commodo molestie luctus.Lorem
-                                        ipsum Dolor tusima olatiup.
+                                        Sed elit quam, iaculis sed semper sit
+                                        amet udin vitae nibh. at magna akal
+                                        semperFusce commodo molestie
+                                        luctus.Lorem ipsum Dolor tusima olatiup.
                                     </p>
                                 </div>
                             </div>

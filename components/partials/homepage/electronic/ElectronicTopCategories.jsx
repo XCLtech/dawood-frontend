@@ -11,7 +11,13 @@ class ElectronicTopCategories extends Component {
             {
                 thumbnail: '/static/img/categories/electronic/2.jpg',
                 title: 'Tv Televisions',
-                links: ['Smart TV', '4K Ultra HD TVs', 'LED TVs', 'OLED TVs', 'Accessories'],
+                links: [
+                    'Smart TV',
+                    '4K Ultra HD TVs',
+                    'LED TVs',
+                    'OLED TVs',
+                    'Accessories',
+                ],
             },
             {
                 thumbnail: '/static/img/categories/electronic/4.jpg',
@@ -47,12 +53,24 @@ class ElectronicTopCategories extends Component {
             {
                 thumbnail: '/static/img/categories/electronic/6.jpg',
                 title: 'Office Electronics',
-                links: ['Printers', 'Store & Business', 'Scanners', 'Projectors', 'Phones'],
+                links: [
+                    'Printers',
+                    'Store & Business',
+                    'Scanners',
+                    'Projectors',
+                    'Phones',
+                ],
             },
             {
                 thumbnail: '/static/img/categories/electronic/8.jpg',
                 title: 'Phones',
-                links: ['Printers', 'Store & Business', 'Scanners', 'Projectors', 'Phones'],
+                links: [
+                    'Printers',
+                    'Store & Business',
+                    'Scanners',
+                    'Projectors',
+                    'Phones',
+                ],
             },
         ];
         return (
@@ -60,16 +78,21 @@ class ElectronicTopCategories extends Component {
                 <div className="container">
                     <h3>Top categories of the month</h3>
                     <div className="row">
-                        {homeCategories.map(category => (
-                            <div className="col-md-4 col-sm-6 col-12 " key={category.title}>
+                        {homeCategories.map((category) => (
+                            <div
+                                className="col-md-4 col-sm-6 col-12 "
+                                key={category.title}>
                                 <div className="ps-block--category-2">
                                     <div className="ps-block__thumbnail">
-                                        <img src={category.thumbnail} alt="martfury" />
+                                        <img
+                                            src={category.thumbnail}
+                                            alt="Dawood Online"
+                                        />
                                     </div>
                                     <div className="ps-block__content">
                                         <h4>{category.title}</h4>
                                         <ul>
-                                            {category.links.map(link => (
+                                            {category.links.map((link) => (
                                                 <li key={link}>
                                                     <Link href="/shop">
                                                         <a>{link}</a>

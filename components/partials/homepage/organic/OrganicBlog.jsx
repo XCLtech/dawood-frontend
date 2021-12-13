@@ -44,18 +44,25 @@ const OrganicBlog = () => (
                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 ">
                         <div className="ps-post">
                             <div className="ps-post__thumbnail">
-                                <a className="ps-post__overlay" href="blog-detail.html"></a>
-                                <img src="/static/img/blog/organic/1.jpg" alt="martfury" />
+                                <a
+                                    className="ps-post__overlay"
+                                    href="blog-detail.html"></a>
+                                <img
+                                    src="/static/img/blog/organic/1.jpg"
+                                    alt="Dawood Online"
+                                />
                             </div>
                             <div className="ps-post__content">
                                 <a className="ps-post__meta" href="#">
                                     Tips & Tricks
                                 </a>
                                 <a className="ps-post__title" href="#">
-                                    How To Make A Fresh Juice Blended For Your Family?
+                                    How To Make A Fresh Juice Blended For Your
+                                    Family?
                                 </a>
                                 <p>
-                                    December 17, 2017 by<a href="#"> drfurion</a>
+                                    December 17, 2017 by
+                                    <a href="#"> drfurion</a>
                                 </p>
                             </div>
                         </div>
@@ -66,8 +73,13 @@ const OrganicBlog = () => (
                                 <div className="ps-post__badge">
                                     <i className="icon-volume-high"></i>
                                 </div>
-                                <a className="ps-post__overlay" href="blog-detail.html"></a>
-                                <img src="/static/img/blog/organic/2.jpg" alt="martfury" />
+                                <a
+                                    className="ps-post__overlay"
+                                    href="blog-detail.html"></a>
+                                <img
+                                    src="/static/img/blog/organic/2.jpg"
+                                    alt="Dawood Online"
+                                />
                             </div>
                             <div className="ps-post__content">
                                 <a className="ps-post__meta" href="#">
@@ -77,7 +89,8 @@ const OrganicBlog = () => (
                                     Fresh Eggs From Caroline’s Farm
                                 </a>
                                 <p>
-                                    December 17, 2017 by<a href="#"> drfurion</a>
+                                    December 17, 2017 by
+                                    <a href="#"> drfurion</a>
                                 </p>
                             </div>
                         </div>
@@ -91,18 +104,25 @@ const OrganicBlog = () => (
                                 <div className="ps-post__badge">
                                     <i className="icon-volume-high"></i>
                                 </div>
-                                <a className="ps-post__overlay" href="blog-detail.html"></a>
-                                <img src="/static/img/blog/organic/3.jpg" alt="martfury" />
+                                <a
+                                    className="ps-post__overlay"
+                                    href="blog-detail.html"></a>
+                                <img
+                                    src="/static/img/blog/organic/3.jpg"
+                                    alt="Dawood Online"
+                                />
                             </div>
                             <div className="ps-post__content">
                                 <a className="ps-post__meta" href="#">
                                     News
                                 </a>
                                 <a className="ps-post__title" href="#">
-                                    Discover Fresh Organic Farms In Switzeland Villages
+                                    Discover Fresh Organic Farms In Switzeland
+                                    Villages
                                 </a>
                                 <p>
-                                    December 17, 2017 by<a href="#"> drfurion</a>
+                                    December 17, 2017 by
+                                    <a href="#"> drfurion</a>
                                 </p>
                             </div>
                         </div>

@@ -38,11 +38,11 @@
 
             .ps-section__left {
                 padding-right: 30px;
-                max-width: calc(100% - 500px);
+                max-width: calc(100% - 360px);
             }
 
             .ps-section__right {
-                max-width: 500px;
+                max-width: 360px;
             }
 
             @include media('<lg') {

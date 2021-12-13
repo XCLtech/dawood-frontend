@@ -37,19 +37,24 @@ const StoreList2 = () => (
                                 <figure>
                                     <h4>Global Office</h4>
                                     <div className="ps-block__rating">
-                                        <Rating/>
+                                        <Rating />
                                     </div>
                                     <p>
-                                        325 Orchard Str, <br /> New York, United States (US)
+                                        325 Orchard Str, <br /> New York, United
+                                        States (US)
                                     </p>
                                     <p>
-                                        <i className="icon-telephone"></i> (+053) 77-637-3300
+                                        <i className="icon-telephone"></i>{' '}
+                                        (+053) 77-637-3300
                                     </p>
                                 </figure>
                             </div>
                             <div className="ps-block__author">
                                 <a className="ps-block__user" href="#">
-                                    <img src="/static/img/vendor/store/vendor-150x150.jpg" alt="martfury" />
+                                    <img
+                                        src="/static/img/vendor/store/vendor-150x150.jpg"
+                                        alt="Dawood Online"
+                                    />
                                 </a>
                                 <a className="ps-btn" href="store-detail.html">
                                     Visit Store
@@ -67,19 +72,24 @@ const StoreList2 = () => (
                                 <figure>
                                     <h4>Young Shop</h4>
                                     <div className="ps-block__rating">
-                                        <Rating/>
+                                        <Rating />
                                     </div>
                                     <p>
-                                        325 Orchard Str, <br /> New York, United States (US)
+                                        325 Orchard Str, <br /> New York, United
+                                        States (US)
                                     </p>
                                     <p>
-                                        <i className="icon-telephone"></i> (+053) 77-637-3300
+                                        <i className="icon-telephone"></i>{' '}
+                                        (+053) 77-637-3300
                                     </p>
                                 </figure>
                             </div>
                             <div className="ps-block__author">
                                 <a className="ps-block__user" href="#">
-                                    <img src="/static/img/vendor/store/vendor-150x150.jpg" alt="martfury" />
+                                    <img
+                                        src="/static/img/vendor/store/vendor-150x150.jpg"
+                                        alt="Dawood Online"
+                                    />
                                 </a>
                                 <a className="ps-btn" href="store-detail.html">
                                     Visit Store
@@ -97,19 +107,24 @@ const StoreList2 = () => (
                                 <figure>
                                     <h4>Robert’s Store</h4>
                                     <div className="ps-block__rating">
-                                        <Rating/>
+                                        <Rating />
                                     </div>
                                     <p>
-                                        325 Orchard Str, <br /> New York, United States (US)
+                                        325 Orchard Str, <br /> New York, United
+                                        States (US)
                                     </p>
                                     <p>
-                                        <i className="icon-telephone"></i> (+053) 77-637-3300
+                                        <i className="icon-telephone"></i>{' '}
+                                        (+053) 77-637-3300
                                     </p>
                                 </figure>
                             </div>
                             <div className="ps-block__author">
                                 <a className="ps-block__user" href="#">
-                                    <img src="/static/img/vendor/store/vendor-150x150.jpg" alt="martfury" />
+                                    <img
+                                        src="/static/img/vendor/store/vendor-150x150.jpg"
+                                        alt="Dawood Online"
+                                    />
                                 </a>
                                 <a className="ps-btn" href="store-detail.html">
                                     Visit Store
@@ -127,19 +142,24 @@ const StoreList2 = () => (
                                 <figure>
                                     <h4>Go Pro</h4>
                                     <div className="ps-block__rating">
-                                        <Rating/>
+                                        <Rating />
                                     </div>
                                     <p>
-                                        325 Orchard Str, <br /> New York, United States (US)
+                                        325 Orchard Str, <br /> New York, United
+                                        States (US)
                                     </p>
                                     <p>
-                                        <i className="icon-telephone"></i> (+053) 77-637-3300
+                                        <i className="icon-telephone"></i>{' '}
+                                        (+053) 77-637-3300
                                     </p>
                                 </figure>
                             </div>
                             <div className="ps-block__author">
                                 <a className="ps-block__user" href="#">
-                                    <img src="/static/img/vendor/store/vendor-150x150.jpg" alt="martfury" />
+                                    <img
+                                        src="/static/img/vendor/store/vendor-150x150.jpg"
+                                        alt="Dawood Online"
+                                    />
                                 </a>
                                 <a className="ps-btn" href="store-detail.html">
                                     Visit Store

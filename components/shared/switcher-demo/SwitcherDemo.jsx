@@ -34,7 +34,7 @@ class SwicherDemo extends React.Component {
                     </button>
                     <div className="ps-container">
                         <div className="ps-section__header text-center">
-                            <h3>Martfury Theme Demos</h3>
+                            <h3>Dawood Online Theme Demos</h3>
                             <p>
                                 Check homepage demos, shop and single product
                                 page layouts!
@@ -54,4 +54,4 @@ class SwicherDemo extends React.Component {
     }
 }
 
-export default connect(state => state.app)(SwicherDemo);
+export default connect((state) => state.app)(SwicherDemo);

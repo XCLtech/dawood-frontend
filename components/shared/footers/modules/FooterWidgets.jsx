@@ -11,7 +11,7 @@ const FooterWidgets = () => (
                 <p>
                     Hyderabad, Sindh
                     <br />
-                    <a href="mailto:contact@martfury.co">
+                    <a href="mailto:contact@Dawood Online.co">
                         Xcltechnologies@gmail.com
                     </a>
                 </p>

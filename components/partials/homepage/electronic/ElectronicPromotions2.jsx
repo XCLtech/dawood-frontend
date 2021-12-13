@@ -6,7 +6,10 @@ const ElectronicPromotions2 = () => (
         <div className="container">
             <Link href="/shop">
                 <a className="ps-collection">
-                    <img src="/static/img/promotions/home-7/3.jpg" alt="martfury" />
+                    <img
+                        src="/static/img/promotions/home-7/3.jpg"
+                        alt="Dawood Online"
+                    />
                 </a>
             </Link>
         </div>

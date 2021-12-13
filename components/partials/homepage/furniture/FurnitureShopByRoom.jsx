@@ -50,7 +50,7 @@ class FurnitureShopByRoom extends Component {
                     </div>
                     <div className="ps-section__content">
                         <div className="row">
-                            {furnitureRoom.map(room => (
+                            {furnitureRoom.map((room) => (
                                 <div
                                     className="col-xl-3 col-md-4 col-sm-6 col-12"
                                     key={room.title}>
@@ -60,7 +60,7 @@ class FurnitureShopByRoom extends Component {
                                                 <a>
                                                     <img
                                                         src={room.imagePath}
-                                                        alt="martfury"
+                                                        alt="Dawood Online"
                                                     />
                                                 </a>
                                             </Link>
