@@ -2,6 +2,7 @@
     "menuPrimary": {
         "menu_1": [
             {
+                    
                 "text": "Home",
                 "url": "/",
                 "extraClass": "menu-item-has-children",
@@ -276,7 +277,7 @@
             },
             {
                 "text": "Pages",
-                "url": "",
+                "url": "/",
                 "extraClass": "menu-item-has-children has-mega-menu",
                 "subClass": "sub-menu",
                 "mega": "true",
@@ -375,7 +376,7 @@
         {
             "icon": "icon-star",
             "text": "Hot Promotions",
-            "url": "/shop"
+            "url": "/hotitems"
         },
         {
             "icon": "icon-laundry",
