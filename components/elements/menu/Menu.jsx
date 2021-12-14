@@ -14,7 +14,7 @@ const Menu = ({ source, className }) => {
                 return <MegaMenu source={item} key={item.text} />;
             } else {
                 return (
-                    <li key={item.text} style={{ fontSize: '12px' }}>
+                    <li key={item.text}>
                         <Link href={item.url}>
                             <a>
                                 {/* {item.icon && <i className={item.icon}></i>} */}
@@ -34,7 +34,15 @@ const Menu = ({ source, className }) => {
             </li>
         );
     }
-    return <ul className={className}>{menuView}</ul>;
+    return (
+        <ul
+            className={className}
+            style={{
+                fontSize: '12px',
+            }}>
+            {menuView}
+        </ul>
+    );
 };
 
 export default Menu;

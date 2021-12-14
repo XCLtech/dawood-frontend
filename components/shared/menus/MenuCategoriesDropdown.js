@@ -5,11 +5,11 @@ import Menu from '~/components/elements/menu/Menu';
 const MenuCategoriesDropdown = () => {
     return (
         <div className="menu--product-categories">
-            <div className="menu__toggle">
+            <div className="menu__toggle" style={{ color: 'white' }}>
                 <i className="icon-menu"></i>
-                <span>Grocery</span>
+                <span style={{ color: 'white' }}>Grocery</span>
             </div>
-            <div className="menu__content">
+            <div className="menu__content" style={{ color: 'black' }}>
                 <Menu
                     source={menuData.product_categories}
                     className="menu--dropdown"

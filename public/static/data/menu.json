@@ -1026,21 +1026,21 @@
             "url": "/oilGhee&sugar",
             "extraClass": "menu-item-has-children has-mega-menu",
             "subClass": "sub-menu",
-            "megaContent": [
+            "megaContentt": [
                 {
                     "heading": "Oil & Sugar",
                     "megaItems": [
                         {
                             "text": "Oil & Ghee",
-                            "url": "/shop"
+                            "url": "/oilGhee&sugar"
                         },
                         {
                             "text": "Olive Oil",
-                            "url": "/shop"
+                            "url": "/oilGhee&sugar"
                         },
                         {
                             "text": "Sugar & Sweetners",
-                            "url": "/shop"
+                            "url": "/oilGhee&sugar"
                         }
                     ]
                 }
