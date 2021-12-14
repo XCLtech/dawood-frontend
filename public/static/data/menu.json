@@ -2,7 +2,414 @@
     "menuPrimary": {
         "menu_1": [
 
+            {
+                "text": "Ladies",
+                "url": "/",
+                "current": "shop",
+                "extraClass": "menu-item-has-children has-mega-menu",
+                "subClass": "sub-menu",
+                "mega": "true",
+                "megaContent": [
+                    {
+                        "heading": "Ladies Purse",
+                        "megaItems": [
+                            {
+                                "text": "Handbags",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Ladies clutch ",
+                                "url": "/"
+                            }
+                        
+                        ]
+                    },
+                    {
+                        "heading": "jewellery",
+                        "megaItems": [
+                            {
+                                "text": "Locket Set",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Bracelates ",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Hair band ",
+                                "url": "/"
+                            }   
+                            ,
+                            {
+                                "text": "Matha Patti",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Finger ring ",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Catcher ",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Pony",
+                                "url": "/"
+                            }
+                            
+                        ]
+                    },
 
+                   
+                    {
+                        "heading": "Beauty Makeup",
+                        "megaItems": [
+                            {
+                                "text": "International Brand",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Face",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Eyes & Brows ",
+                                "url": "/"
+                            },
+                               {
+                                "text": "Nails",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Lips",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Brushes",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Serum & fluid",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Makeup Removers",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Moisturizer & Creams",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Serum & fluid",
+                                "url": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Skin care",
+                        "megaItems": [
+                            {
+                                "text": "Mask & Polisher",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Scrub & cleansers",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Moisturizer & creams ",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Hair Removal ",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Eye Care ",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Facial Care",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Personal Care",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Gels & Oils",
+                                "url": "/"
+                            }
+
+                        ]
+                    }  ,
+                    {
+                        "heading": "Bath & Body",
+                        "megaItems": [
+                            {
+                                "text": "Hair mask ",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Body wash",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Hair brush",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Shampoo & condtioners",
+                                "url": "/"
+                            }
+                        ]
+                    }  ,
+                    {
+                        "heading": "Perfumes",
+                        "megaItems": [
+                            {
+                                "text": "Gift Sets",
+                                "url": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Watches",
+                        "megaItems": [
+                            {
+                                "text": "Ladies Watches",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Couple watches ",
+                                "url": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Garments",
+                        "megaItems": [
+                            {
+                                "text": "Stitched suits",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Unstitched suits",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Frock ",
+                                "url": "/"
+                            },
+                               {
+                                "text": "Kurti",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Coat & Inner",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Jacket",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Scarf shawl",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Abbaya",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Tights",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Trousers ",
+                                "url": "/"
+                            }
+                        ]
+                    }
+                    ,
+                    {
+                        "heading": "Undergarments",
+                        "megaItems": [
+                            {
+                                "text": "Bra",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Nighty",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Socks ",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Gloves",
+                                "url": "/"
+                            }
+                        ]
+                    }
+                    ,
+                    {
+                        "heading": "Footware",
+                        "megaItems": [
+                            {
+                                "text": "Ladies shoes",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Ladies Sandal",
+                                "url": "/"
+                            }, {
+                                "text": "Ladies shoes",
+                                "url": "/"
+                            },
+                            {
+                                "text": "slippers",
+                                "url": "/"
+                            }
+                           
+                            
+                            
+                        ]
+                    }
+                    
+                   
+                    
+                    
+                ]
+            },
+
+            {
+                "text": "Gents ",
+                "url": "/",
+                "current": "shop",
+                "extraClass": "menu-item-has-children has-mega-menu",
+                "subClass": "sub-menu",
+                "mega": "true",
+                "megaContent": [
+                    {
+                        "heading": "Shirts",
+                        "megaItems": [
+                            {
+                                "text": "T-Shirt",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Sweatshirts",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Jackets",
+                                "url": "/"
+                            },
+                               {
+                                "text": "Sweater",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Track Suit",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Pants",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Trousers",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Shorts",
+                                "url": "/"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "heading": "perfumes",
+                        "megaItems": [
+                            {
+                                "text": "Body Mist",
+                                "url": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Men Wallet",
+                        "megaItems": [
+                            {
+                                "text": "Leather Wallet",
+                                "url": "/"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Accessories",
+                        "megaItems": [
+                            {
+                                "text": "Caps",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Gloves",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Belts ",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Underware",
+                                "url": "/"
+                            },
+                            {
+                                "text":"Men Glasses",
+                                "url":"/"
+
+                            },{
+                                "text":"Men Watches",
+                                "url":"/"
+                            }
+                        ]
+                    }
+                    ,
+                    {
+                        "heading": "foot ware",
+                        "megaItems": [
+                            {
+                                "text": "Gents Shose ",
+                                "url": "/"
+                            },
+                             {
+                                "text": "slippers",
+                                "url": "/"
+                            }
+                           
+                            
+                        ]
+                    }
+                ]
+            },
             {
                 "text": "Electronics",
                 "url": "/",
@@ -16,7 +423,7 @@
                         "megaItems": [
                             {
                                 "text": "Kettles & Coffee Makers",
-                                "url": "/Kettles"
+                                "url": "/"
                             },
                             {
                                 "text": "Shavers & trimmers",
@@ -313,9 +720,12 @@
                     }
                 ]
             },
+           
 
 
-            {
+
+
+           {
                 "text": "Mobiles Accessories",
                 "url": "/",
                 "current": "shop",
@@ -390,197 +800,9 @@
                     }
                 ]
             },
-            {
-                "text": "Ladies Purse",
-                "url": "/",
-                "extraClass": "menu-item-has-children",
-                "subClass": "sub-menu",
-                "subMenu": [
-                    {
-                        "text": "Handbags",
-                        "url": "/"
-                    },
-                    {
-                        "text": "Ladies clutch ",
-                        "url": "/"
-                    }
-                        
-                    
-                ]
-            },
-            {"text": "Jewellery",
-                "url": "/",
-
-                "current": "shop",
-                "extraClass": "menu-item-has-children has-mega-menu",
-                "subClass": "sub-menu",
-                "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "",
-                        "megaItems": [
-                            {
-                                "text": "Locket Set",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Bracelates ",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Hair band ",
-                                "url": "/"
-                            }   
-                            ,
-                            {
-                                "text": "Matha Patti",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Finger ring ",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Catcher ",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Pony",
-                                "url": "/"
-                            }
-                            
-                        ]
-                    }
-                ]
-            },
-          
-            {
-                "text": "Beauty Makeup",
-                "url": "/",
-                "current": "shop",
-                "extraClass": "menu-item-has-children has-mega-menu",
-                "subClass": "sub-menu",
-                "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "",
-                        "megaItems": [
-                            {
-                                "text": "International Brand",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Face",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Eyes & Brows ",
-                                "url": "/"
-                            },
-                               {
-                                "text": "Nails",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Lips",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Brushes",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Serum & fluid",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Makeup Removers",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Moisturizer & Creams",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Serum & fluid",
-                                "url": "/"
-                            }
-                        ]
-                    },
-                    {
-                        "heading": "Skin care",
-                        "megaItems": [
-                            {
-                                "text": "Mask & Polisher",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Scrub & cleansers",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Moisturizer & creams ",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Hair Removal ",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Eye Care ",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Facial Care",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Personal Care",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Gels & Oils",
-                                "url": "/"
-                            }
-
-                        ]
-                    }  ,
-                    {
-                        "heading": "Bath & Body",
-                        "megaItems": [
-                            {
-                                "text": "Hair mask ",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Body wash",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Hair brush",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Shampoo & condtioners",
-                                "url": "/"
-                            }
-                        ]
-                    }
-                ]
-            },
-            
+           
+                  
+           
            
             
            
@@ -588,104 +810,12 @@
           
 
     
-            {
-                "text": "Perfumes ",
-                "url": "/",
-                "current": "shop",
-                "extraClass": "menu-item-has-children has-mega-menu",
-                "subClass": "sub-menu",
-                "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "Men",
-                        "megaItems": [
-                            {
-                                "text": "Body Mist",
-                                "url": "/"
-                            }
-                        ]
-                    },
-                    {
-                        "heading": "Women ",
-                        "megaItems": [
-                            {
-                                "text": "Gift Sets",
-                                "url": "/"
-                            }
-                        ]
-                    }
-                ]
-            },
             
-            {
-                "text": "Watches",
-                "url": "/",
-                "current": "shop",
-                "extraClass": "menu-item-has-children has-mega-menu",
-                "subClass": "sub-menu",
-                "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "",
-                        "megaItems": [
-                            {
-                                "text": "Men Watches ",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Ladies Watches",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Couple watches ",
-                                "url": "/"
-                            },
-                               {
-                                "text": "Kids Watches",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Gift Sets",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Watch box",
-                                "url": "/"
-                            }                        ]
-                    },
-                    {
-                        "heading": "Glasses",
-                        "megaItems": [
-                            {
-                                "text": "Men Glasses",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Ladies Glasses",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Kids Glasses ",
-                                "url": "/"
-                            }
-                            
+           
 
-                        ]
-                    }  ,
-                    {
-                        "heading": "Men Wallets",
-                        "megaItems": [
-                            {
-                                "text": "Leather Wallets",
-                                "url": "/"
-                            }
-                        ]
-                    }
-                ]
-            },
 
             {
-                "text": "Toys & Birthday items",
+                "text": "Childern",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
@@ -693,271 +823,7 @@
                 "mega": "true",
                 "megaContent": [
                     {
-                        "heading": "Boys",
-                        "megaItems": [
-                            {
-                                "text": "Exclusive toys ",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Cars & bikes",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Activity toys ",
-                                "url": "/"
-                            },
-                               {
-                                "text": "Drones",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Playhouse & Slides",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Ball house & tents",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Halloween toys",
-                                "url": "/"
-                            }                        
-                        ]
-                    },
-                    {
-                        "heading": "Girls",
-                        "megaItems": [
-                            {
-                                "text": "Toys",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Dollhouse & Sets",
-                                "url": "/"
-                            }
-                            
-
-                        ]
-                    }  ,
-                    {
-                        "heading": "Swimming suits & Accessories",
-                        "megaItems": [
-                            {
-                                "text": "Swimming pool",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Catridge  & filters",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Accessories",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Air sofa’s",
-                                "url": "/"
-                            }
-                        ]
-                    }
-                ]
-            },
-
-            {
-                "text": "Stationary",
-                "url": "/",
-                "current": "shop",
-                "extraClass": "menu-item-has-children has-mega-menu",
-                "subClass": "sub-menu",
-                "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "School essentials ",
-                        "megaItems": [
-                            {
-                                "text": "Boys School Bags",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Girls School Bags",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Lunch box ",
-                                "url": "/"
-                            },
-                               {
-                                "text": "Water bottles",
-                                "url": "/"
-                            }
-                            ,
-                               {
-                                "text": "Stationary & Accessories.",
-                                "url": "/"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "text": "Ladies Garments",
-                "url": "/",
-                "current": "shop",
-                "extraClass": "menu-item-has-children has-mega-menu",
-                "subClass": "sub-menu",
-                "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "Garments",
-                        "megaItems": [
-                            {
-                                "text": "Stitched suits",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Unstitched suits",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Frock ",
-                                "url": "/"
-                            },
-                               {
-                                "text": "Kurti",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Coat & Inner",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Jacket",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Scarf shawl",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Abbaya",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Tights",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Trousers ",
-                                "url": "/"
-                            }
-                            
-                        ]
-                    },
-                    {
-                        "heading": "UnderGarments",
-                        "megaItems": [
-                            {
-                                "text": "Bra",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Nighty",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Socks ",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Gloves",
-                                "url": "/"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "text": "Gents Garments",
-                "url": "/",
-                "current": "shop",
-                "extraClass": "menu-item-has-children has-mega-menu",
-                "subClass": "sub-menu",
-                "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "Shirts",
-                        "megaItems": [
-                            {
-                                "text": "T-Shirt",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Sweatshirts",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Jackets",
-                                "url": "/"
-                            },
-                               {
-                                "text": "Sweater",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Track Suit",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Pants",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Trousers",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Shorts",
-                                "url": "/"
-                            }
-                            
-                        ]
-                    },
-                    {
-                        "heading": "Accessories",
-                        "megaItems": [
-                            {
-                                "text": "Caps",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Gloves",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Belts ",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Underware",
-                                "url": "/"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {"text": "Kids Garments",
-                "url": "/",
-
-                "current": "shop",
-                "extraClass": "menu-item-has-children has-mega-menu",
-                "subClass": "sub-menu",
-                "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "",
+                        "heading": "Kids",
                         "megaItems": [
                             {
                                 "text": "Baba Shirts",
@@ -996,20 +862,23 @@
                                 "url": "/"
                             
                             }
-                            
+                                 ,
+                                 {
+                                    "text": "Kids Glasses ",
+                                    "url": "/"
+                                } ,
+                                {
+                                    "text": "Kids Shose",
+                                    "url": "/"
+                                
+                                }, {
+                                    "text": "Kids Watches",
+                                    "url": "/"
+                                }
                         ]
-                    }
-                ]
-            },
-            {"text": "Born Baby",
-                "url": "/",
-                "current": "shop",
-                "extraClass": "menu-item-has-children has-mega-menu",
-                "subClass": "sub-menu",
-                "mega": "true",
-                "megaContent": [
+                    },
                     {
-                        "heading": "",
+                        "heading": "Born Baby",
                         "megaItems": [
                             {
                                 "text": "Feeders",
@@ -1053,12 +922,77 @@
                                 "url": "/"
                             
                             }
-                            
+
+                        ]
+                    }  ,
+
+                    
+
+                    
+                    {
+                        "heading": "Toys & Birthday items",
+                        "megaItems": [
+                            {
+                                "text": "Exclusive toys ",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Cars & bikes",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Activity toys ",
+                                "url": "/"
+                            },
+                               {
+                                "text": "Drones",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Playhouse & Slides",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Ball house & tents",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Halloween toys",
+                                "url": "/"
+                            } ,
+                            {
+                                "text": "Dollhouse & Sets",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Swimming pool",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Catridge  & filters",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Accessories",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Air sofa’s",
+                                "url": "/"
+                            }
+                              
                         ]
                     }
                 ]
             },
-            {  "text": "Foot ware",
+
+           
+
+
+
+            {
+                "text": "Stationary",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
@@ -1066,39 +1000,37 @@
                 "mega": "true",
                 "megaContent": [
                     {
-                        "heading": "",
+                        "heading": "School essentials ",
                         "megaItems": [
                             {
-                                "text": "slippers",
+                                "text": "Boys School Bags",
                                 "url": "/"
                             },
                             {
-                                "text": "Gents Shose ",
+                                "text": "Girls School Bags",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Lunch box ",
+                                "url": "/"
+                            },
+                               {
+                                "text": "Water bottles",
                                 "url": "/"
                             }
                             ,
-                            {
-                                "text": "Ladies shoes",
+                               {
+                                "text": "Stationary & Accessories.",
                                 "url": "/"
                             }
-                            ,
-                            {
-                                "text": "Ladies Sandal",
-                                "url": "/"
-                            }
-                            
-                            ,
-                            {
-                                "text": "Kids Shose",
-                                "url": "/"
-                            
-                            }
-                            
-                            
                         ]
                     }
                 ]
             }
+           
+            
+          
+         
             
         
           
