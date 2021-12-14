@@ -15,7 +15,7 @@ const HomepageDefaultPage = () => {
     return (
         <PageContainer title="Online">
             <main id="homepage-1">
-                <HomeDefaultBanner />
+                {/* <HomeDefaultBanner /> */}
                 <SiteFeatures />
                 <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />
                 <HomeAdsColumns />
