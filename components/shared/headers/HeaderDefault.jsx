@@ -26,12 +26,12 @@ const HeaderDefault = () => {
                     </div>
                     <div
                         className="header__center"
-                        style={{ marginTop: '20px' }}>
+                        style={{ marginTop: '10px' }}>
                         <SearchHeader />
                     </div>
                     <div
                         className="header__right"
-                        style={{ marginTop: '20px' }}>
+                        style={{ marginTop: '10px' }}>
                         <HeaderActions />
                     </div>
                 </div>

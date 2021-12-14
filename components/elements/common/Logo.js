@@ -46,9 +46,9 @@ const Logo = ({ type }) => {
                     src={data.img}
                     alt="logo"
                     style={{
-                        width: '150px',
-                        marginTop: '25px',
-                        marginLeft: '60px',
+                        width: '100px',
+                        marginTop: '10px',
+                        marginLeft: '85px',
                     }}
                 />
             </a>
