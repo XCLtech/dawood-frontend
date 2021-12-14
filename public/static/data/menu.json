@@ -11,7 +11,7 @@
                 "mega": "true",
                 "megaContent": [
                     {
-                        "heading": "Ladies Purse",
+                        "heading": "Ladies Purse & Perfumes",
                         "megaItems": [
                             {
                                 "text": "Handbags",
@@ -20,12 +20,19 @@
                             {
                                 "text": "Ladies clutch ",
                                 "url": "/"
+                            },
+                            {
+                                "text": "Gift Sets",
+                                "url": "/"
                             }
-                        
                         ]
+                        
+
+                        
                     },
+                    
                     {
-                        "heading": "jewellery",
+                        "heading": "jewellery & Watches",
                         "megaItems": [
                             {
                                 "text": "Locket Set",
@@ -60,7 +67,15 @@
                                 "text": "Pony",
                                 "url": "/"
                             }
-                            
+                            ,
+                            {
+                                "text": "Ladies Watches",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Couple watches ",
+                                "url": "/"
+                            }
                         ]
                     },
 
@@ -177,30 +192,9 @@
                             }
                         ]
                     }  ,
+                  
                     {
-                        "heading": "Perfumes",
-                        "megaItems": [
-                            {
-                                "text": "Gift Sets",
-                                "url": "/"
-                            }
-                        ]
-                    },
-                    {
-                        "heading": "Watches",
-                        "megaItems": [
-                            {
-                                "text": "Ladies Watches",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Couple watches ",
-                                "url": "/"
-                            }
-                        ]
-                    },
-                    {
-                        "heading": "Garments",
+                        "heading": "Garments & UnderGarment",
                         "megaItems": [
                             {
                                 "text": "Stitched suits",
@@ -242,13 +236,7 @@
                             {
                                 "text": "Trousers ",
                                 "url": "/"
-                            }
-                        ]
-                    }
-                    ,
-                    {
-                        "heading": "Undergarments",
-                        "megaItems": [
+                            },
                             {
                                 "text": "Bra",
                                 "url": "/"
@@ -267,34 +255,10 @@
                             }
                         ]
                     }
-                    ,
-                    {
-                        "heading": "Footware",
-                        "megaItems": [
-                            {
-                                "text": "Ladies shoes",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Ladies Sandal",
-                                "url": "/"
-                            }, {
-                                "text": "Ladies shoes",
-                                "url": "/"
-                            },
-                            {
-                                "text": "slippers",
-                                "url": "/"
-                            }
-                           
-                            
-                            
-                        ]
-                    }
                     
                    
                     
+                  
                     
                 ]
             },
@@ -345,26 +309,9 @@
                             
                         ]
                     },
+                   
                     {
-                        "heading": "perfumes",
-                        "megaItems": [
-                            {
-                                "text": "Body Mist",
-                                "url": "/"
-                            }
-                        ]
-                    },
-                    {
-                        "heading": "Men Wallet",
-                        "megaItems": [
-                            {
-                                "text": "Leather Wallet",
-                                "url": "/"
-                            }
-                        ]
-                    },
-                    {
-                        "heading": "Accessories",
+                        "heading": "Accessories & Perfumes ",
                         "megaItems": [
                             {
                                 "text": "Caps",
@@ -389,25 +336,19 @@
                             },{
                                 "text":"Men Watches",
                                 "url":"/"
-                            }
-                        ]
-                    }
-                    ,
-                    {
-                        "heading": "foot ware",
-                        "megaItems": [
+                            },
                             {
-                                "text": "Gents Shose ",
+                                "text": "Leather Wallet",
                                 "url": "/"
                             },
-                             {
-                                "text": "slippers",
+                            {
+                                "text": "Body Mist",
                                 "url": "/"
                             }
-                           
-                            
                         ]
                     }
+                    
+                   
                 ]
             },
             {
@@ -646,6 +587,8 @@
                             
                         ]
                     },
+                    
+
                     {
                         "heading": "Kitchen",
                         "megaItems": [
@@ -688,6 +631,257 @@
                     }
                 ]
             },
+            
+           {
+            "text": "Mobiles Accessories",
+            "url": "/",
+            "current": "shop",
+            "extraClass": "menu-item-has-children has-mega-menu",
+            "subClass": "sub-menu",
+            "mega": "true",
+            "megaContent": [
+                {
+                    "heading": "Accessories",
+                    "megaItems": [
+                        {
+                            "text": "Hands Free",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Bluetooth ",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Headphone ",
+                            "url": "/"
+                        },
+                           {
+                            "text": "Charger",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Power bank",
+                            "url": "/"
+                        },
+                        {
+                            "text": "key chen",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Lighter",
+                            "url": "/"
+                        }
+                    ]
+                },
+
+               
+                {
+                    "heading": "Smart Watches",
+                    "megaItems": [
+                        {
+                            "text": "Apple",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Realme",
+                            "url": "/"
+                        }
+                    ]
+                }  ,
+                {
+                    "heading": "Speakers",
+                    "megaItems": [
+                        {
+                            "text": "AppleJBL",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Ronin",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Audionic",
+                            "url": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "text": "Childern",
+            "url": "/",
+            "current": "shop",
+            "extraClass": "menu-item-has-children has-mega-menu",
+            "subClass": "sub-menu",
+            "mega": "true",
+            "megaContent": [
+                {
+                    "heading": "Kids",
+                    "megaItems": [
+                        {
+                            "text": "Baba Shirts",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Baba T-Shirts ",
+                            "url": "/"
+                        }
+                        ,
+                        {
+                            "text": "Baby Shirts",
+                            "url": "/"
+                        }
+                        ,
+                        {
+                            "text": "Baby T-Shirts",
+                            "url": "/"
+                        }
+                        
+                        ,
+                        {
+                            "text": "Baby Frock",
+                            "url": "/"
+                        
+                        }
+                        ,
+                        {
+                            "text": "Fancy Suits",
+                            "url": "/"
+                        
+                        }
+                        ,
+                        {
+                            "text": "Pant",
+                            "url": "/"
+                        
+                        }
+                             ,
+                             {
+                                "text": "Kids Glasses ",
+                                "url": "/"
+                            } ,
+                            {
+                                "text": "Kids Shose",
+                                "url": "/"
+                            
+                            }, {
+                                "text": "Kids Watches",
+                                "url": "/"
+                            }
+                    ]
+                },
+                {
+                    "heading": "Born Baby",
+                    "megaItems": [
+                        {
+                            "text": "Feeders",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Romper ",
+                            "url": "/"
+                        }
+                        ,
+                        {
+                            "text": "Suits",
+                            "url": "/"
+                        }
+                        ,
+                        {
+                            "text": "Jhola",
+                            "url": "/"
+                        }
+                        
+                        ,
+                        {
+                            "text": "Baby carrying bed",
+                            "url": "/"
+                        
+                        }
+                        ,
+                        {
+                            "text": "Carry coat",
+                            "url": "/"
+                        
+                        }
+                        ,
+                        {
+                            "text": "Walker ",
+                            "url": "/"
+                        
+                        },
+                        {
+                            "text": "Baby bags",
+                            "url": "/"
+                        
+                        }
+
+                    ]
+                }  ,
+
+                
+
+                
+                {
+                    "heading": "Toys & Birthday items",
+                    "megaItems": [
+                        {
+                            "text": "Exclusive toys ",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Cars & bikes",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Activity toys ",
+                            "url": "/"
+                        },
+                           {
+                            "text": "Drones",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Playhouse & Slides",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Ball house & tents",
+                            "url": "/"
+                        }
+                        ,
+                        {
+                            "text": "Halloween toys",
+                            "url": "/"
+                        } ,
+                        {
+                            "text": "Dollhouse & Sets",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Swimming pool",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Catridge  & filters",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Accessories",
+                            "url": "/"
+                        },
+                        {
+                            "text": "Air sofa’s",
+                            "url": "/"
+                        }
+                          
+                    ]
+                }
+            ]
+        },
+
             {
                 "text": "Bags & Luggage",
                 "url": "/",
@@ -720,278 +914,13 @@
                     }
                 ]
             },
-           
-
-
-
-
-           {
-                "text": "Mobiles Accessories",
-                "url": "/",
-                "current": "shop",
-                "extraClass": "menu-item-has-children has-mega-menu",
-                "subClass": "sub-menu",
-                "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "Accessories",
-                        "megaItems": [
-                            {
-                                "text": "Hands Free",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Bluetooth ",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Headphone ",
-                                "url": "/"
-                            },
-                               {
-                                "text": "Charger",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Power bank",
-                                "url": "/"
-                            },
-                            {
-                                "text": "key chen",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Lighter",
-                                "url": "/"
-                            }
-                        ]
-                    },
-
-                   
-                    {
-                        "heading": "Smart Watches",
-                        "megaItems": [
-                            {
-                                "text": "Apple",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Realme",
-                                "url": "/"
-                            }
-                        ]
-                    }  ,
-                    {
-                        "heading": "Speakers",
-                        "megaItems": [
-                            {
-                                "text": "AppleJBL",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Ronin",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Audionic",
-                                "url": "/"
-                            }
-                        ]
-                    }
-                ]
-            },
-           
-                  
-           
-           
-            
-           
-            
-          
-
-    
-            
-           
-
-
-            {
-                "text": "Childern",
-                "url": "/",
-                "current": "shop",
-                "extraClass": "menu-item-has-children has-mega-menu",
-                "subClass": "sub-menu",
-                "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "Kids",
-                        "megaItems": [
-                            {
-                                "text": "Baba Shirts",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Baba T-Shirts ",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Baby Shirts",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Baby T-Shirts",
-                                "url": "/"
-                            }
-                            
-                            ,
-                            {
-                                "text": "Baby Frock",
-                                "url": "/"
-                            
-                            }
-                            ,
-                            {
-                                "text": "Fancy Suits",
-                                "url": "/"
-                            
-                            }
-                            ,
-                            {
-                                "text": "Pant",
-                                "url": "/"
-                            
-                            }
-                                 ,
-                                 {
-                                    "text": "Kids Glasses ",
-                                    "url": "/"
-                                } ,
-                                {
-                                    "text": "Kids Shose",
-                                    "url": "/"
-                                
-                                }, {
-                                    "text": "Kids Watches",
-                                    "url": "/"
-                                }
-                        ]
-                    },
-                    {
-                        "heading": "Born Baby",
-                        "megaItems": [
-                            {
-                                "text": "Feeders",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Romper ",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Suits",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Jhola",
-                                "url": "/"
-                            }
-                            
-                            ,
-                            {
-                                "text": "Baby carrying bed",
-                                "url": "/"
-                            
-                            }
-                            ,
-                            {
-                                "text": "Carry coat",
-                                "url": "/"
-                            
-                            }
-                            ,
-                            {
-                                "text": "Walker ",
-                                "url": "/"
-                            
-                            },
-                            {
-                                "text": "Baby bags",
-                                "url": "/"
-                            
-                            }
-
-                        ]
-                    }  ,
-
-                    
-
-                    
-                    {
-                        "heading": "Toys & Birthday items",
-                        "megaItems": [
-                            {
-                                "text": "Exclusive toys ",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Cars & bikes",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Activity toys ",
-                                "url": "/"
-                            },
-                               {
-                                "text": "Drones",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Playhouse & Slides",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Ball house & tents",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Halloween toys",
-                                "url": "/"
-                            } ,
-                            {
-                                "text": "Dollhouse & Sets",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Swimming pool",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Catridge  & filters",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Accessories",
-                                "url": "/"
-                            },
-                            {
-                                "text": "Air sofa’s",
-                                "url": "/"
-                            }
-                              
-                        ]
-                    }
-                ]
-            },
-
+                
            
 
 
 
             {
+
                 "text": "Stationary",
                 "url": "/",
                 "current": "shop",
@@ -1026,11 +955,51 @@
                         ]
                     }
                 ]
-            }
-           
+            },
+            {  "text": "Foot ware",
+                "url": "/",
+                "current": "shop",
+                "extraClass": "menu-item-has-children has-mega-menu",
+                "subClass": "sub-menu",
+                "mega": "true",
+                "megaContent": [
+                    {
+                        "heading": " Ladies & Gents",
+                        "megaItems": [
+                            {
+                                "text": "slippers",
+                                "url": "/"
+                            },
+                            {
+                                "text": "Gents Shose ",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Ladies shoes",
+                                "url": "/"
+                            }
+                            ,
+                            {
+                                "text": "Ladies Sandal",
+                                "url": "/"
+                            }
+                            
+                            ,
+                            {
+                                "text": "Kids Shose",
+                                "url": "/"
+                            
+                            }
+                            
+                            
+                        ]
+                    }
+                           
             
           
-         
+                ]
+            }
             
         
           

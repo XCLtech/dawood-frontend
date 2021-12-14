@@ -11,7 +11,9 @@ const MegaMenu = ({ source }) => {
                     {item.megaItems.map((subItem) => (
                         <li key={subItem.text}>
                             <Link href={subItem.url} as={subItem.url}>
-                                <a>{subItem.text}</a>
+                                <a style={{ fontSize: '13px' }}>
+                                    {subItem.text}
+                                </a>
                             </Link>
                         </li>
                     ))}
@@ -22,7 +24,7 @@ const MegaMenu = ({ source }) => {
     return (
         <li className="menu-item-has-children has-mega-menu">
             <Link href={source.url !== '' ? source.url : '/'}>
-                <a style={{ fontSize: '12px' }}>
+                <a style={{ fontSize: '14px' }}>
                     {/* {source.icon && <i className={source.icon}></i>} */}
                     {source.text}
                 </a>
