@@ -1,6 +1,66 @@
 {
     "menuPrimary": {
         "menu_1": [
+            {  "text": "Grocery",
+                "url": "/",
+                "current": "shop",
+                "extraClass": "menu-item-has-children has-mega-menu",
+                "subClass": "sub-menu",
+                "mega": "true",
+                "megaContent": [
+                    {
+                        "heading": "Items",
+                        "megaItems": [
+                            {
+                                "text": "RICE FLOUR & OTHER",
+                                "url": "/riceFlour&other"
+                            },
+                            {
+                                "text": "SPICES & COOKING SUPPLEMENTS",
+                                "url": "/spices&cookingSupplements"
+                                
+                            },
+                            {
+                                "text": "OIL, GHEE & SUGAR",
+                                "url": "/oilGhee&sugar"
+                            },
+                            {
+                                "icon": "icon-lampshade",
+                                "text": "KETCHUP, SAUCES & CONDIMENTS",
+                                "url": "/ketchupSauces&condiments"
+                            },
+                            {
+                                "icon": "icon-heart-pulse",
+                                "text": "GRAMS & PULSES",
+                                "url": "/gram&pluses"
+                            },
+                            {
+                                "text": "PASTA NOODLE & SOUPS",
+                                "url": "/pastaNoodle&soups"
+                            },
+                            {
+                                "text": "JAMS JELLY & SPREADS",
+                                "url": "/jamsJelly"
+                               
+                            },
+                            {
+                                "text": "TEA & COFFEE",
+                                "url": "/tea&coffee"
+                            },
+                            {
+                                "text": "POWDERED DESSERTS",
+                                "url": "/powdered&desserts"
+                            }
+                          
+                            
+                            
+                        ]
+                    }
+                           
+            
+          
+                ]
+            },
 
             {
                 "text": "Ladies",
@@ -1005,47 +1065,8 @@
           
            
         ]
-    },
+    }
     
     
-    "product_categories": [
-        {
-            "text": "RICE FLOUR & OTHER",
-            "url": "/riceFlour&other"
-        },
-        {
-            "text": "SPICES & COOKING SUPPLEMENTS",
-            "url": "/spices&cookingSupplements"
-            
-        },
-        {
-            "text": "OIL, GHEE & SUGAR",
-            "url": "/oilGhee&sugar"
-        },
-        {
-            "text": "KETCHUP, SAUCES & CONDIMENTS",
-            "url": "/ketchupSauces&condiments"
-        },
-        {
-            "text": "GRAMS & PULSES",
-            "url": "/gram&pluses"
-        },
-        {
-            "text": "PASTA NOODLE & SOUPS",
-            "url": "/pastaNoodle&soups"
-        },
-        {
-            "text": "JAMS JELLY & SPREADS",
-            "url": "/jamsJelly"
-           
-        },
-        {
-            "text": "TEA & COFFEE",
-            "url": "/tea&coffee"
-        },
-        {
-            "text": "POWDERED DESSERTS",
-            "url": "/powdered&desserts"
-        }
-    ]
+    
 }

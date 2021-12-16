@@ -44,7 +44,7 @@ class HeaderMobile extends Component {
                                 <img
                                     src="/static/img/dawood-logo.png"
                                     alt="dawood-online"
-                                    width={50}
+                                    width={100}
                                 />
                             </a>
                         </Link>
