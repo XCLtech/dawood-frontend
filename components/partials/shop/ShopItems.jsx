@@ -105,7 +105,7 @@ const ShopItems = ({ columns = 4, pageSize = 12 }) => {
     } else {
         const skeletonItems = generateTempArray(12).map((item) => (
             <div className={classes} key={item}>
-                <SkeletonProduct />
+                {/* <SkeletonProduct /> */}
             </div>
         ));
         productItemsView = <div className="row">{skeletonItems}</div>;
