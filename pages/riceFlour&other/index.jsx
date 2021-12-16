@@ -18,8 +18,10 @@ const index = () => {
                             <WidgetShopBrands />
                             <WidgetShopFilterByPriceRange />
                         </div>
-                        <div className="ps-layout__right py-4">
-                            <Product />
+                        <div className="ps-layout__right p-4 ">
+                            <div className="d-flex row">
+                                <Product />
+                            </div>
                         </div>
                     </div>
                 </div>
