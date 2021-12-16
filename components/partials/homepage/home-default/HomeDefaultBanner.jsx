@@ -7,7 +7,7 @@ import MediaRepository from '~/repositories/MediaRepository';
 import { baseUrl } from '~/repositories/Repository';
 import { getItemBySlug } from '~/utilities/product-helper';
 import Promotion from '~/components/elements/media/Promotion';
-
+import Grocery from '../../../../public/static/img/onlineGrocery.png';
 const HomeDefaultBanner = () => {
     const [bannerItems, setBannerItems] = useState(null);
     const [promotion1, setPromotion1] = useState(null);
@@ -76,11 +76,11 @@ const HomeDefaultBanner = () => {
                 <div className="ps-section__right">
                     <Promotion
                         link="/shop"
-                        image={promotion1 ? promotion1.image : null}
+                        // image={promotion2 ? promotion2.image : null}
                     />
                     <Promotion
                         link="/shop"
-                        image={promotion2 ? promotion2.image : null}
+                        image={promotion1 ? promotion1.image : null}
                     />
                 </div>
             </div>
