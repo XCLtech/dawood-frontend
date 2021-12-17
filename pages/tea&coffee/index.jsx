@@ -21,7 +21,7 @@ const index = () => {
                             <WidgetShopBrands />
                             <WidgetShopFilterByPriceRange />
                         </div>
-                        <div className="ps-layout__right">
+                        <div className="ps-layout__right p-4">
                             <div className="d-flex row">
                                 {data.teaCoffe.map((item, index) => (
                                     <Product

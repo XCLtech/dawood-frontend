@@ -2,7 +2,7 @@
     "spices":[
         {
           "id": 1,
-          "title": "NATIONAL BANANA CUSTARD POWDER 25GM",
+          "title": "NATIONAL BANANA CUSTARD",
           "url": "https://www.dawoodonline.pk/product/listing/Img-86ie.jpg",
           "price": 10
         },
@@ -16,7 +16,7 @@
         },
         {
           "id": 3,
-          "title": "SHAN MAA LAHORI NAMAK 400GM PKT",
+          "title": "SHAN MAA LAHORI NAMAK",
           "url":"https://www.dawoodonline.pk/product/listing/Img-4811.jpg" ,
           "price" :15        
         },
@@ -35,7 +35,7 @@
         },
         {
             "id": 1,
-            "title": "NATIONAL BANANA CUSTARD POWDER 25GM",
+            "title": "NATIONAL BANANA CUSTARD",
             "url": "https://www.dawoodonline.pk/product/listing/Img-86ie.jpg",
             "price": 10
           },
@@ -49,7 +49,7 @@
           },
           {
             "id": 3,
-            "title": "SHAN MAA LAHORI NAMAK 400GM PKT",
+            "title": "SHAN MAA LAHORI NAMAK",
             "url":"https://www.dawoodonline.pk/product/listing/Img-4811.jpg" ,
             "price" :15        
           }
@@ -58,7 +58,7 @@
     "oilGhee":[
         {
             "id": 1,
-            "title": "MARHABA OLIVE OIL 25ML BTL",
+            "title": "MARHABA OLIVE OILL",
             "price": 23,
             "url":"https://www.dawoodonline.pk/product/listing/Img-779i.jpg"
           },
@@ -70,7 +70,7 @@
           },
         {
             "id": 3,
-            "title": "MEDICAM SWEETENER SUGAR 100 TABLETS",
+            "title": "MEDICAM SWEETENER SUGAR",
             "price": 23,
             "url":"https://www.dawoodonline.pk/product/listing/Img-5853.jpg"
           },
@@ -93,7 +93,7 @@
                 "url":"https://www.dawoodonline.pk/product/listing/Img-a55i.jpeg"
               },{
                 "id": 1,
-                "title": "MARHABA OLIVE OIL 25ML BTL",
+                "title": "MARHABA OLIVE OIL ",
                 "price": 23,
                 "url":"https://www.dawoodonline.pk/product/listing/Img-779i.jpg"
               },
@@ -182,7 +182,7 @@
           },
           {
             "id": 3,
-            "title": "HILAL EGG JELLY 15.4GM",
+            "title": "HILAL EGG JELLY",
             "price": 23,
             "url":"https://www.dawoodonline.pk/product/listing/Img-i4ea.jpg"
           },
@@ -235,7 +235,7 @@
         },
         {
           "id": 5,
-          "title": "NATIONAL CORNFLOUR 300GM BOX",
+          "title": "NATIONAL CORNFLOUR",
           "url": "https://www.dawoodonline.pk/product/listing/Img-a1u9.jpg",
           "price": 75
         },
@@ -262,68 +262,68 @@
     "ketcupSauce":[
         {
             "id": 1,
-            "title": "SHANGRILA VINEGAR WHITE 120ML BTL ",
+            "title": "SHANGRILA VINEGAR WHITE",
             "url": "https://www.dawoodonline.pk/product/listing/Img-8637.jpg",
             "price": 36
           },
           
           {
             "id": 2,
-            "title": "SHANGRILA SOYA SAUCE 120ML BTL",
+            "title": "SHANGRILA SOYA SAUCE",
             "url": "https://www.dawoodonline.pk/product/listing/Img-u15a.jpg",
             "price": 43
   
           },
           {
             "id": 3,
-            "title": "SHANGRILA HOT SAUCE 120ML BTL",
+            "title": "SHANGRILA HOT SAUCE",
             "url":"https://www.dawoodonline.pk/product/listing/Img-863o.jpg" ,
             "price" :15        
           },
           {
             "id": 4,
-            "title": "NATIONAL VINEGAR WHITE 300ML BTL",
+            "title": "NATIONAL VINEGAR WHITE",
              "url":"https://www.dawoodonline.pk/product/listing/Img-3258.jpg"  ,
              "price":15
   
           },
           {
             "id": 5,
-            "title": "KEY BRAND WHITE VINEGAR 300ML BTL",
+            "title": "KEY BRAND WHITE VINEGAR",
             "url":"https://www.dawoodonline.pk/product/listing/Img-4372.jpg",
             "price": 20
           }
           ,
           {
             "id": 5,
-            "title": "KEY BRAND WHITE VINEGAR 300ML BTL",
+            "title": "KEY BRAND WHITE VINEGAR",
             "url":"https://www.dawoodonline.pk/product/listing/Img-4372.jpg",
             "price": 20
           }
           ,
           {
             "id": 4,
-            "title": "NATIONAL VINEGAR WHITE 300ML BTL",
+            "title": "NATIONAL VINEGAR WHITE",
              "url":"https://www.dawoodonline.pk/product/listing/Img-3258.jpg"  ,
              "price":15
   
           },
           {
             "id": 3,
-            "title": "SHANGRILA HOT SAUCE 120ML BTL",
+            "title": "SHANGRILA HOT SAUCE",
             "url":"https://www.dawoodonline.pk/product/listing/Img-863o.jpg" ,
             "price" :15        
         },
         {
           "id": 2,
-          "title": "SHANGRILA SOYA SAUCE 120ML BTL",
+          "title": "SHANGRILA SOYA SAUCE",
           "url": "https://www.dawoodonline.pk/product/listing/Img-u15a.jpg",
           "price": 43
 
         },
           {
             "id": 1,
-            "title": "SHANGRILA VINEGAR WHITE 120ML BTL ",
+            "title": "SHANGRILA VINEGAR",
             "url": "https://www.dawoodonline.pk/product/listing/Img-8637.jpg",
             "price": 36
           }
@@ -332,41 +332,41 @@
     "pastaNoodels":[
         {
             "id": 1,
-            "title": "SHAN SHOOP NOODLES CHATTPATA 34GM PKT ",
+            "title": "SHAN SHOOP NOODLES ",
             "url": "https://www.dawoodonline.pk/product/listing/Img-9237.jpg",
             "price": 20
           },
           
           {
             "id": 2,
-            "title": "SHAN SHOOP MASALA NOODLES 40GM",
+            "title": "SHAN SHOOP MASALA",
             "url": "https://www.dawoodonline.pk/product/listing/Img-ie56.jpg",
             "price": 43
   
           },
           {
             "id": 3,
-            "title": "HALWANI VERMECELLI 150GM PKT  ",
+            "title": "HALWANI VERMECELLI ",
             "url":"https://www.dawoodonline.pk/product/listing/Img-91a4.jpg" ,
             "price" :15        
           },
           {
             "id": 4,
-            "title": "KOLSON CHICKEN NOODLES 68GM",
+            "title": "KOLSON CHICKEN NOODLES",
              "url":"https://www.dawoodonline.pk/product/listing/Img-a238.jpg"  ,
              "price":15
   
           },
           {
             "id": 5,
-            "title": "SHAN SHOOP HOT & SPICY NOODLES 72GM",
+            "title": "SHAN SHOOP ",
             "url":"https://www.dawoodonline.pk/product/listing/Img-2au6.jpg",
             "price": 20
           }
           ,
           {
             "id": 5,
-            "title": "SHAN SHOOP HOT & SPICY NOODLES 72GM",
+            "title": "SHAN SHOOP HOT ",
             "url":"https://www.dawoodonline.pk/product/listing/Img-2au6.jpg",
             "price": 20
           }
@@ -374,27 +374,27 @@
           ,
           {
             "id": 4,
-            "title": "KOLSON CHICKEN NOODLES 68GM",
+            "title": "KOLSON CHICKEN ",
              "url":"https://www.dawoodonline.pk/product/listing/Img-a238.jpg"  ,
              "price":15
   
           },
           {
             "id": 3,
-            "title": "HALWANI VERMECELLI 150GM PKT  ",
+            "title": "HALWANI VERMECELLI ",
             "url":"https://www.dawoodonline.pk/product/listing/Img-91a4.jpg" ,
             "price" :15        
           },
           {
             "id": 2,
-            "title": "SHAN SHOOP MASALA NOODLES 40GM",
+            "title": "SHAN SHOOP MASALA ",
             "url": "https://www.dawoodonline.pk/product/listing/Img-ie56.jpg",
             "price": 43
   
           },
           {
             "id": 1,
-            "title": "SHAN SHOOP NOODLES CHATTPATA 34GM PKT ",
+            "title": "SHAN SHOOP NOODLES  ",
             "url": "https://www.dawoodonline.pk/product/listing/Img-9237.jpg",
             "price": 20
           }
@@ -402,41 +402,41 @@
     "teaCoffe":[
         {
             "id": 1,
-            "title": "TAPAL GUL BAHAR GREEN TEA 90GM BOX",
+            "title": "TAPAL GUL ",
             "url":"https://www.dawoodonline.pk/product/listing/Img-oe88.jpg",
             "price": 50
           },
           
           {
             "id": 2,
-            "title": "SHAN SHOOP MASALA NOODLES 40GM",
+            "title": "DANEDAR",
             "url": "https://www.dawoodonline.pk/product/listing/Img-41oo.jpg",
             "price": 43
   
           },
           {
             "id": 3,
-            "title": "BROOKE BOND PEARL DUST TEA 100GM BOX",
+            "title": "BROOKE BOND PEARl",
             "url":"https://www.dawoodonline.pk/product/listing/Img-54e7.jpeg" ,
             "price" :15        
           },
           {
             "id": 4,
-            "title": "LIPTON LEMON ZEST TEABAGS 25PCS BOX",
+            "title": "LIPTON LEMON ZEST X",
              "url":"https://www.dawoodonline.pk/product/listing/Img-41oo.jpg"  ,
              "price":15
   
           },
           {
             "id": 5,
-            "title": "TAPAL GREEN TEABAGS MINT 30PCS BOX",
+            "title": "TAPAL GREEN TEABAGS",
             "url":"https://www.dawoodonline.pk/product/listing/Img-u1a3.jpg",
             "price": 20
           }
           ,
           {
             "id": 5,
-            "title": "TAPAL GREEN TEABAGS MINT 30PCS BOX",
+            "title": "TAPAL GREEN TEABAGS ",
             "url":"https://www.dawoodonline.pk/product/listing/Img-u1a3.jpg",
             "price": 20
           }
@@ -444,27 +444,27 @@
           ,
           {
             "id": 4,
-            "title": "LIPTON LEMON ZEST TEABAGS 25PCS BOX",
+            "title": "LIPTON LEMON ZEST TEABAGS",
              "url":"https://www.dawoodonline.pk/product/listing/Img-41oo.jpg"  ,
              "price":15
   
           },
           {
             "id": 3,
-            "title": "BROOKE BOND PEARL DUST TEA 100GM BOX",
+            "title": "BROOKE BOND PEARL",
             "url":"https://www.dawoodonline.pk/product/listing/Img-54e7.jpeg" ,
             "price" :15        
           },
           {
             "id": 2,
-            "title": "SHAN SHOOP MASALA NOODLES 40GM",
+            "title": "SHAN SHOOP MASALA ",
             "url": "https://www.dawoodonline.pk/product/listing/Img-ie56.jpg",
             "price": 43
   
           },
           {
             "id": 1,
-            "title": "TAPAL GUL BAHAR GREEN TEA 90GM BOX",
+            "title": "TAPAL GUL BAHAR GREEN ",
             "url":"https://www.dawoodonline.pk/product/listing/Img-oe88.jpg",
             "price": 50
           }
