@@ -8,8 +8,6 @@ import Product from '~/components/elements/products/DemoProduct';
 import data from '@@/public/static/data/product.json';
 
 const index = () => {
-    console.log(data.relatedProduct);
-
     return (
         <PageContainer title="Shop">
             <div className="ps-page--shop">
