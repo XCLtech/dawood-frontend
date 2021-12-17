@@ -1,0 +1,109 @@
+{
+    "spices":[
+        {
+          "id": 1,
+          "title": "NATIONAL BANANA CUSTARD POWDER 25GM",
+          "url": "https://www.dawoodonline.pk/product/listing/Img-86ie.jpg",
+          "price": 10
+        },
+        
+        {
+          "id": 2,
+          "title": "TEZ PATTA 15GM PKT",
+          "url": "https://www.dawoodonline.pk/product/listing/Img-4765.jpg",
+          "price": 10
+
+        },
+        {
+          "id": 3,
+          "title": "SHAN MAA LAHORI NAMAK 400GM PKT",
+          "url":"https://www.dawoodonline.pk/product/listing/Img-4811.jpg" ,
+          "price" :15        
+        },
+        {
+          "id": 4,
+          "title": "AJWAIN 50GM PKT",
+           "url":"https://www.dawoodonline.pk/product/listing/Img-3358.jpg"  ,
+           "price":15
+
+        },
+        {
+          "id": 5,
+          "title": "Phitkari",
+          "url":"https://www.dawoodonline.pk/product/listing/Img-32ie.jpg",
+          "price": 20
+        },
+        {
+            "id": 1,
+            "title": "NATIONAL BANANA CUSTARD POWDER 25GM",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-86ie.jpg",
+            "price": 10
+          },
+          
+          {
+            "id": 2,
+            "title": "TEZ PATTA 15GM PKT",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-4765.jpg",
+            "price": 10
+  
+          },
+          {
+            "id": 3,
+            "title": "SHAN MAA LAHORI NAMAK 400GM PKT",
+            "url":"https://www.dawoodonline.pk/product/listing/Img-4811.jpg" ,
+            "price" :15        
+          }
+    ],
+
+    "oilGhee":[
+        {
+            "id": 1,
+            "title": "MARHABA OLIVE OIL 25ML BTL",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-779i.jpg"
+          },
+        {
+            "id": 2,
+            "title": "SUCRAL SUGAR ZERO",
+            "price": 22,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-914u.jpg"
+          },
+        {
+            "id": 3,
+            "title": "MEDICAM SWEETENER SUGAR 100 TABLETS",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-5853.jpg"
+          },
+        {
+            "id": 4,
+            "title": "SUGAR 1KG PKT ...",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-a55i.jpeg"
+          },
+          {
+              "id": 5,
+              "title": "MEDICAM SWEETENER ",
+              "price": 34,
+              "url":"https://www.dawoodonline.pk/product/listing/Img-oaie.jpg"
+            },
+            {
+                "id": 4,
+                "title": "SUGAR 1KG PKT ...",
+                "price": 23,
+                "url":"https://www.dawoodonline.pk/product/listing/Img-a55i.jpeg"
+              },{
+                "id": 1,
+                "title": "MARHABA OLIVE OIL 25ML BTL",
+                "price": 23,
+                "url":"https://www.dawoodonline.pk/product/listing/Img-779i.jpg"
+              },
+            {
+                "id": 2,
+                "title": "SUCRAL SUGAR ZERO",
+                "price": 22,
+                "url":"https://www.dawoodonline.pk/product/listing/Img-914u.jpg"
+              }
+
+
+    ]
+}
