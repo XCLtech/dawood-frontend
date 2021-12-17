@@ -1,41 +1,35 @@
 import React from 'react';
 import ModuleProductActions from '~/components/elements/products/modules/ModuleProductActions';
 import Rating from '~/components/elements/Rating';
-import Product from '@@/public/static/data/product.json';
 
-const DemoProduct = ({ product }) => {
+const DemoProduct = ({ image, product, title, price }) => {
     // console.log(Product.relatedProduct.image.url);
     return (
         <>
-            {Product.relatedProduct.map((item, index) => {
-                return (
-                    <div className="row">
-                        <div className="ps-product" key={index}>
-                            <div className="ps-product__thumbnail">
-                                <img src={item.thumbnail.url} alt="asd" />
-                                <ModuleProductActions product={product} />
+            <div className="row">
+                <div className="ps-product">
+                    <div className="ps-product__thumbnail">
+                        <img src={image} alt="asd" />
+                        <ModuleProductActions product={product} />
+                    </div>
+                    <div className="ps-product__container">
+                        <a className="ps-product__vendor">{title}</a>
+                        <div className="ps-product__content">
+                            {title}
+                            <div className="ps-product__rating">
+                                <Rating />
+                                <span>02</span>
                             </div>
-                            <div className="ps-product__container">
-                                <a className="ps-product__vendor">
-                                    {item.title}
-                                </a>
-                                <div className="ps-product__content">
-                                    {item.title}
-                                    <div className="ps-product__rating">
-                                        <Rating />
-                                        <span>02</span>
-                                    </div>
-                                    Rs. {item.price}
-                                </div>
-                                {/* <div className="ps-product__content hover">
+                            Rs. {price}
+                        </div>
+                        {/* <div className="ps-product__content hover">
                                     {item.title}
                                     Rs. {item.price}
                                 </div> */}
-                            </div>
-                        </div>
                     </div>
-                );
-            })}
+                </div>
+            </div>
+
             {/* <div className="d-flex col-12">
                 <div className="ps-product">
                     <div className="ps-product__thumbnail">
