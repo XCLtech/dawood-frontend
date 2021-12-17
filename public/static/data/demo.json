@@ -103,7 +103,107 @@
                 "price": 22,
                 "url":"https://www.dawoodonline.pk/product/listing/Img-914u.jpg"
               }
-
-
+    ],
+    "gramPluses":[
+        {
+            "id": 1,
+            "title": "JOO DALYA",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-io64.jpg"
+          },
+        {
+            "id": 2,
+            "title": "BAJRA 500GM",
+            "price": 22,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-a7uu.jpg"
+          },
+        {
+            "id": 3,
+            "title": "DALYA 500GM",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-9eee.jpg"
+          },
+        {
+            "id": 4,
+            "title": "KALA CHANA.",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-o36u.jpg"
+          },
+        {
+            "id": 3,
+            "title": "DALYA 500GM",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-9eee.jpg"
+          },
+        {
+            "id": 4,
+            "title": "KALA CHANA.",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-o36u.jpg"
+          },
+          {
+            "id": 1,
+            "title": "JOO DALYA",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-io64.jpg"
+          },
+        {
+            "id": 2,
+            "title": "BAJRA 500GM",
+            "price": 22,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-a7uu.jpg"
+          }
+          
+    ],
+    "Jams":[
+        {
+            "id": 1,
+            "title": "CANDYLAND AMROOD",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-e293.jpg"
+          },
+        {
+            "id": 2,
+            "title": "CANDYLAND BOTTLE JELLY",
+            "price": 22,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-e3ei.jpg"
+          },
+        {
+            "id": 3,
+            "title": "HILAL EGG JELLY 15.4GM",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-i4ea.jpg"
+          },
+        {
+            "id": 4,
+            "title": "HILAL JIGGLES",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-3796.jpg"
+          },
+          {
+            "id": 3,
+            "title": "HILAL EGG JELLY 15.4GM",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-i4ea.jpg"
+          },
+        {
+            "id": 4,
+            "title": "HILAL JIGGLES",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-3796.jpg"
+          },
+          {
+            "id": 1,
+            "title": "CANDYLAND AMROOD",
+            "price": 23,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-e293.jpg"
+          },
+        {
+            "id": 2,
+            "title": "CANDYLAND BOTTLE JELLY",
+            "price": 22,
+            "url":"https://www.dawoodonline.pk/product/listing/Img-e3ei.jpg"
+          }
+          
     ]
 }
