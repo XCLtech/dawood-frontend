@@ -22,7 +22,7 @@
 .ps-product {
     position: relative;
     padding: 20px 20px 0;
-    border: 1px solid transparent;
+    // border: 1px solid transparent;
     border-bottom: none;
     @extend %list-reset;
 
@@ -223,15 +223,15 @@
             }
         }
 
-        .ps-product__content {
-            @include hidden;
-            height: 0;
+        // .ps-product__content {
+        //     @include hidden;
+        //     height: 0;
 
-            &.hover {
-                height: auto;
-                @include show;
-            }
-        }
+        //     &.hover {
+        //         height: auto;
+        //         @include show;
+        //     }
+        // }
 
         &.ps-product--inner {
             border: none;
@@ -2140,9 +2140,9 @@
             content: '';
             @include max-area();
             @include linear-gradient(
-                            to bottom,
-                            rgba(#000, 0.05) 0%,
-                            rgba(#000, 0.9)
+                to bottom,
+                rgba(#000, 0.05) 0%,
+                rgba(#000, 0.9)
             );
             transition: all 0.4s ease;
             @include hidden;
