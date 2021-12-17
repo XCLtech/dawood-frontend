@@ -1,14 +1,11 @@
 import React from 'react';
-// import BreadCrumb from '~/components/elements/BreadCrumb';
-import ShopItems from '~/components/partials/shop/ShopItems';
-import ProductGroupByCarousel from '~/components/partials/product/ProductGroupByCarousel';
-
 import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
 import WidgetShopBrands from '~/components/shared/widgets/WidgetShopBrands';
 import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShopFilterByPriceRange';
 import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
-
+import Product from '~/components/elements/products/DemoProduct';
+import data from '@@/public/static/data/demo.json';
 const index = () => {
     return (
         <PageContainer title="Shop">
@@ -24,16 +21,17 @@ const index = () => {
                             <WidgetShopBrands />
                             <WidgetShopFilterByPriceRange />
                         </div>
-                        <div className="ps-layout__right py-4">
-                            {/* <ProductGroupByCarousel
-                            collectionSlug="shop-best-seller-items"
-                            title="Best Sale Items"
-                        /> */}
-                            <ProductGroupByCarousel
-                                collectionSlug="shop-recommend-items"
-                                title="Recommended Items"
-                            />
-                            <ShopItems columns={6} pageSize={18} />
+                        <div className="ps-layout__right p-4 ">
+                            <div className="d-flex row">
+                                {data.ketcupSauce.map((item, index) => (
+                                    <Product
+                                        key={index}
+                                        image={item.url}
+                                        title={item.title}
+                                        price={item.price}
+                                    />
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>

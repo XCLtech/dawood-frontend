@@ -5,7 +5,7 @@ import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShop
 import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
 import Product from '~/components/elements/products/DemoProduct';
-import data from '@@/public/static/data/product.json';
+import data from '@@/public/static/data/demo.json';
 
 const index = () => {
     return (
@@ -20,10 +20,10 @@ const index = () => {
                         </div>
                         <div className="ps-layout__right p-4 ">
                             <div className="d-flex row">
-                                {data.relatedProduct.map((item, index) => (
+                                {data.riceFlour.map((item, index) => (
                                     <Product
                                         key={index}
-                                        image={item.thumbnail.url}
+                                        image={item.url}
                                         title={item.title}
                                         price={item.price}
                                     />

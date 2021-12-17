@@ -5,7 +5,7 @@ import Rating from '~/components/elements/Rating';
 const DemoProduct = ({ image, product, title, price }) => {
     return (
         <>
-            <div className="row">
+            <div className="row ml-20 justify-content-center">
                 <div className="ps-product px-24">
                     <div
                         className="ps-product__thumbnail"
