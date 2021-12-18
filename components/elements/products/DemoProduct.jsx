@@ -5,13 +5,12 @@ import Rating from '~/components/elements/Rating';
 const DemoProduct = ({ image, product, title, price }) => {
     return (
         <>
-            <div className="row  justify-content-center ">
+            <div className="row">
                 <div className="ps-product ">
                     <div
                         className="ps-product__thumbnail"
                         style={{
-                            margin: 'auto',
-                            width: '200px',
+                            width: '170px',
                         }}>
                         <img src={image} alt="asd" />
                         <ModuleProductActions product={product} />
