@@ -88,21 +88,7 @@ class PanelMenu extends Component {
                             </SubMenu>
                         );
                     } else {
-                        return (
-                            <Menu.Item key={item.text}>
-                                {item.type === 'dynamic' ? (
-                                    <Link
-                                        href={`${item.url}/[pid]`}
-                                        as={`${item.url}/${item.endPoint}`}>
-                                        l<a>{item.text}</a>
-                                    </Link>
-                                ) : (
-                                    <Link href={item.url} as={item.alias}>
-                                        <a>{item.text}</a>
-                                    </Link>
-                                )}
-                            </Menu.Item>
-                        );
+                        return <Menu.Item key={item.text}>asd</Menu.Item>;
                     }
                 })}
             </Menu>

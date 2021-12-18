@@ -8,7 +8,7 @@ class AccountQuickLinks extends Component {
         super(props);
     }
 
-    handleLogout = e => {
+    handleLogout = (e) => {
         e.preventDefault();
         this.props.dispatch(logOut());
     };
@@ -42,7 +42,7 @@ class AccountQuickLinks extends Component {
         ];
         const menu = (
             <Menu>
-                {accountLinks.map(link => (
+                {accountLinks.map((link) => (
                     <Menu.Item key={link.url}>
                         <Link href={link.url}>
                             <a>{link.text}</a>
@@ -59,15 +59,16 @@ class AccountQuickLinks extends Component {
         );
 
         return (
-            <Dropdown overlay={menu} placement="bottomLeft">
-                <a href="#" className="header__extra ps-user--mobile">
-                    <i className="icon-user"></i>
-                </a>
-            </Dropdown>
+            <div>asd</div>
+            // <Dropdown overlay={menu} placement="bottomLeft">
+            //     <a href="#" className="header__extra ps-user--mobile">
+            //         <i className="icon-user"></i>
+            //     </a>
+            // </Dropdown>
         );
     }
 }
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
     return state;
 };
 export default connect(mapStateToProps)(AccountQuickLinks);

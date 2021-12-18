@@ -5,8 +5,8 @@ import Rating from '~/components/elements/Rating';
 const DemoProduct = ({ image, product, title, price }) => {
     return (
         <>
-            <div className="row ml-auto justify-content-center">
-                <div className="ps-product px-24">
+            <div className="row  justify-content-center ">
+                <div className="ps-product ">
                     <div
                         className="ps-product__thumbnail"
                         style={{
@@ -20,10 +20,10 @@ const DemoProduct = ({ image, product, title, price }) => {
                         <a className="ps-product__vendor">{title}</a>
                         <div className="ps-product__content">
                             {/* {title} */}
-                            <div className="ps-product__rating">
+                            {/* <div className="ps-product__rating">
                                 <Rating />
                                 <span>02</span>
-                            </div>
+                            </div> */}
                             Rs. {price}
                         </div>
                     </div>

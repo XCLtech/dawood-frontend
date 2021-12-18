@@ -22,7 +22,7 @@ const Product = ({ product }) => {
                 <div className="ps-product__content">
                     {title(product)}
                     <div className="ps-product__rating">
-                        <Rating />
+                        {/* <Rating /> */}
                         <span>02</span>
                     </div>
                     {price(product)}

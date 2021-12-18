@@ -21,8 +21,8 @@ const index = () => {
                             <WidgetShopBrands />
                             <WidgetShopFilterByPriceRange />
                         </div>
-                        <div className="ps-layout__right p-4 ">
-                            <div className="d-flex row">
+                        <div className="ps-layout__right">
+                            <div className="d-flex justify-content-center row">
                                 {data.pastaNoodels.map((item, index) => (
                                     <Product
                                         key={index}
