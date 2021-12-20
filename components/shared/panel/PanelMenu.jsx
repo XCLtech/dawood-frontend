@@ -75,7 +75,8 @@ class PanelMenu extends Component {
                                             (megaSubItem) => (
                                                 <Menu.Item
                                                     key={megaSubItem.text}>
-                                                    <Link href={item.url}>
+                                                    <Link
+                                                        href={megaSubItem.url}>
                                                         <a>
                                                             {megaSubItem.text}
                                                         </a>

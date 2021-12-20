@@ -40,82 +40,47 @@ const FooterWidgets = () => (
             </div>
         </aside>
         <aside className="widget widget_footer">
-            <h4 className="widget-title">Quick links</h4>
+            <h4 className="widget-title">CUSTOMER SERVICE</h4>
             <ul className="ps-list--link">
                 <li>
-                    <Link href="/page/blank">
-                        <a>Policy</a>
+                    <Link href="/page/about">
+                        <a>About Us</a>
                     </Link>
                 </li>
 
                 <li>
                     <Link href="/page/blank">
-                        <a>Term & Condition</a>
+                        <a>Contact Us</a>
+                    </Link>
+                </li>
+            </ul>
+        </aside>
+        <aside className="widget widget_footer">
+            <h4 className="widget-title">INFORMATION</h4>
+            <ul className="ps-list--link">
+                <li>
+                    <Link href="/page/about-us">
+                        <a>Shipping Policy</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/page/blank">
-                        <a>Shipping</a>
+                        <a>Return Policy</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/page/blank">
-                        <a>Return</a>
+                        <a>Terms & Condition</a>
                     </Link>
                 </li>
+            </ul>
+        </aside>
+        <aside className="widget widget_footer">
+            <h4 className="widget-title">Extras</h4>
+            <ul className="ps-list--link">
                 <li>
                     <Link href="/page/faqs">
                         <a>FAQs</a>
-                    </Link>
-                </li>
-            </ul>
-        </aside>
-        <aside className="widget widget_footer">
-            <h4 className="widget-title">Company</h4>
-            <ul className="ps-list--link">
-                <li>
-                    <Link href="/page/about-us">
-                        <a>About Us</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/page/blank">
-                        <a>Affilate</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/page/blank">
-                        <a>Career</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/page/contact-us">
-                        <a>Contact</a>
-                    </Link>
-                </li>
-            </ul>
-        </aside>
-        <aside className="widget widget_footer">
-            <h4 className="widget-title">Bussiness</h4>
-            <ul className="ps-list--link">
-                <li>
-                    <Link href="/page/about-us">
-                        <a>Our Press</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/account/checkout">
-                        <a>Checkout</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/account/user-information">
-                        <a>My account</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/shop">
-                        <a>Shop</a>
                     </Link>
                 </li>
             </ul>
