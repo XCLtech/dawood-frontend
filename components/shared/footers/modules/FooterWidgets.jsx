@@ -6,13 +6,13 @@ const FooterWidgets = () => (
         <aside className="widget widget_footer widget_contact-us">
             <h4 className="widget-title">Contact us</h4>
             <div className="widget_content">
-                <p>Call us 24/7</p>
-                <h3>+92 000 000 000 </h3>
+                <p>Free support line</p>
+                <h3>03188409160</h3>
                 <p>
                     Hyderabad, Sindh
                     <br />
                     <a href="mailto:contact@dawood-online.co">
-                        Xcltechnologies@gmail.com
+                        Support@dawoodonline.pk
                     </a>
                 </p>
                 <ul className="ps-list--social">
@@ -38,6 +38,8 @@ const FooterWidgets = () => (
                     </li>
                 </ul>
             </div>
+            <br />
+            <p>Powered by Xcl Technologies</p>
         </aside>
         <aside className="widget widget_footer">
             <h4 className="widget-title">CUSTOMER SERVICE</h4>
@@ -49,7 +51,7 @@ const FooterWidgets = () => (
                 </li>
 
                 <li>
-                    <Link href="/page/blank">
+                    <Link href="/page/contact-us">
                         <a>Contact Us</a>
                     </Link>
                 </li>
@@ -59,17 +61,17 @@ const FooterWidgets = () => (
             <h4 className="widget-title">INFORMATION</h4>
             <ul className="ps-list--link">
                 <li>
-                    <Link href="/page/about-us">
+                    <Link href="/page/shipping-policy">
                         <a>Shipping Policy</a>
                     </Link>
                 </li>
                 <li>
-                    <Link href="/page/blank">
+                    <Link href="/page/return-policy">
                         <a>Return Policy</a>
                     </Link>
                 </li>
                 <li>
-                    <Link href="/page/blank">
+                    <Link href="/page/term-and-condition">
                         <a>Terms & Condition</a>
                     </Link>
                 </li>

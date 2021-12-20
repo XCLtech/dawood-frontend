@@ -53,6 +53,7 @@
             "url":"https://www.dawoodonline.pk/product/listing/Img-4811.jpg" ,
             "price" :15        
           }
+          
     ],
 
     "oilGhee":[
@@ -257,6 +258,19 @@
             "title": "BAJRA ATTA 500GM PKT ",
             "url": "https://www.dawoodonline.pk/product/listing/Img-6ioi.jpg" ,
             "price" :65        
+          },
+          {
+            "id": 2,
+            "title": "TEZ PATTA 15GM PKT",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-4765.jpg",
+            "price": 10
+  
+          },
+          {
+            "id": 1,
+            "title": "POP CORN 200GM PKT",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-95u3.jpg",
+            "price": 51
           }
     ],
     "ketcupSauce":[

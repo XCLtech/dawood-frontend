@@ -1,5 +1,4 @@
 import React from 'react';
-
 import BreadCrumb from '~/components/elements/BreadCrumb';
 import OurTeam from '~/components/partials/page/about-us/OurTeam';
 import AboutAwards from '~/components/partials/page/about-us/AboutAwards';

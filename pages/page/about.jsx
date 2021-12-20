@@ -23,7 +23,7 @@ const AboutUs = () => {
                 <div className="ps-section--custom">
                     <div className="container">
                         <div className="ps-section__header">
-                            <h1>About Us</h1>
+                            <h3>About Us</h3>
                         </div>
                         <div className="ps-section__content">
                             <p>
