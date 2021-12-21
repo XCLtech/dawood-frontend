@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Rating from '~/components/elements/Rating';
+// import Rating from '~/components/elements/Rating';
 
 const ModuleDetailTopInformation = ({ product }) => {
     // Views
@@ -9,12 +9,12 @@ const ModuleDetailTopInformation = ({ product }) => {
     if (product.is_sale) {
         priceView = (
             <h4 className="ps-product__price sale">
-                <del className="mr-2">&{product.sale_price}</del>$
+                <del className="mr-2">&{product.sale_price}</del>Rs.{' '}
                 {product.price}
             </h4>
         );
     } else {
-        priceView = <h4 className="ps-product__price">${product.price}</h4>;
+        priceView = <h4 className="ps-product__price">Rs. {product.price}</h4>;
     }
     return (
         <header>
@@ -26,10 +26,10 @@ const ModuleDetailTopInformation = ({ product }) => {
                         <a className="ml-2 text-capitalize">{product.vendor}</a>
                     </Link>
                 </p>
-                <div className="ps-product__rating">
+                {/* <div className="ps-product__rating">
                     <Rating />
                     <span>(1 review)</span>
-                </div>
+                </div> */}
             </div>
             {priceView}
         </header>
