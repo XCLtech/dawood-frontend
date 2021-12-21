@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const PersonalCare = () => {
-    return (
-        <div>
-            dafsd
-        </div>
-    )
-}
+    return <div>dafsd</div>;
+};
 
-export default PersonalCare
+export default PersonalCare;

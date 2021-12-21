@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const MaskPolisher = () => {
-    return (
-        <div>
-           addf 
-        </div>
-    )
-}
+    return <div>addf</div>;
+};
 
-export default MaskPolisher
+export default MaskPolisher;

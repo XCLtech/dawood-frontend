@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const FacialCare = () => {
-    return (
-        <div>
-            dsf
-        </div>
-    )
-}
+    return <div>dsf</div>;
+};
 
-export default FacialCare
+export default FacialCare;

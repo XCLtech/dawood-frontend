@@ -145,46 +145,36 @@
                         "megaItems": [
                             {
                                 "text": "International Brand",
-                                "url": "/"
+                                "url": "ladies/beautyAndMakeup/International-Brand"
                             },
                             {
                                 "text": "Face",
-                                "url": "/"
+                                "url": "ladies/beautyAndMakeup/Face"
                             },
                             {
                                 "text": "Eyes & Brows ",
-                                "url": "/"
+                                "url": "ladies/beautyAndMakeup/Eyes-Brows"
                             },
                                {
                                 "text": "Nails",
-                                "url": "/"
+                                "url": "ladies/beautyAndMakeup/Nails"
                             },
                             {
                                 "text": "Lips",
-                                "url": "/"
+                                "url": "ladies/beautyAndMakeup/Lips"
                             },
                             {
                                 "text": "Brushes",
-                                "url": "/"
+                                "url": "ladies/beautyAndMakeup/Brushes"
                             },
                             {
                                 "text": "Serum & fluid",
-                                "url": "/"
+                                "url": "ladies/beautyAndMakeup/Serum-fluid"
                             }
                             ,
                             {
                                 "text": "Makeup Removers",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Moisturizer & Creams",
-                                "url": "/"
-                            }
-                            ,
-                            {
-                                "text": "Serum & fluid",
-                                "url": "/"
+                                "url": "ladies/beautyAndMakeup/Makeup-Removers"
                             }
                         ]
                     },
@@ -193,40 +183,40 @@
                         "megaItems": [
                             {
                                 "text": "Mask & Polisher",
-                                "url": "/"
+                                "url": "/ladies/Skin-care/Mask-Polisher"
                             },
                             {
                                 "text": "Scrub & cleansers",
-                                "url": "/"
+                                "url": "/ladies/Skin-care/Scrub-cleansers"
                             },
                             {
-                                "text": "Moisturizer & creams ",
-                                "url": "/"
+                                "text": "Moisturizer & creams",
+                                "url": "/ladies/Skin-care/Moisturizer-&-Creams"
                             }
                             ,
                             {
-                                "text": "Hair Removal ",
-                                "url": "/"
+                                "text": "Hair Removal",
+                                "url": "/ladies/Skin-care/Hair-Removal"
                             }
                             ,
                             {
-                                "text": "Eye Care ",
-                                "url": "/"
+                                "text": "Eye Care",
+                                "url": "/ladies/Skin-care/Eye-Care"
                             }
                             ,
                             {
                                 "text": "Facial Care",
-                                "url": "/"
+                                "url": "/ladies/Skin-care/Facial-Care"
                             }
                             ,
                             {
                                 "text": "Personal Care",
-                                "url": "/"
+                                "url": "/ladies/Skin-care/Personal-Care"
                             }
                             ,
                             {
                                 "text": "Gels & Oils",
-                                "url": "/"
+                                "url": "/ladies/Skin-care/Gels-Oils"
                             }
 
                         ]
@@ -236,19 +226,19 @@
                         "megaItems": [
                             {
                                 "text": "Hair mask ",
-                                "url": "/"
+                                "url": "/ladies/BathAndBody/Hair-mask"
                             },
                             {
                                 "text": "Body wash",
-                                "url": "/"
+                                "url": "/ladies/BathAndBody/Body-wash"
                             },
                             {
                                 "text": "Hair brush",
-                                "url": "/"
+                                "url": "/ladies/BathAndBody/Hair-brush"
                             },
                             {
                                 "text": "Shampoo & condtioners",
-                                "url": "/"
+                                "url": "/ladies/BathAndBody/shampoo"
                             }
                         ]
                     }  ,
@@ -258,60 +248,60 @@
                         "megaItems": [
                             {
                                 "text": "Stitched suits",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Stitched-suits"
                             },
                             {
                                 "text": "Unstitched suits",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Unstitched-suits"
                             },
                             {
                                 "text": "Frock ",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Frock"
                             },
                                {
                                 "text": "Kurti",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Kurti"
                             },
                             {
                                 "text": "Coat & Inner",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Coat-Inner"
                             },
                             {
                                 "text": "Jacket",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Jacket"
                             },
                             {
                                 "text": "Scarf shawl",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Scarf-shawl"
                             },
                             {
                                 "text": "Abbaya",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Abbaya"
                             },
                             {
                                 "text": "Tights",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Tights"
                             }
                             ,
                             {
                                 "text": "Trousers ",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Trousers"
                             },
                             {
                                 "text": "Bra",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Bra"
                             },
                             {
                                 "text": "Nighty",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Nighty"
                             },
                             {
                                 "text": "Socks ",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Socks"
                             },
                             {
                                 "text": "Gloves",
-                                "url": "/"
+                                "url": "/ladies/GarmentsAndUnderGarments/Gloves"
                             }
                         ]
                     }
@@ -336,35 +326,35 @@
                         "megaItems": [
                             {
                                 "text": "T-Shirt",
-                                "url": "/"
+                                "url": "/Gents/shirts/T-Shirt"
                             },
                             {
                                 "text": "Sweatshirts",
-                                "url": "/"
+                                "url": "/Gents/shirts/Sweatshirts"
                             },
                             {
                                 "text": "Jackets",
-                                "url": "/"
+                                "url": "/Gents/shirts/Jackets"
                             },
                                {
                                 "text": "Sweater",
-                                "url": "/"
+                                "url": "/Gents/shirts/Sweater"
                             },
                             {
                                 "text": "Track Suit",
-                                "url": "/"
+                                "url": "/Gents/shirts/Track-Suit"
                             },
                             {
                                 "text": "Pants",
-                                "url": "/"
+                                "url": "/Gents/shirts/Pants"
                             },
                             {
                                 "text": "Trousers",
-                                "url": "/"
+                                "url": "/Gents/shirts/Trousers"
                             },
                             {
                                 "text": "Shorts",
-                                "url": "/"
+                                "url": "/Gents/shirts/Shorts"
                             }
                             
                         ]
@@ -375,35 +365,35 @@
                         "megaItems": [
                             {
                                 "text": "Caps",
-                                "url": "/"
+                                "url": "/Gents/Accesocries-&-perfumes/Caps"
                             },
                             {
                                 "text": "Gloves",
-                                "url": "/"
+                                "url": "/Gents/Accesocries-&-perfumes/Gloves"
                             },
                             {
                                 "text": "Belts ",
-                                "url": "/"
+                                "url": "/Gents/Accesocries-&-perfumes/Belts"
                             },
                             {
                                 "text": "Underware",
-                                "url": "/"
+                                "url": "/Gents/Accesocries-&-perfumes/Underware"
                             },
                             {
                                 "text":"Men Glasses",
-                                "url":"/"
+                                "url":"/Gents/Accesocries-&-perfumes/MenGlasses"
 
                             },{
                                 "text":"Men Watches",
-                                "url":"/"
+                                "url":"/Gents/Accesocries-&-perfumes/MenWatches"
                             },
                             {
                                 "text": "Leather Wallet",
-                                "url": "/"
+                                "url": "/Gents/Accesocries-&-perfumes/LeatherWallets"
                             },
                             {
                                 "text": "Body Mist",
-                                "url": "/"
+                                "url": "/Gents/Accesocries-&-perfumes/body-mist"
                             }
                         ]
                     }

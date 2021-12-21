@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const GelsOils = () => {
-    return (
-        <div>
-        sdas  
-        </div>
-    )
-}
+    return <div>sdas</div>;
+};
 
-export default GelsOils
+export default GelsOils;

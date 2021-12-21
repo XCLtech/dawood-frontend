@@ -116,11 +116,7 @@
                                 "text": "Makeup Removers",
                                 "url": "ladies/beautyAndMakeup/Makeup-Removers"
                             }
-                            ,
-                            {
-                                "text": "Moisturizer & Creams",
-                                "url": "ladies/beautyAndMakeup/beautyAndMakeup"
-                            }
+                           
                             
                         ]
                     },
@@ -137,7 +133,7 @@
                             },
                             {
                                 "text": "Moisturizer & creams",
-                                "url": "/ladies/Skin-care/Moisturizer-Creams    "
+                                "url": "/ladies/Skin-care/Moisturizer-&-Creams"
                             }
                             ,
                             {
@@ -276,11 +272,11 @@
                             },
                             {
                                 "text": "Sweatshirts",
-                                "url": "/Gents/shirts/Gshirts"
+                                "url": "/Gents/shirts/Sweatshirts"
                             },
                             {
                                 "text": "Jackets",
-                                "url": "/Gents/shirts/Track-Suit"
+                                "url": "/Gents/shirts/Jackets"
                             },
                                {
                                 "text": "Sweater",
@@ -339,7 +335,7 @@
                             },
                             {
                                 "text": "Body Mist",
-                                "url": "/Gents/Accesocries-&-perfumes/body"
+                                "url": "/Gents/Accesocries-&-perfumes/body-mist"
                             }
                         ]
                     }

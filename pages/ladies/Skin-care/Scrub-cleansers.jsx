@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const ScrubCleansers = () => {
-    return (
-        <div>
-           dafda 
-        </div>
-    )
-}
+    return <div>dafda</div>;
+};
 
-export default ScrubCleansers
+export default ScrubCleansers;
