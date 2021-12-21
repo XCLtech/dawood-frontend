@@ -61,12 +61,8 @@ class NavigationList extends Component {
     };
 
     render() {
-        const {
-            menuDrawer,
-            searchDrawer,
-            cartDrawer,
-            categoriesDrawer,
-        } = this.state;
+        const { menuDrawer, searchDrawer, cartDrawer, categoriesDrawer } =
+            this.state;
 
         return (
             <div className="navigation--list">

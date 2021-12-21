@@ -126,7 +126,7 @@ class ProductDetailImageSwatches extends Component {
                             </p>
                             <div className="ps-product__rating">
                                 {/* <Rating /> */}
-                                <span>(1 review)</span>
+                                {/* <span>(1 review)</span> */}
                             </div>
                         </div>
                         <h4 className="ps-product__price">${product.price}</h4>
