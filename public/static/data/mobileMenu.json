@@ -13,43 +13,43 @@
                         "megaItems": [
                             {
                                 "text": "RICE FLOUR & OTHER",
-                                "url": "/riceFlour&other"
+                                "url": "/grocery/riceFlour&other"
                             },
                             {
                                 "text": "SPICES & COOKING SUPPLEMENTS",
-                                "url": "/spices&cookingSupplements"
+                                "url": "/grocery/spices&cookingSupplements"
                                 
                             },
                             {
                                 "text": "OIL, GHEE & SUGAR",
-                                "url": "/oilGhee&sugar"
+                                "url": "/grocery/oilGhee&sugar"
                             },
                             {
                                 "icon": "icon-lampshade",
                                 "text": "KETCHUP, SAUCES & CONDIMENTS",
-                                "url": "/ketchupSauces&condiments"
+                                "url": "/grocery/ketchupSauces&condiments"
                             },
                             {
                                 "icon": "icon-heart-pulse",
                                 "text": "GRAMS & PULSES",
-                                "url": "/gram&pluses"
+                                "url": "/grocery/gram&pluses"
                             },
                             {
                                 "text": "PASTA NOODLE & SOUPS",
-                                "url": "/pastaNoodle&soups"
+                                "url": "/grocery/pastaNoodle&soups"
                             },
                             {
                                 "text": "JAMS JELLY & SPREADS",
-                                "url": "/jamsJelly"
+                                "url": "/grocery/jamsJelly"
                                
                             },
                             {
                                 "text": "TEA & COFFEE",
-                                "url": "/tea&coffee"
+                                "url": "/grocery/tea&coffee"
                             },
                             {
                                 "text": "POWDERED DESSERTS",
-                                "url": "/powdered&desserts"
+                                "url": "/grocery/powdered&desserts"
                             }
                           
                             

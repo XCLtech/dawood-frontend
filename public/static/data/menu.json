@@ -3,7 +3,7 @@
         "menu_1": [
 
             {
-                "text": "Lades",
+                "text": "Ladies",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
@@ -1011,16 +1011,16 @@
     "product_categories": [
         {
             "text": "RICE FLOUR & OTHER",
-            "url": "/riceFlour&other"
+            "url": "/grocery/riceFlour&other"
         },
         {
             "text": "SPICES & COOKING SUPPLEMENTS",
-            "url": "/spices&cookingSupplements"
+            "url": "/grocery/spices&cookingSupplements"
             
         },
         {
             "text": "OIL, GHEE & SUGAR",
-            "url": "/oilGhee&sugar"
+            "url": "/grocery/oilGhee&sugar"
         },
         {
             "text": "KETCHUP, SAUCES & CONDIMENTS",
@@ -1028,24 +1028,24 @@
         },
         {
             "text": "GRAMS & PULSES",
-            "url": "/gram&pluses"
+            "url": "/grocery/gram&pluses"
         },
         {
             "text": "PASTA NOODLE & SOUPS",
-            "url": "/pastaNoodle&soups"
+            "url": "/grocery/pastaNoodle&soups"
         },
         {
             "text": "JAMS JELLY & SPREADS",
-            "url": "/jamsJelly"
+            "url": "/grocery/jamsJelly"
            
         },
         {
             "text": "TEA & COFFEE",
-            "url": "/tea&coffee"
+            "url": "/grocery/tea&coffee"
         },
         {
             "text": "POWDERED DESSERTS",
-            "url": "/powdered&desserts"
+            "url": "/grocery/powdered&desserts"
         }
     ]
 }
