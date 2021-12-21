@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const TrackSuit = () => {
-    return (
-        <div>
-            dafdadfa
-        </div>
-    )
-}
+    return <div>dafdadfa</div>;
+};
 
-export default TrackSuit
+export default TrackSuit;

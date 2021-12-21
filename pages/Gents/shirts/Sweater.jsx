@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Sweater = () => {
-    return (
-        <div>
-         dafadf   
-        </div>
-    )
-}
+    return <div>dafadf</div>;
+};
 
-export default Sweater
+export default Sweater;

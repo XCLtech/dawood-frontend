@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Shorts = () => {
-    return (
-        <div>
-         fdafadf   
-        </div>
-    )
-}
+    return <div>fdafadf</div>;
+};
 
-export default Shorts
+export default Shorts;

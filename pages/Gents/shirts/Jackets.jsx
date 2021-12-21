@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Jackets = () => {
-    return (
-        <div>
-          pakistanc   
-        </div>
-    )
-}
+    return <div>pakistanc</div>;
+};
 
-export default Jackets
+export default Jackets;
