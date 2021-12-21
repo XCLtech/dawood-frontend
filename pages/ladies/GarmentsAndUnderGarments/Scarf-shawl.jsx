@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const ScarfShawl = () => {
-    return (
-        <div>
-           adfad 
-        </div>
-    )
-}
+    return <div>adfad</div>;
+};
 
-export default ScarfShawl
+export default ScarfShawl;

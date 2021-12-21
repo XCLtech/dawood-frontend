@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Pads = () => {
-    return (
-        <div>
-           dafadsfd 
-        </div>
-    )
-}
+    return <div>dafadsfd</div>;
+};
 
-export default Pads
+export default Pads;

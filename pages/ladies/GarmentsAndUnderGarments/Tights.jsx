@@ -1,12 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Tights = () => {
-    return (
-        <div>
-          asd
-            
-        </div>
-    )
-}
+    return <div>asd</div>;
+};
 
-export default Tights
+export default Tights;

@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Frock = () => {
-    return (
-        <div>
-           kdjk 
-        </div>
-    )
-}
+    return <div>kdjk</div>;
+};
 
-export default Frock
+export default Frock;

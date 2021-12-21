@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Unstitchedsuits = () => {
-    return (
-        <div>
-            daf
-        </div>
-    )
-}
+    return <div>daf</div>;
+};
 
-export default Unstitchedsuits
+export default Unstitchedsuits;

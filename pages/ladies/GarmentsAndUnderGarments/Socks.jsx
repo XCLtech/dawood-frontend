@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Socks = () => {
-    return (
-        <div>
-         dfadsfdasdf   
-        </div>
-    )
-}
+    return <div>dfadsfdasdf</div>;
+};
 
-export default Socks
+export default Socks;

@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const CoatInner = () => {
-    return (<div>adfaa</div>
-    )
-}
+    return <div>adfaa</div>;
+};
 
-export default CoatInner
+export default CoatInner;

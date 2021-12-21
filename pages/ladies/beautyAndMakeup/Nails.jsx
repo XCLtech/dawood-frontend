@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-export const International  = () => {
-    return (
-        <div>
-            hello world
-        </div>
-    )
-}
+const Nails = () => {
+    return <div>asd</div>;
+};
+
+export default Nails;
