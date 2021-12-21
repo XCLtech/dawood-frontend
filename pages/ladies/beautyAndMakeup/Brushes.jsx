@@ -1,7 +1,7 @@
 import React from 'react';
 
-const shampoo = () => {
+const Brushes = () => {
     return <div>asd</div>;
 };
 
-export default shampoo;
+export default Brushes;
