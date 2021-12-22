@@ -636,12 +636,12 @@
                             "url": "/MobileAndAccessories/accessories/HandsFree"
                         },
                         {
-                            "text": "Bluetooth ",
+                            "text": "Bluetooth",
                             "url": "/MobileAndAccessories/accessories/Bluetooth"
                         },
                         {
-                            "text": "Headphone ",
-                            "url": "/MobileAndAccessories/accessories/Headphone "
+                            "text": "Headphone",
+                            "url": "/MobileAndAccessories/accessories/Headphone"
                         },
                            {
                             "text": "Charger",
@@ -652,8 +652,8 @@
                             "url": "/MobileAndAccessories/accessories/Powerbank"
                         },
                         {
-                            "text": "key chen",
-                            "url": "/MobileAndAccessories/accessories/keychen"
+                            "text": "keychain",
+                            "url": "/MobileAndAccessories/accessories/keychain"
                         },
                         {
                             "text": "Lighter",
@@ -681,15 +681,15 @@
                     "megaItems": [
                         {
                             "text": "AppleJBL",
-                            "url": "/MobileAndAesocris/Speakers/JBL"
+                            "url": "/MobileAndAccessories/Speakers/JBL"
                         },
                         {
                             "text": "Ronin",
-                            "url": "/MobileAndAesocris/Speakers/Ronin"
+                            "url": "/MobileAndAccessories/Speakers/Ronin"
                         },
                         {
                             "text": "Audionic",
-                            "url": "/MobileAndAesocris/SpeakersAudionic"
+                            "url": "/MobileAndAccessories/SpeakersAudionic"
                         }
                     ]
                 }
@@ -710,7 +710,7 @@
                     "megaItems": [
                         {
                             "text": "Baba Shirts",
-                            "url": "/Childern/kids/Baba Shirts"
+                            "url": "/Childern/kids/BabaShirts"
                         },
                         {
                             "text": "Baba T-Shirts ",
@@ -747,7 +747,7 @@
                         }
                              ,
                              {
-                                "text": "Kids Glasses ",
+                                "text": "Kids Glasses",
                                 "url": "/Childern/kids/KidsGlasses"
                             } ,
                             {
@@ -862,7 +862,7 @@
                         },
                         {
                             "text": "Air sofa’s",
-                            "url": "/Childern/ToysAndBirthday/Airsofa’s"
+                            "url": "/Childern/ToysAndBirthday/Airsofas"
                         }
                           
                     ]
@@ -883,19 +883,19 @@
                         "megaItems": [
                             {
                                 "text": "Suitcases",
-                                "url": "/BagAndLaugae/LauguageAndTravel/Suitcases"
+                                "url": "/BagAndLuggage/LuggageAndTravel/Suitcases"
                             },
                             {
                                 "text": "Briefcases",
-                                "url": "/BagAndLaugae/LauguageAndTravel/Briefcases"
+                                "url": "/BagAndLuggage/LuggageAndTravel/Briefcases"
                             },
                             {
                                 "text": "Laptop Bags",
-                                "url": "/BagAndLaugae/LauguageAndTravel/LaptopBags"
+                                "url": "/BagAndLuggage/LuggageAndTravel/LaptopBags"
                             },
                                {
-                                "text": "Rugs & CarpetLuggage Accessories",
-                                "url": "/BagAndLaugae/LauguageAndTravel/LuggageAccessories"
+                                "text": "Rugs & Carpet Luggage Accessories",
+                                "url": "/BagAndLuggage/LuggageAndTravel/LuggageAccessories"
                             }
                             
                         ]
@@ -917,7 +917,7 @@
                 "mega": "true",
                 "megaContent": [
                     {
-                        "heading": "School essentials ",
+                        "heading": "School Essentials ",
                         "megaItems": [
                             {
                                 "text": "Boys School Bags",
@@ -928,11 +928,11 @@
                                 "url": "/Stationary/SchoolEssential/GirlsSchoolBags"
                             },
                             {
-                                "text": "Lunch box ",
+                                "text": "Lunch Box ",
                                 "url": "/Stationary/SchoolEssential/Lunchbox "
                             },
                                {
-                                "text": "Water bottles",
+                                "text": "Water Bottles",
                                 "url": "/Stationary/SchoolEssential/Waterbottles"
                             }
                             ,
@@ -944,7 +944,7 @@
                     }
                 ]
             },
-            {  "text": "Foot ware",
+            {  "text": "Footwear",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
@@ -955,7 +955,7 @@
                         "heading": " Ladies & Gents",
                         "megaItems": [
                             {
-                                "text": "slippers",
+                                "text": "Slippers",
                                 "url": "/FootWare/LadiesAndGents/slippers"
                             },
                             {
@@ -964,7 +964,7 @@
                             }
                             ,
                             {
-                                "text": "Ladies shoes",
+                                "text": "Ladies Shoes",
                                 "url": "/FootWare/LadiesAndGents/Ladiesshoes"
                             }
                             ,
