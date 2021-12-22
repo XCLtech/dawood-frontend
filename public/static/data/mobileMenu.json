@@ -1,7 +1,7 @@
 {
     "menuPrimary": {
         "menu_1": [
-            {  "text": "Grcery",
+            {  "text": "Grocery",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
@@ -863,7 +863,7 @@
                         }
 
                     ]
-                }
+                }  
                 ,
                 {
                     "heading": "Toys & Birthday items",
