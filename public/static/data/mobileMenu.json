@@ -110,7 +110,7 @@
                             ,
                             {
                                 "text": "Matha Patti",
-                                "url": "//ladies/jewellery-&-Watches/matha-patti"
+                                "url": "/ladies/jewellery-&-Watches/matha-patti"
                             }
                             ,
                             {
@@ -145,36 +145,36 @@
                         "megaItems": [
                             {
                                 "text": "International Brand",
-                                "url": "ladies/beautyAndMakeup/International-Brand"
+                                "url": "/ladies/beautyAndMakeup/International-Brand"
                             },
                             {
                                 "text": "Face",
-                                "url": "ladies/beautyAndMakeup/Face"
+                                "url": "/ladies/beautyAndMakeup/Face"
                             },
                             {
                                 "text": "Eyes & Brows ",
-                                "url": "ladies/beautyAndMakeup/Eyes-Brows"
+                                "url": "/ladies/beautyAndMakeup/Eyes-Brows"
                             },
                                {
                                 "text": "Nails",
-                                "url": "ladies/beautyAndMakeup/Nails"
+                                "url": "/ladies/beautyAndMakeup/Nails"
                             },
                             {
                                 "text": "Lips",
-                                "url": "ladies/beautyAndMakeup/Lips"
+                                "url": "/ladies/beautyAndMakeup/Lips"
                             },
                             {
                                 "text": "Brushes",
-                                "url": "ladies/beautyAndMakeup/Brushes"
+                                "url": "/ladies/beautyAndMakeup/Brushes"
                             },
                             {
                                 "text": "Serum & fluid",
-                                "url": "ladies/beautyAndMakeup/Serum-fluid"
+                                "url": "/ladies/beautyAndMakeup/Serum-fluid"
                             }
                             ,
                             {
                                 "text": "Makeup Removers",
-                                "url": "ladies/beautyAndMakeup/Makeup-Removers"
+                                "url": "/ladies/beautyAndMakeup/Makeup-Removers"
                             }
                         ]
                     },
@@ -462,7 +462,7 @@
                         "megaItems": [
                             { 
                                 "text": "Heater ",
-                                "url": "/Electronics/HomeAppliances/Heater "
+                                "url": "/Electronics/HomeAppliances/Heater"
                             },
                             { 
                                 "text": "Toaster & Sandwich makers",
@@ -478,7 +478,7 @@
                             },
                             { 
                                 "text": "BBQ grills",
-                                "url": "/Electronics/HomeAppliances/BBQs"
+                                "url": "/Electronics/HomeAppliances/BBQ"
                             },
                             { 
                                 "text": "Microwave ovens",
@@ -583,12 +583,12 @@
                                 "url": "/home/Dinning/Drinkware"
                             },
                             {
-                                "text": "Mugs & Tea Sets    ",
+                                "text": "Mugs & Tea Sets",
                                 "url": "/home/Dinning/Mugs"
                             },
                             {
                                 "text": "Dinnerware ",
-                                "url": "/home/Dinning/Dinnerware "
+                                "url": "/home/Dinning/Dinnerware"
                             },
                             {
                                 "text": "Tea trolley",
@@ -640,33 +640,33 @@
                         "megaItems": [
                             {
                                 "text": "Kitchenware",
-                                "url": "/home/kitchen/Kitchenware"
+                                "url": "/home/Kitchen/Kitchenware"
                             },
                             {
-                                "text": "Bakeware ",
-                                "url": "/home/kitchen/Bakeware "
+                                "text": "Bakeware",
+                                "url": "/home/Kitchen/Bakeware"
                             }
                             ,
                             {
-                                "text": "Cookware ",
-                                "url": "/home/kitchen/Cookware"
+                                "text": "Cookware",
+                                "url": "/home/Kitchen/Cookware"
                             }
                             ,
                             {
                                 "text": "Kitchen tools",
-                                "url": "/home/kitchen/Kitchen"
+                                "url": "/home/Kitchen/Kitchentool"
                             }
                             
                             ,
                             {
                                 "text": "Knife sets",
-                                "url": "/home/kitchen/Knife"
+                                "url": "/home/Kitchen/Knife"
                             
                             }
                             ,
                             {
                                 "text": "Charcoal grill & Accessories",
-                                "url": "/home/kitchen/Charcoal"
+                                "url": "/home/Kitchen/Charcoal"
                             
                             }
                             
@@ -726,11 +726,11 @@
                     "megaItems": [
                         {
                             "text": "Apple",
-                            "url": "/MobileAndAesocris/accessories/Apple"
+                            "url": "/MobileAndAccessories/accessories/apple"
                         },
                         {
                             "text": "Realme",
-                            "url": "/MobileAndAesocris/accessories/Realme"
+                            "url": "/MobileAndAccessories/accessories/Realme"
                         }
                     ]
                 }  ,
@@ -809,8 +809,8 @@
                                 "url": "/Childern/kids/KidsGlasses"
                             } ,
                             {
-                                "text": "Kids Shose",
-                                "url": "/Childern/kids/KidsShose"
+                                "text": "Kids Shoes",
+                                "url": "/Childern/kids/KidsShoes"
                             
                             }, {
                                 "text": "Kids Watches",
@@ -986,7 +986,7 @@
                                 "url": "/Stationary/SchoolEssential/GirlsSchoolBags"
                             },
                             {
-                                "text": "Lunch Box ",
+                                "text": "Lunch Box",
                                 "url": "/Stationary/SchoolEssential/Lunchbox "
                             },
                                {
@@ -995,8 +995,8 @@
                             }
                             ,
                                {
-                                "text": "Stationary & Accessories.",
-                                "url": "/Stationary/SchoolEssential/StationaryAccessories."
+                                "text": "Stationary & Accessories",
+                                "url": "/Stationary/SchoolEssential/StationaryAccessories"
                             }
                         ]
                     }
@@ -1023,7 +1023,7 @@
                             ,
                             {
                                 "text": "Ladies Shoes",
-                                "url": "/FootWare/LadiesAndGents/LadiesShoes"
+                                "url": "/FootWare/LadiesAndGents/Ladiesshoes"
                             }
                             ,
                             {
