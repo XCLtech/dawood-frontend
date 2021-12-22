@@ -633,31 +633,31 @@
                     "megaItems": [
                         {
                             "text": "Hands Free",
-                            "url": "/MobileAndAesocris/accesorise/HandsFree"
+                            "url": "/MobileAndAccessories/accessories/HandsFree"
                         },
                         {
                             "text": "Bluetooth ",
-                            "url": "/MobileAndAesocris/accesorise/Bluetooth"
+                            "url": "/MobileAndAccessories/accessories/Bluetooth"
                         },
                         {
                             "text": "Headphone ",
-                            "url": "/MobileAndAesocris/accesorise/Headphone "
+                            "url": "/MobileAndAccessories/accessories/Headphone "
                         },
                            {
                             "text": "Charger",
-                            "url": "/MobileAndAesocris/accesorise/Charger/Charger"
+                            "url": "/MobileAndAccessories/accessories/Charger/Charger"
                         },
                         {
                             "text": "Power bank",
-                            "url": "/MobileAndAesocris/accesorise/Powerbank"
+                            "url": "/MobileAndAccessories/accessories/Powerbank"
                         },
                         {
                             "text": "key chen",
-                            "url": "/MobileAndAesocris/accesorise/keychen"
+                            "url": "/MobileAndAccessories/accessories/keychen"
                         },
                         {
                             "text": "Lighter",
-                            "url": "/MobileAndAesocris/accesorise/Lighter"
+                            "url": "/MobileAndAccessories/accessories/Lighter"
                         }
                     ]
                 },
