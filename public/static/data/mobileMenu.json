@@ -726,11 +726,11 @@
                     "megaItems": [
                         {
                             "text": "Apple",
-                            "url": "/MobileAndAesocris/accesorise/Apple"
+                            "url": "/MobileAndAesocris/accessories/Apple"
                         },
                         {
                             "text": "Realme",
-                            "url": "/MobileAndAesocris/accesorise/Realme"
+                            "url": "/MobileAndAesocris/accessories/Realme"
                         }
                     ]
                 }  ,
@@ -747,7 +747,7 @@
                         },
                         {
                             "text": "Audionic",
-                            "url": "/MobileAndAccessories/SpeakersAudionic"
+                            "url": "/MobileAndAccessories/Speakers/Audionic"
                         }
                     ]
                 }
@@ -1017,13 +1017,13 @@
                                 "url": "/FootWare/LadiesAndGents/slippers"
                             },
                             {
-                                "text": "Gents Shose ",
-                                "url": "/FootWare/LadiesAndGents/GentsShose"
+                                "text": "Gents Shoes ",
+                                "url": "/FootWare/LadiesAndGents/GentsShoes"
                             }
                             ,
                             {
                                 "text": "Ladies Shoes",
-                                "url": "/FootWare/LadiesAndGents/Ladiesshoes"
+                                "url": "/FootWare/LadiesAndGents/LadiesShoes"
                             }
                             ,
                             {
@@ -1033,8 +1033,8 @@
                             
                             ,
                             {
-                                "text": "Kids Shose",
-                                "url": "/FootWare/LadiesAndGents/KidsShose"
+                                "text": "Kids Shoes",
+                                "url": "/FootWare/LadiesAndGents/KidsShoes"
                             
                             }
                             
