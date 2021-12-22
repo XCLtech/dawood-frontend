@@ -145,37 +145,39 @@
                         "megaItems": [
                             {
                                 "text": "International Brand",
-                                "url": "/ladies/beautyAndMakeup/International-Brand"
+                                "url": "/ladies/Beauty-And-Makeup/InternationalBrand"
                             },
                             {
                                 "text": "Face",
-                                "url": "/ladies/beautyAndMakeup/Face"
+                                "url": "/ladies/Beauty-And-Makeup/Face"
                             },
                             {
                                 "text": "Eyes & Brows ",
-                                "url": "/ladies/beautyAndMakeup/Eyes-Brows"
+                                "url": "/ladies/Beauty-And-Makeup/Eyes-Brows"
                             },
                                {
                                 "text": "Nails",
-                                "url": "/ladies/beautyAndMakeup/Nails"
+                                "url": "/ladies/Beauty-And-Makeup/Nails"
                             },
                             {
                                 "text": "Lips",
-                                "url": "/ladies/beautyAndMakeup/Lips"
+                                "url": "/ladies/Beauty-And-Makeup/Lips"
                             },
                             {
                                 "text": "Brushes",
-                                "url": "/ladies/beautyAndMakeup/Brushes"
+                                "url": "/ladies/Beauty-And-Makeup/Brushes"
                             },
                             {
                                 "text": "Serum & fluid",
-                                "url": "/ladies/beautyAndMakeup/Serum-fluid"
+                                "url": "/ladies/Beauty-And-Makeup/Serum-fluid"
                             }
                             ,
                             {
                                 "text": "Makeup Removers",
-                                "url": "/ladies/beautyAndMakeup/Makeup-Removers"
+                                "url": "/ladies/Beauty-And-Makeup/Makeup-Removers"
                             }
+                           
+                            
                         ]
                     },
                     {
