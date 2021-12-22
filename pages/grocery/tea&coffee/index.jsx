@@ -1,7 +1,7 @@
 import React from 'react';
 import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
-import WidgetShopBrands from '~/components/shared/widgets/WidgetShopBrands';
-import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShopFilterByPriceRange';
+// import WidgetShopBrands from '~/components/shared/widgets/WidgetShopBrands';
+// import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShopFilterByPriceRange';
 import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
 import Product from '~/components/elements/products/DemoProduct';
@@ -18,8 +18,8 @@ const index = () => {
                     <div className="ps-layout--shop">
                         <div className="ps-layout__left">
                             <WidgetShopCategories />
-                            <WidgetShopBrands />
-                            <WidgetShopFilterByPriceRange />
+                            {/* <WidgetShopBrands />
+                            <WidgetShopFilterByPriceRange /> */}
                         </div>
                         <div className="ps-layout__right">
                             <div className="d-flex justify-content-center row">

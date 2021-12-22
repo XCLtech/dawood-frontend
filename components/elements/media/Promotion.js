@@ -13,7 +13,7 @@ const Promotion = ({ link, image }) => {
         );
     } else {
         return (
-            <Link href={link ? link : '/shop'}>
+            <Link href="/grocery/riceFlour&other">
                 <a className="ps-collection">
                     <img
                         src="/static/img/onlineGrocery.png"

@@ -2,10 +2,9 @@ import React from 'react';
 // import BreadCrumb from '~/components/elements/BreadCrumb';
 import ShopItems from '~/components/partials/shop/ShopItems';
 import ProductGroupByCarousel from '~/components/partials/product/ProductGroupByCarousel';
-
 import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
-import WidgetShopBrands from '~/components/shared/widgets/WidgetShopBrands';
-import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShopFilterByPriceRange';
+// import WidgetShopBrands from '~/components/shared/widgets/WidgetShopBrands';
+// import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShopFilterByPriceRange';
 import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
 
@@ -21,8 +20,8 @@ const index = () => {
                     <div className="ps-layout--shop">
                         <div className="ps-layout__left">
                             <WidgetShopCategories />
-                            <WidgetShopBrands />
-                            <WidgetShopFilterByPriceRange />
+                            {/* <WidgetShopBrands />
+                            <WidgetShopFilterByPriceRange /> */}
                         </div>
                         <div className="ps-layout__right py-4">
                             {/* <ProductGroupByCarousel
