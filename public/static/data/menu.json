@@ -356,50 +356,46 @@
                         "megaItems": [
                             {
                                 "text": "Kettles & Coffee Makers",
-                                "url": "/"
+                                "url": "/Electronics/SmallAppliances/Kettles"
                             },
                             {
                                 "text": "Shavers & trimmers",
-                                "url": "/"
+                                "url": "/Electronics/SmallAppliances/Shavers"
                             },
                             {
                                 "text": "Scales",
-                                "url": "/"
+                                "url": "/Electronics/SmallAppliances/Scales"
                             },
                             {
                                 "text": "Humidifiers",
-                                "url": "/"
+                                "url": "/Electronics/SmallAppliances/Humidifiers"
                             },
                             {
                                 "text": "Dryers & straighteners",
-                                "url": "/"
+                                "url": "/Electronics/SmallAppliances/Dryers"
                             },
 
                             {
                                 "text": "Elipators",
-                                "url": "/"
+                                "url": "/Electronics/SmallAppliances/Elipators"
                             },
                             {
                                 "text": "Massagers",
-                                "url": "/"
+                                "url": "/Electronics/SmallAppliances/Massagers"
                             },
                             {
                                 "text": "Choppers",
-                                "url": "/"
+                                "url": "/Electronics/SmallAppliances/Choppers"
                             }
                             ,
-                            {
-                                "text": "Choppers",
-                                "url": "/"
-                            }
-                            ,
+                           
                             {
                                 "text": "Charging Light",
-                                "url": "/"
+                                "url": "/Electronics/SmallAppliances/Charging"
                             },
                             {
                                 "text": "Electronics Accessories",
-                                "url": "/"
+                                "url": "/Electronics/SmallAppliances/Electronics"
                             }
                         ]
                     },
@@ -408,44 +404,44 @@
                         "megaItems": [
                             { 
                                 "text": "Heater ",
-                                "url": "/"
+                                "url": "/Electronics/HomeAppliances/Heater "
                             },
                             { 
                                 "text": "Toaster & Sandwich makers",
-                                "url": "/"
+                                "url": "/Electronics/HomeAppliances/Toaster"
                             },
                             { 
                                 "text": "Juicers, Blender, Grinders & Mixers",
-                                "url": "/"
+                                "url": "/Electronics/HomeAppliances/Juicers"
                             },
                             { 
                                 "text": "Fryers",
-                                "url": "/"
+                                "url": "/Electronics/HomeAppliances/Fryers"
                             },
                             { 
                                 "text": "BBQ grills",
-                                "url": "/"
+                                "url": "/Electronics/HomeAppliances/BBQs"
                             },
                             { 
                                 "text": "Microwave ovens",
-                                "url": "/"
+                                "url": "/Electronics/HomeAppliances/Microwave"
                             },
                             { 
                                 "text": "Iron & Garment steamers",
-                                "url": "/"
+                                "url": "/Electronics/HomeAppliances/Iron"
                             },
 
                             {
                                 "text": "Food proccessors",
-                                "url": "/post/detail-2"
+                                "url": "/Electronics/HomeAppliances/Food"
                             },
                             {
                                 "text": "Insect killer",
-                                "url": "/post/detail-3"
+                                "url": "/Electronics/HomeAppliances/Insect"
                             },
                             {
                                 "text": "Vacuum cleaner",
-                                "url": "/post/detail-3"
+                                "url": "/Electronics/HomeAppliances/Vacuum"
                             }
                         ]
                     }
@@ -466,54 +462,54 @@
                         "megaItems": [
                             {
                                 "text": "Candles & Candles holder",
-                                "url": "/"
+                                "url": "/home/HomeDecor/Candles"
                             },
                             {
                                 "text": "Vase",
-                                "url": "/"
+                                "url": "/home/HomeDecor/Vase"
                             },
                             {
                                 "text": "Tissue box",
-                                "url": "/"
+                                "url": "/home/HomeDecor/Tissue"
                             },
                                {
                                 "text": "Rugs & Carpet",
-                                "url": "/"
+                                "url": "/home/HomeDecor/Rugs"
                             },
                             {
                                 "text": "Home Accessories   ",
-                                "url": "/"
+                                "url": "/home/HomeDecor/Home"
                             },
                             {
                                 "text": "Lamp",
-                                "url": "/"
+                                "url": "/home/HomeDecor/Lamp"
                             },
                             {
                                 "text": "Bowl",
-                                "url": "/"
+                                "url": "/home/HomeDecor/Bowl"
                             },
                             {
                                 "text": "Bowl Sets",
-                                "url": "/"
+                                "url": "/home/HomeDecor/Bowla"
                             },
                             {
                                 "text": "Bathroom Sets",
-                                "url": "/"
+                                "url": "/home/HomeDecor/Bathroom"
                             }
                             ,
                             {
                                 "text": "Umbrellas ",
-                                "url": "/"
+                                "url": "/home/HomeDecor/Umbrellas"
                             }
                             ,
                             {
                                 "text": "Father & Wall clocks",
-                                "url": "/"
+                                "url": "/home/HomeDecor/Father"
                             }
                             ,
                             {
                                 "text": "Shoe rack, Cabinet & Coat hanger",
-                                "url": "/"
+                                "url": "/home/HomeDecor/Shoe"
                             }
                         ]
                     },
@@ -522,32 +518,32 @@
                         "megaItems": [
                             {
                                 "text": "Serveware",
-                                "url": "/"
+                                "url": "/home/Dinning/Serveware"
                             },
                             {
                                 "text": "Drinkware",
-                                "url": "/"
+                                "url": "/home/Dinning/Drinkware"
                             },
                             {
                                 "text": "Mugs & Tea Sets    ",
-                                "url": "/"
+                                "url": "/home/Dinning/Mugs"
                             },
                             {
                                 "text": "Dinnerware ",
-                                "url": "/"
+                                "url": "/home/Dinning/Dinnerware "
                             },
                             {
                                 "text": "Tea trolley",
-                                "url": "/"
+                                "url": "/home/Dinning/Tea"
                             },
                             {
                                 "text": "Cutlery",
-                                "url": "/"
+                                "url": "/home/Dinning/Cutlery"
                             },
 
                             {
                                 "text": "Kitchen Storage",
-                                "url": "/post/detail-2"
+                                "url": "/home/Dinning/Kitchen"
                             }
                         ]
                     }
@@ -557,21 +553,21 @@
                         "megaItems": [
                             {
                                 "text": "Blankets",
-                                "url": "/"
+                                "url": "/home/BeddingBath/Blankets"
                             },
                             {
                                 "text": "Cushions & Pillow ",
-                                "url": "/"
+                                "url": "/home/BeddingBath/Cushions"
                             }
                             ,
                             {
                                 "text": "Fancy Stool",
-                                "url": "/"
+                                "url": "/home/BeddingBath/Fancy"
                             }
                             ,
                             {
                                 "text": "Bed Sheets",
-                                "url": "/"
+                                "url": "/home/BeddingBath/Bed"
                             }
                             
                                          
@@ -586,33 +582,33 @@
                         "megaItems": [
                             {
                                 "text": "Kitchenware",
-                                "url": "/"
+                                "url": "/home/kitchen/Kitchenware"
                             },
                             {
                                 "text": "Bakeware ",
-                                "url": "/"
+                                "url": "/home/kitchen/Bakeware "
                             }
                             ,
                             {
                                 "text": "Cookware ",
-                                "url": "/"
+                                "url": "/home/kitchen/Cookware"
                             }
                             ,
                             {
                                 "text": "Kitchen tools",
-                                "url": "/"
+                                "url": "/home/kitchen/Kitchen"
                             }
                             
                             ,
                             {
                                 "text": "Knife sets",
-                                "url": "/"
+                                "url": "/home/kitchen/Knife"
                             
                             }
                             ,
                             {
                                 "text": "Charcoal grill & Accessories",
-                                "url": "/"
+                                "url": "/home/kitchen/Charcoal"
                             
                             }
                             
@@ -637,31 +633,31 @@
                     "megaItems": [
                         {
                             "text": "Hands Free",
-                            "url": "/"
+                            "url": "/MobileAndAesocris/accesorise/HandsFree"
                         },
                         {
                             "text": "Bluetooth ",
-                            "url": "/"
+                            "url": "/MobileAndAesocris/accesorise/Bluetooth"
                         },
                         {
                             "text": "Headphone ",
-                            "url": "/"
+                            "url": "/MobileAndAesocris/accesorise/Headphone "
                         },
                            {
                             "text": "Charger",
-                            "url": "/"
+                            "url": "/MobileAndAesocris/accesorise/Charger/Charger"
                         },
                         {
                             "text": "Power bank",
-                            "url": "/"
+                            "url": "/MobileAndAesocris/accesorise/Powerbank"
                         },
                         {
                             "text": "key chen",
-                            "url": "/"
+                            "url": "/MobileAndAesocris/accesorise/keychen"
                         },
                         {
                             "text": "Lighter",
-                            "url": "/"
+                            "url": "/MobileAndAesocris/accesorise/Lighter"
                         }
                     ]
                 },
@@ -672,11 +668,11 @@
                     "megaItems": [
                         {
                             "text": "Apple",
-                            "url": "/"
+                            "url": "/MobileAndAesocris/accesorise/Apple"
                         },
                         {
                             "text": "Realme",
-                            "url": "/"
+                            "url": "/MobileAndAesocris/accesorise/Realme"
                         }
                     ]
                 }  ,
@@ -685,15 +681,15 @@
                     "megaItems": [
                         {
                             "text": "AppleJBL",
-                            "url": "/"
+                            "url": "/MobileAndAesocris/Speakers/JBL"
                         },
                         {
                             "text": "Ronin",
-                            "url": "/"
+                            "url": "/MobileAndAesocris/Speakers/Ronin"
                         },
                         {
                             "text": "Audionic",
-                            "url": "/"
+                            "url": "/MobileAndAesocris/SpeakersAudionic"
                         }
                     ]
                 }
@@ -714,53 +710,53 @@
                     "megaItems": [
                         {
                             "text": "Baba Shirts",
-                            "url": "/"
+                            "url": "/Childern/kids/Baba Shirts"
                         },
                         {
                             "text": "Baba T-Shirts ",
-                            "url": "/"
+                            "url": "/Childern/kids/BabaT-Shirts"
                         }
                         ,
                         {
                             "text": "Baby Shirts",
-                            "url": "/"
+                            "url": "/Childern/kids/BabyShirts"
                         }
                         ,
                         {
                             "text": "Baby T-Shirts",
-                            "url": "/"
+                            "url": "/Childern/kids/BabyT-Shirts"
                         }
                         
                         ,
                         {
                             "text": "Baby Frock",
-                            "url": "/"
+                            "url": "/Childern/kids/BabyFrock"
                         
                         }
                         ,
                         {
                             "text": "Fancy Suits",
-                            "url": "/"
+                            "url": "/Childern/kids/FancySuits"
                         
                         }
                         ,
                         {
                             "text": "Pant",
-                            "url": "/"
+                            "url": "/Childern/kids/Pant"
                         
                         }
                              ,
                              {
                                 "text": "Kids Glasses ",
-                                "url": "/"
+                                "url": "/Childern/kids/KidsGlasses"
                             } ,
                             {
                                 "text": "Kids Shose",
-                                "url": "/"
+                                "url": "/Childern/kids/KidsShose"
                             
                             }, {
                                 "text": "Kids Watches",
-                                "url": "/"
+                                "url": "/Childern/kids/KidsWatches"
                             }
                     ]
                 },
@@ -769,44 +765,44 @@
                     "megaItems": [
                         {
                             "text": "Feeders",
-                            "url": "/"
+                            "url": "/Childern/BornBaby/Feeders"
                         },
                         {
                             "text": "Romper ",
-                            "url": "/"
+                            "url": "/Childern/BornBaby/Romper"
                         }
                         ,
                         {
                             "text": "Suits",
-                            "url": "/"
+                            "url": "/Childern/BornBaby/Suits"
                         }
                         ,
                         {
                             "text": "Jhola",
-                            "url": "/"
+                            "url": "/Childern/BornBaby/Jhola"
                         }
                         
                         ,
                         {
                             "text": "Baby carrying bed",
-                            "url": "/"
+                            "url": "/Childern/BornBaby/Babycarryingbed"
                         
                         }
                         ,
                         {
                             "text": "Carry coat",
-                            "url": "/"
+                            "url": "/Childern/BornBaby/Carrycoat"
                         
                         }
                         ,
                         {
                             "text": "Walker ",
-                            "url": "/"
+                            "url": "/Childern/BornBaby/Walker"
                         
                         },
                         {
                             "text": "Baby bags",
-                            "url": "/"
+                            "url": "/Childern/BornBaby/Babybags"
                         
                         }
 
@@ -821,52 +817,52 @@
                     "megaItems": [
                         {
                             "text": "Exclusive toys ",
-                            "url": "/"
+                            "url": "/Childern/ToysAndBirthday/Exclusivetoys"
                         },
                         {
                             "text": "Cars & bikes",
-                            "url": "/"
+                            "url": "/Childern/ToysAndBirthday/Carsbikes"
                         },
                         {
                             "text": "Activity toys ",
-                            "url": "/"
+                            "url": "/Childern/ToysAndBirthday/Activitytoys"
                         },
                            {
                             "text": "Drones",
-                            "url": "/"
+                            "url": "/Childern/ToysAndBirthday/Drones"
                         },
                         {
                             "text": "Playhouse & Slides",
-                            "url": "/"
+                            "url": "/Childern/ToysAndBirthday/PlayhouseSlides"
                         },
                         {
                             "text": "Ball house & tents",
-                            "url": "/"
+                            "url": "/Childern/ToysAndBirthday/Ballhousetents"
                         }
                         ,
                         {
                             "text": "Halloween toys",
-                            "url": "/"
+                            "url": "/Childern/ToysAndBirthday/Halloweentoys"
                         } ,
                         {
                             "text": "Dollhouse & Sets",
-                            "url": "/"
+                            "url": "/Childern/ToysAndBirthday/DollhouseSets"
                         },
                         {
                             "text": "Swimming pool",
-                            "url": "/"
+                            "url": "/Childern/ToysAndBirthday/Swimmingpool"
                         },
                         {
                             "text": "Catridge  & filters",
-                            "url": "/"
+                            "url": "/Childern/ToysAndBirthday/Catridgefilters"
                         },
                         {
                             "text": "Accessories",
-                            "url": "/"
+                            "url": "/Childern/ToysAndBirthday/Accessories"
                         },
                         {
                             "text": "Air sofa’s",
-                            "url": "/"
+                            "url": "/Childern/ToysAndBirthday/Airsofa’s"
                         }
                           
                     ]
@@ -887,19 +883,19 @@
                         "megaItems": [
                             {
                                 "text": "Suitcases",
-                                "url": "/blog/suitcases"
+                                "url": "/BagAndLaugae/LauguageAndTravel/Suitcases"
                             },
                             {
                                 "text": "Briefcases",
-                                "url": "/"
+                                "url": "/BagAndLaugae/LauguageAndTravel/Briefcases"
                             },
                             {
                                 "text": "Laptop Bags",
-                                "url": "/"
+                                "url": "/BagAndLaugae/LauguageAndTravel/LaptopBags"
                             },
                                {
                                 "text": "Rugs & CarpetLuggage Accessories",
-                                "url": "/"
+                                "url": "/BagAndLaugae/LauguageAndTravel/LuggageAccessories"
                             }
                             
                         ]
@@ -925,24 +921,24 @@
                         "megaItems": [
                             {
                                 "text": "Boys School Bags",
-                                "url": "/"
+                                "url": "/Stationary/SchoolEssential/BoysSchoolBags"
                             },
                             {
                                 "text": "Girls School Bags",
-                                "url": "/"
+                                "url": "/Stationary/SchoolEssential/GirlsSchoolBags"
                             },
                             {
                                 "text": "Lunch box ",
-                                "url": "/"
+                                "url": "/Stationary/SchoolEssential/Lunchbox "
                             },
                                {
                                 "text": "Water bottles",
-                                "url": "/"
+                                "url": "/Stationary/SchoolEssential/Waterbottles"
                             }
                             ,
                                {
                                 "text": "Stationary & Accessories.",
-                                "url": "/"
+                                "url": "/Stationary/SchoolEssential/StationaryAccessories."
                             }
                         ]
                     }
@@ -960,27 +956,27 @@
                         "megaItems": [
                             {
                                 "text": "slippers",
-                                "url": "/"
+                                "url": "/FootWare/LadiesAndGents/slippers"
                             },
                             {
                                 "text": "Gents Shose ",
-                                "url": "/"
+                                "url": "/FootWare/LadiesAndGents/GentsShose"
                             }
                             ,
                             {
                                 "text": "Ladies shoes",
-                                "url": "/"
+                                "url": "/FootWare/LadiesAndGents/Ladiesshoes"
                             }
                             ,
                             {
                                 "text": "Ladies Sandal",
-                                "url": "/"
+                                "url": "/FootWare/LadiesAndGents/LadiesSandal"
                             }
                             
                             ,
                             {
                                 "text": "Kids Shose",
-                                "url": "/"
+                                "url": "/FootWare/LadiesAndGents/KidsShose"
                             
                             }
                             
@@ -992,7 +988,6 @@
           
                 ]
             }
-            
         
           
            
