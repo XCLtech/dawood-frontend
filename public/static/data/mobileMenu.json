@@ -721,8 +721,6 @@
                         }
                     ]
                 },
-
-               
                 {
                     "heading": "Smart Watches",
                     "megaItems": [
@@ -755,8 +753,6 @@
                 }
             ]
         },
-
-
         {
             "text": "Childern",
             "url": "/",
@@ -867,11 +863,8 @@
                         }
 
                     ]
-                }  ,
-
-                
-
-                
+                }
+                ,
                 {
                     "heading": "Toys & Birthday items",
                     "megaItems": [

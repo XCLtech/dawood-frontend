@@ -3,7 +3,7 @@
         "menu_1": [
 
             {
-                "text": "Ladies",
+                "text": "Laies",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
