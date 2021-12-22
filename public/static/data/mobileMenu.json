@@ -1,7 +1,7 @@
 {
     "menuPrimary": {
         "menu_1": [
-            {  "text": "Grocery",
+            {  "text": "Grcery",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
