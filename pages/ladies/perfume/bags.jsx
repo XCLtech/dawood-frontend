@@ -24,6 +24,7 @@ const index = () => {
                                         image={item.url}
                                         title={item.title}
                                         price={item.price}
+                                        items={item}
                                     />
                                 ))}
                             </div>
