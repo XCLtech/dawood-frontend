@@ -8,7 +8,6 @@ const ModuleDetailActionsMobile = ({ ecomerce, product }) => {
         e.preventDefault();
         addItem({ id: product.id, quantity: 1 }, ecomerce.cartItems, 'cart');
     };
-
     return (
         <div className="ps-product__actions-mobile">
             <a

@@ -18,7 +18,7 @@ const index = () => {
                         </div>
                         <div className="ps-layout__right ">
                             <div className="d-flex justify-content-center row">
-                                {data.riceFlour.map((item, index) => (
+                                {data.handpurse.map((item, index) => (
                                     <Product
                                         key={index}
                                         image={item.url}
