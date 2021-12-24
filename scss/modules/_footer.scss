@@ -10,7 +10,7 @@
 
     &__links {
         padding: 60px 0;
-        border-top: 1px solid #e1e1e1;
+        border-top: px solid #e1e1e1;
 
         p {
             strong {
@@ -65,11 +65,11 @@
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-        border-top: 1px solid #e1e1e1;
+        border-top: 1px solid #de0000;
 
         p {
             margin-bottom: 0;
-            line-height: 30px;
+            line-height: 50px;
             color: $color-heading;
 
             &:last-child {
@@ -103,6 +103,11 @@
             }
         }
     }
+    @include media('<lg') {
+        &__copyright {
+            padding: 35px 0px 100px 0px;
+        }
+    }
 
     @include media('<xs') {
         &__widgets {
@@ -114,6 +119,7 @@
         &__copyright {
             flex-flow: row wrap;
             text-align: center;
+            line-height: 10px;
 
             p {
                 display: block;

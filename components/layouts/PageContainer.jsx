@@ -55,7 +55,6 @@ const PageContainer = ({
                     }}
                 />
             </a>
-            {/* <i className="fa fa-whatsapp"></i> */}
         </>
     );
 };
