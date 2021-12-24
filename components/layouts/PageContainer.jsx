@@ -3,7 +3,6 @@ import Head from 'next/head';
 import HeaderDefault from '~/components/shared/headers/HeaderDefault';
 import HeaderMobile from '~/components/shared/headers/HeaderMobile';
 import FooterFullwidth from '~/components/shared/footers/FooterFullwidth';
-
 const initHeaders = (
     <>
         <HeaderDefault />
@@ -38,6 +37,25 @@ const PageContainer = ({
             {header}
             {children}
             {footer}
+            <a
+                class="whatsapp"
+                href="https://wa.me/03188409160"
+                target={'_blank'}>
+                <img
+                    src="https://cdn-icons-png.flaticon.com/512/220/220236.png"
+                    alt="Whatsapp"
+                    style={{
+                        position: 'fixed',
+                        bottom: '100px',
+                        marginLeft: '20px',
+                        width: '40px',
+                        left: 0,
+                        color: 'green',
+                        cursor: 'pointer',
+                    }}
+                />
+            </a>
+            {/* <i className="fa fa-whatsapp"></i> */}
         </>
     );
 };
