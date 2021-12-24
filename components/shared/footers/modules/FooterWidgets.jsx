@@ -4,7 +4,7 @@ import Link from 'next/link';
 const FooterWidgets = () => (
     <div className="ps-footer__widgets">
         <aside className="widget widget_footer widget_contact-us">
-            <h4 className="widget-title">Contact us</h4>
+            <h4 className="widget-title">CONTACT US</h4>
             <div className="widget_content">
                 <p>Free support line</p>
                 <h3>03188409160</h3>
@@ -78,7 +78,7 @@ const FooterWidgets = () => (
             </ul>
         </aside>
         <aside className="widget widget_footer">
-            <h4 className="widget-title">Extras</h4>
+            <h4 className="widget-title">EXTRAS</h4>
             <ul className="ps-list--link">
                 <li>
                     <Link href="/page/faqs">
