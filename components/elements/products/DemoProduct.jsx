@@ -11,7 +11,7 @@ const DemoProduct = ({ image, product, title, price }) => {
                         style={{
                             width: '170px',
                         }}>
-                        <img src={image} alt="asd" />
+                        <img src={image} alt="image" />
                         <ModuleProductActions product={product} />
                     </div>
                     <div className="ps-product__container">
