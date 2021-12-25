@@ -33,8 +33,8 @@ const ShopDefaultPage = () => {
                     <div className="ps-layout--shop">
                         <div className="ps-layout__left">
                             <WidgetShopCategories />
-                            <WidgetShopBrands />
-                            <WidgetShopFilterByPriceRange />
+                            {/* <WidgetShopBrands /> */}
+                            {/* <WidgetShopFilterByPriceRange /> */}
                         </div>
                         <div className="ps-layout__right">
                             <ProductGroupByCarousel

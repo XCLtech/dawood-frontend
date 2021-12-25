@@ -1,7 +1,6 @@
 import React from 'react';
 import ModuleProductActions from '~/components/elements/products/modules/ModuleProductActions';
-import Rating from '~/components/elements/Rating';
-
+// import Rating from '~/components/elements/Rating';
 const DemoProduct = ({ image, product, title, price }) => {
     return (
         <>

@@ -1,5 +1,4 @@
 import Repository, { baseUrl, serializeQuery } from './Repository';
-
 class ProductRepository {
     async getRecords(params) {
         const reponse = await Repository.get(
