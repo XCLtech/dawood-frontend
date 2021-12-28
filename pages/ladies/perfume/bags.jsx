@@ -4,6 +4,8 @@ import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
 import Product from '~/components/elements/products/DemoProduct';
 import data from '@@/public/static/data/demo.json';
+import WidgetShopBrands from '~/components/shared/widgets/WidgetShopBrands';
+import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShopFilterByPriceRange';
 
 const index = () => {
     return (
@@ -13,8 +15,8 @@ const index = () => {
                     <div className="ps-layout--shop">
                         <div className="ps-layout__left">
                             <WidgetShopCategories />
-                            {/* <WidgetShopBrands /> */}
-                            {/* <WidgetShopFilterByPriceRange /> */}
+                            <WidgetShopBrands />
+                            <WidgetShopFilterByPriceRange />
                         </div>
                         <div className="ps-layout__right ">
                             <div className="d-flex justify-content-center row">

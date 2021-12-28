@@ -10,6 +10,7 @@ const DemoProduct = ({ image, product, title, price }) => {
                         className="ps-product__thumbnail"
                         style={{
                             width: '170px',
+                            cursor: 'pointer',
                         }}>
                         <img src={image} alt="image" />
                         <ModuleProductActions product={product} />
