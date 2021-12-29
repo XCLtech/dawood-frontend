@@ -7,7 +7,6 @@ import ModuleProductDetailSpecification from '~/components/elements/detail/modul
 import ModuleProductDetailSharing from '~/components/elements/detail/modules/ModuleProductDetailSharing';
 import ModuleDetailActionsMobile from '~/components/elements/detail/modules/ModuleDetailActionsMobile';
 import ModuleDetailTopInformation from '~/components/elements/detail/modules/ModuleDetailTopInformation';
-
 const ProductDetailFullwidth = ({ product }) => {
     return (
         <div className="ps-product--detail ps-product--fullwidth">
