@@ -1,7 +1,9 @@
 import React from 'react';
-import ModuleProductActions from '~/components/elements/products/modules/ModuleProductActions';
+// import ModuleProductActions from '~/components/elements/products/modules/ModuleProductActions';
 // import Rating from '~/components/elements/Rating';
-const DemoProduct = ({ image, product, title, price }) => {
+import { useCart } from 'react-use-cart';
+const DemoProduct = ({ image, product, title, price, item }) => {
+    const { addItem } = useCart();
     return (
         <>
             <div className="row">
@@ -13,7 +15,18 @@ const DemoProduct = ({ image, product, title, price }) => {
                             cursor: 'pointer',
                         }}>
                         <img src={image} alt="image" />
-                        <ModuleProductActions product={product} />
+                        {/* <ModuleProductActions product={product} /> */}
+                        <button
+                            className="ps-product__actions"
+                            style={{
+                                padding: '5px 20px',
+                                border: 'none',
+                                color: 'white',
+                                backgroundColor: '#de0000',
+                            }}
+                            onClick={() => addItem(item)}>
+                            Add to cart
+                        </button>
                     </div>
                     <div className="ps-product__container">
                         <a className="ps-product__vendor">{title}</a>

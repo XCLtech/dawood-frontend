@@ -10,34 +10,36 @@ import HomeDefaultTopCategories from '~/components/partials/homepage/home-defaul
 import HomeDefaultProductListing from '~/components/partials/homepage/home-default/HomeDefaultProductListing';
 import HomeDefaultBanner from '~/components/partials/homepage/home-default/HomeDefaultBanner';
 import PageContainer from '~/components/layouts/PageContainer';
-
+import { CartProvider } from 'react-use-cart';
 const HomepageDefaultPage = () => {
     return (
-        <PageContainer title="Online">
-            <main id="homepage-1">
-                <HomeDefaultBanner />
-                <SiteFeatures />
-                <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />
-                <HomeAdsColumns />
-                <HomeDefaultTopCategories />
-                <HomeDefaultProductListing
-                    collectionSlug="consumer-electronics"
-                    title="Consumer Electronics"
-                />
-                <HomeDefaultProductListing
-                    collectionSlug="clothings"
-                    title="Clothings"
-                />
-                <HomeDefaultProductListing
-                    collectionSlug="garden-and-kitchen"
-                    title="Garden & Kitchen"
-                />
-                <HomeAds />
-                <DownLoadApp />
-                <NewArrivals collectionSlug="new-arrivals-products" />
-                <Newletters />
-            </main>
-        </PageContainer>
+        <CartProvider>
+            <PageContainer title="Online">
+                <main id="homepage-1">
+                    <HomeDefaultBanner />
+                    <SiteFeatures />
+                    <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />
+                    <HomeAdsColumns />
+                    <HomeDefaultTopCategories />
+                    <HomeDefaultProductListing
+                        collectionSlug="consumer-electronics"
+                        title="Consumer Electronics"
+                    />
+                    <HomeDefaultProductListing
+                        collectionSlug="clothings"
+                        title="Clothings"
+                    />
+                    <HomeDefaultProductListing
+                        collectionSlug="garden-and-kitchen"
+                        title="Garden & Kitchen"
+                    />
+                    <HomeAds />
+                    <DownLoadApp />
+                    <NewArrivals collectionSlug="new-arrivals-products" />
+                    <Newletters />
+                </main>
+            </PageContainer>
+        </CartProvider>
     );
 };
 

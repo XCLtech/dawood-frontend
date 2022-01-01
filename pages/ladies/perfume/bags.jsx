@@ -3,39 +3,41 @@ import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategori
 import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
 import Product from '~/components/elements/products/DemoProduct';
-import data from '@@/public/static/data/demo.json';
+import data from '@@/public/static/data/bags';
 import WidgetShopBrands from '~/components/shared/widgets/WidgetShopBrands';
 import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShopFilterByPriceRange';
-
+import { CartProvider } from 'react-use-cart';
 const index = () => {
     return (
-        <PageContainer title="Shop">
-            <div className="ps-page--shop">
-                <div className="ps-container">
-                    <div className="ps-layout--shop">
-                        <div className="ps-layout__left">
-                            <WidgetShopCategories />
-                            <WidgetShopBrands />
-                            <WidgetShopFilterByPriceRange />
-                        </div>
-                        <div className="ps-layout__right ">
-                            <div className="d-flex justify-content-center row">
-                                {data.handpurse.map((item, index) => (
-                                    <Product
-                                        key={index}
-                                        image={item.url}
-                                        title={item.title}
-                                        price={item.price}
-                                        items={item}
-                                    />
-                                ))}
+        <CartProvider>
+            <PageContainer title="Shop">
+                <div className="ps-page--shop">
+                    <div className="ps-container">
+                        <div className="ps-layout--shop">
+                            <div className="ps-layout__left">
+                                <WidgetShopCategories />
+                                <WidgetShopBrands />
+                                <WidgetShopFilterByPriceRange />
+                            </div>
+                            <div className="ps-layout__right ">
+                                <div className="d-flex justify-content-center row">
+                                    {data.product.map((item, index) => (
+                                        <Product
+                                            key={index}
+                                            image={item.url}
+                                            title={item.title}
+                                            price={item.price}
+                                            item={item}
+                                        />
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <Newletters />
-        </PageContainer>
+                <Newletters />
+            </PageContainer>
+        </CartProvider>
     );
 };
 
