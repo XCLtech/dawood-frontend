@@ -29,13 +29,13 @@ const Shipping = () => {
                                         </Link>
                                     </figure>
                                 </div>
-                                <h4>Shipping Method</h4>
+                                {/* <h4>Shipping Method</h4>
                                 <div className="ps-block__panel">
                                     <figure>
                                         <small>International Shipping</small>
                                         <strong>$20.00</strong>
                                     </figure>
-                                </div>
+                                </div> */}
                                 <div className="ps-block__footer">
                                     <Link href="/account/checkout">
                                         <a>

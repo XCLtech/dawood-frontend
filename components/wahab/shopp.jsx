@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import useEcomerce from '~/hooks/useEcomerce';
 import CustomCart from '~/components/ecomerce/modules/CustomCart';
 import Link from 'next/link';
-import ModuleCartSummary from '~/components/ecomerce/modules/ModuleCartSummary';
+import CustomCartSummary from '~/components/ecomerce/modules/CustomCartSummary';
 
 const ShoppingCartScreen = ({ ecomerce }) => {
     // const { products, getProducts } = useEcomerce();
@@ -66,7 +66,7 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
-                            <ModuleCartSummary />
+                            <CustomCartSummary />
                             <Link href="/account/checkout">
                                 <a className="ps-btn ps-btn--fullwidth">
                                     Proceed to checkout

@@ -3,35 +3,33 @@ import Link from 'next/link';
 import { connect } from 'react-redux';
 import useEcomerce from '~/hooks/useEcomerce';
 import { calculateAmount } from '~/utilities/ecomerce-helpers';
-
+import { useCart } from 'react-use-cart';
 const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
-    const { products, getProducts } = useEcomerce();
+    const { cartTotal, items } = useCart();
+    console.log(cartTotal);
+    // const { products, getProducts } = useEcomerce();
 
-    useEffect(() => {
-        if (ecomerce.cartItems) {
-            getProducts(ecomerce.cartItems, 'cart');
-        }
-    }, [ecomerce]);
+    // useEffect(() => {
+    //     if (ecomerce.cartItems) {
+    //         getProducts(ecomerce.cartItems, 'cart');
+    //     }
+    // }, [ecomerce]);
 
     // view
     let listItemsView, shippingView, totalView;
-    let amount;
-    if (products && products.length > 0) {
-        amount = calculateAmount(products);
-        listItemsView = products.map((item) => (
-            <Link href="/" key={item.id}>
-                <a>
-                    <strong>
-                        {item.title}
-                        <span>x{item.quantity}</span>
-                    </strong>
-                    <small>Rs. {item.quantity * item.price}</small>
-                </a>
-            </Link>
-        ));
-    } else {
-        listItemsView = <p>No Product.</p>;
-    }
+
+    listItemsView = items.map((item) => (
+        <Link href="/" key={item.id}>
+            <a>
+                <strong>
+                    {item.title}
+                    <span>x{item.quantity}</span>
+                </strong>
+                <small>Rs. {item.quantity * item.price}</small>
+            </a>
+        </Link>
+    ));
+
     if (shipping === true) {
         shippingView = (
             <figure>
@@ -45,7 +43,7 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
             <figure className="ps-block__total">
                 <h3>
                     Total
-                    <strong>Rs. {parseInt(amount) + 20}.00</strong>
+                    <strong>Rs. {cartTotal}.00</strong>
                 </h3>
             </figure>
         );
@@ -54,7 +52,7 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
             <figure className="ps-block__total">
                 <h3>
                     Total
-                    <strong>Rs. {parseInt(amount)}.00</strong>
+                    <strong>Rs. {cartTotal}.00</strong>
                 </h3>
             </figure>
         );
@@ -72,7 +70,7 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
                 <figure>
                     <figcaption>
                         <strong>Subtotal</strong>
-                        <small>Rs. {amount}</small>
+                        <small>Rs. {cartTotal}</small>
                     </figcaption>
                 </figure>
                 {shippingView}
