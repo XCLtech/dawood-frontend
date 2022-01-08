@@ -5,9 +5,12 @@ import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
 import Product from '~/components/elements/products/DemoProduct';
 import data from '@@/public/static/data/demo.json';
+import { CartProvider } from 'react-use-cart';
 
 const index = () => {
     return (
+
+        <CartProvider>
         <PageContainer title="Shop">
             <div className="ps-page--shop">
                 {/* <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" /> */}
@@ -38,6 +41,7 @@ const index = () => {
             </div>
             <Newletters />
         </PageContainer>
+        </CartProvider>
     );
 };
 

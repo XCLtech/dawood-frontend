@@ -7,9 +7,12 @@ import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategori
 // import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShopFilterByPriceRange';
 import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
+import { CartProvider } from 'react-use-cart';
+
 
 const index = () => {
     return (
+        <CartProvider>
         <PageContainer title="Shop">
             <div className="ps-page--shop">
                 {/* <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" /> */}
@@ -39,6 +42,7 @@ const index = () => {
             </div>
             <Newletters />
         </PageContainer>
+        </CartProvider>
     );
 };
 
