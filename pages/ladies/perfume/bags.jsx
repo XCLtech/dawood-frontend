@@ -3,11 +3,30 @@ import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategori
 import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
 import Product from '~/components/elements/products/DemoProduct';
-import data from '@@/public/static/data/bags';
+// import data from '@@/public/static/data/bags';
 import WidgetShopBrands from '~/components/shared/widgets/WidgetShopBrands';
 import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShopFilterByPriceRange';
 import { CartProvider } from 'react-use-cart';
+import { useEffect } from 'react';
+import Axios from 'axios';
+import { useState } from 'react';
+
 const index = () => {
+    const [data, setData] = useState([]);
+    useEffect(() => {
+        const fetchBags = async () => {
+            try {
+                const data = await Axios.get(
+                    `http://localhost:8082/api/v1/product`
+                );
+                setData(data.data.data);
+            } catch (error) {
+                console.log(error);
+            }
+        };
+        fetchBags();
+    }, []);
+
     return (
         <CartProvider>
             <PageContainer title="Shop">
@@ -21,10 +40,10 @@ const index = () => {
                             </div>
                             <div className="ps-layout__right ">
                                 <div className="d-flex justify-content-center row">
-                                    {data.product.map((item, index) => (
+                                    {data.map((item, index) => (
                                         <Product
                                             key={index}
-                                            image={item.url}
+                                            image={item.imgUrl}
                                             title={item.title}
                                             price={item.price}
                                             item={item}

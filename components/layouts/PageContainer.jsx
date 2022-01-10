@@ -38,7 +38,7 @@ const PageContainer = ({
             {children}
             {footer}
             <a
-                class="whatsapp"
+                className="whatsapp"
                 href="https://wa.me/+923188409160"
                 target={'_blank'}>
                 <img
