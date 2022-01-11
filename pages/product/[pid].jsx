@@ -13,13 +13,14 @@ import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
 import HeaderMobileProduct from '~/components/shared/header-mobile/HeaderMobileProduct';
 import Axios from 'axios';
+import { CartProvider } from 'react-use-cart';
 
 const ProductDefaultPage = () => {
     const router = useRouter();
     const { pid } = router.query;
     const [product, setProduct] = useState(null);
     const [loading, setLoading] = useState(false);
-    console.log('asdasdasdasd');
+    // console.log('asdasdasdasd');
 
     async function getProduct(pid) {
         // setLoading(true);
@@ -37,12 +38,11 @@ const ProductDefaultPage = () => {
         const responseData = await Axios.get(
             `http://localhost:8082/api/v1/product/${pid}`
         );
-        console.log({responseData})
+        // console.log({ responseData });
         if (responseData) {
-            
             setProduct({
                 ...responseData.data.data,
-                images: [responseData.data.data.imgUrl],
+                images: [responseData.data.data?.imgUrl],
             });
             setTimeout(
                 function () {
@@ -94,28 +94,30 @@ const ProductDefaultPage = () => {
     }
 
     return (
-        <PageContainer
-            header={headerView}
-            title={product ? product.title : 'Loading...'}>
-            <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" />
-            <div className="ps-page--product">
-                <div className="ps-container">
-                    <div className="ps-page__container">
-                        <div className="ps-page__left">{productView}</div>
-                        <div className="ps-page__right">
-                            <ProductWidgets />
+        <CartProvider>
+            <PageContainer
+                header={headerView}
+                title={product ? product.title : 'Loading...'}>
+                <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" />
+                <div className="ps-page--product">
+                    <div className="ps-container">
+                        <div className="ps-page__container">
+                            <div className="ps-page__left">{productView}</div>
+                            <div className="ps-page__right">
+                                <ProductWidgets />
+                            </div>
                         </div>
-                    </div>
 
-                    <CustomerBought
-                        layout="fullwidth"
-                        collectionSlug="deal-of-the-day"
-                    />
-                    <RelatedProduct collectionSlug="shop-recommend-items" />
+                        <CustomerBought
+                            layout="fullwidth"
+                            collectionSlug="deal-of-the-day"
+                        />
+                        <RelatedProduct collectionSlug="shop-recommend-items" />
+                    </div>
                 </div>
-            </div>
-            <Newletters />
-        </PageContainer>
+                <Newletters />
+            </PageContainer>
+        </CartProvider>
     );
 };
 

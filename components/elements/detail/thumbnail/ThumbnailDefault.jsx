@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Slider from 'react-slick';
 import Lightbox from 'react-image-lightbox';
-import { baseUrl } from '~/repositories/Repository';
+// import { baseUrl } from '~/repositories/Repository';
 import NextArrow from '~/components/elements/carousel/NextArrow';
 import PrevArrow from '~/components/elements/carousel/PrevArrow';
 

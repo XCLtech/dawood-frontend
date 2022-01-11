@@ -3,7 +3,6 @@ import React from 'react';
 // import Rating from '~/components/elements/Rating';
 import { useCart } from 'react-use-cart';
 import Link from 'next/link';
-
 const DemoProduct = ({ image, title, price, item }) => {
     const { addItem } = useCart();
     return (
@@ -19,6 +18,7 @@ const DemoProduct = ({ image, title, price, item }) => {
                         <Link href="/product/[pid]" as={`/product/${item.id}`}>
                             <img src={image} alt="image" />
                         </Link>
+
                         {/* <ModuleProductActions product={product} /> */}
                         <button
                             className="ps-product__actions"

@@ -43,7 +43,7 @@ const index = () => {
                                     {data.map((item, index) => (
                                         <Product
                                             key={index}
-                                            image={item.imgUrl}
+                                            image={item?.imgUrl}
                                             title={item.title}
                                             price={item.price}
                                             item={item}
