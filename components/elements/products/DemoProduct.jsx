@@ -15,7 +15,7 @@ const DemoProduct = ({ image, title, price, item }) => {
                             width: '170px',
                             cursor: 'pointer',
                         }}>
-                        <Link href="/product/[pid]" as={`/product/${item.id}`}>
+                        <Link href="/product/[pid]" as={`/product/${item?.id}`}>
                             <img src={image} alt="image" />
                         </Link>
 
