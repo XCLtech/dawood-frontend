@@ -4,7 +4,7 @@ import React from 'react';
 import { useCart } from 'react-use-cart';
 import Link from 'next/link';
 
-const DemoProduct = ({ image, product, title, price, item }) => {
+const DemoProduct = ({ image, title, price, item }) => {
     const { addItem } = useCart();
     return (
         <>
