@@ -36,7 +36,8 @@ const ProductDefaultPage = () => {
         // }
         setLoading(true);
         const responseData = await Axios.get(
-            `http://localhost:8082/api/v1/product/${pid}`
+            // `http://localhost:8082/api/v1/product/${pid}`
+            `https://dawoodbackend.herokuapp.com/api/v1/product/${pid}`
         );
         // console.log({ responseData });
         if (responseData) {
