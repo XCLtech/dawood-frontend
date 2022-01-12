@@ -2,24 +2,27 @@ import React, { useState } from 'react';
 import { connect, useDispatch } from 'react-redux';
 import { useRouter } from 'next/router';
 import { Modal } from 'antd';
-import useEcomerce from '~/hooks/useEcomerce';
+import { useCart } from 'react-use-cart';
+// import useEcomerce from '~/hooks/useEcomerce';
 
 const ModuleDetailShoppingActions = ({
     ecomerce,
     product,
     extended = false,
+    item,
 }) => {
+    const { addItem } = useCart();
     const [quantity, setQuantity] = useState(1);
     const Router = useRouter();
-    const { addItem } = useEcomerce();
-    function handleAddItemToCart(e) {
-        e.preventDefault();
-        addItem(
-            { id: product.id, quantity: quantity },
-            ecomerce.cartItems,
-            'cart'
-        );
-    }
+    // const { addItem } = useEcomerce();
+    // function handleAddItemToCart(e) {
+    //     e.preventDefault();
+    //     addItem(
+    //         { id: product.id, quantity: quantity },
+    //         ecomerce.cartItems,
+    //         'cart'
+    //     );
+    // }
 
     function handleBuynow(e) {
         e.preventDefault();
@@ -92,9 +95,15 @@ const ModuleDetailShoppingActions = ({
                     </div>
                 </figure>
                 <a
-                    className="ps-btn ps-btn--black"
                     href="#"
-                    onClick={(e) => handleAddItemToCart(e)}>
+                    className="ps-btn ps-btn--black"
+                    onClick={() =>
+                        addItem({
+                            id: product.id,
+                            price: product.price,
+                            quantity: quantity,
+                        })
+                    }>
                     Add to cart
                 </a>
                 <a className="ps-btn" href="#" onClick={(e) => handleBuynow(e)}>

@@ -43,8 +43,8 @@ const CustomCart = () => {
                         <tr key={item.id}>
                             <td>
                                 <img
-                                    src={item.url}
-                                    alt="asd"
+                                    src={item.imgUrl || item.url}
+                                    alt="product img"
                                     style={{ width: '150px' }}
                                 />
                             </td>
