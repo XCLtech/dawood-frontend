@@ -16,7 +16,7 @@ const DemoProduct = ({ image, title, price, item }) => {
                             cursor: 'pointer',
                         }}>
                         <Link href="/product/[pid]" as={`/product/${item?.id}`}>
-                            <img src={image} alt="image" />
+                            <img src={image} alt="Product image" />
                         </Link>
 
                         {/* <ModuleProductActions product={product} /> */}

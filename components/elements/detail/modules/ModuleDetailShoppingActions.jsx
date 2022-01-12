@@ -95,7 +95,6 @@ const ModuleDetailShoppingActions = ({
                     </div>
                 </figure>
                 <a
-                    href="#"
                     className="ps-btn ps-btn--black"
                     onClick={() =>
                         addItem({

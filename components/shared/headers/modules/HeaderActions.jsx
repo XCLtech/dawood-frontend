@@ -27,7 +27,8 @@ const HeaderActions = ({ ecomerce, auth }) => {
                 <a className="header__extra">
                     <i className="icon-heart"></i>
                     <span>
-                        <i>{wishlistItems ? wishlistItems.length : 0}</i>
+                        {/* <i>{wishlistItems ? wishlistItems.length : 0}</i> */}
+                        <i>0</i>
                     </span>
                 </a>
             </Link>
