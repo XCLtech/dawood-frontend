@@ -9,38 +9,38 @@ import { CartProvider } from 'react-use-cart';
 
 const index = () => {
     return (
-
         <CartProvider>
-        <PageContainer title="Shop">
-            <div className="ps-page--shop">
-                {/* <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" /> */}
-                <div className="ps-container">
-                    {/* <ShopBanner /> */}
-                    {/* <ShopBrands /> */}
-                    {/* <ShopCategories /> */}
-                    <div className="ps-layout--shop">
-                        <div className="ps-layout__left">
-                            <WidgetShopCategories />
-                            {/* <WidgetShopBrands />
+            <PageContainer title="Shop">
+                <div className="ps-page--shop">
+                    {/* <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" /> */}
+                    <div className="ps-container">
+                        {/* <ShopBanner /> */}
+                        {/* <ShopBrands /> */}
+                        {/* <ShopCategories /> */}
+                        <div className="ps-layout--shop">
+                            <div className="ps-layout__left">
+                                <WidgetShopCategories />
+                                {/* <WidgetShopBrands />
                             <WidgetShopFilterByPriceRange /> */}
-                        </div>
-                        <div className="ps-layout__right  ">
-                            <div className="d-flex justify-content-center row">
-                                {data.spices.map((item, index) => (
-                                    <Product
-                                        key={index}
-                                        image={item.url}
-                                        title={item.title}
-                                        price={item.price}
-                                    />
-                                ))}
+                            </div>
+                            <div className="ps-layout__right  ">
+                                <div className="d-flex justify-content-center row">
+                                    {data.spices.map((item, index) => (
+                                        <Product
+                                            key={index}
+                                            image={item.url}
+                                            title={item.title}
+                                            price={item.price}
+                                            item={item}
+                                        />
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <Newletters />
-        </PageContainer>
+                <Newletters />
+            </PageContainer>
         </CartProvider>
     );
 };
