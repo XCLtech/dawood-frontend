@@ -64,7 +64,7 @@ const MiniCart = ({ ecomerce }) => {
 
     return (
         <div className="ps-cart--mini">
-            <Link href="/khan/shop">
+            <Link href="/shopCartItems/shopCart">
                 <a className="header__extra" href="#">
                     <i className="icon-bag2"></i>
                     <span>

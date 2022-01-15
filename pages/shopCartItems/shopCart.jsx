@@ -1,5 +1,5 @@
 import React from 'react';
-import Wahab from '@/components/wahab/shopp';
+import Wahab from '~/components/shopp/shopItems';
 import { CartProvider } from 'react-use-cart';
 const shop = () => {
     return (

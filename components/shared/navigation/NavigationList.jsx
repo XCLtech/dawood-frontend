@@ -171,14 +171,14 @@ class NavigationList extends Component {
                         <i className="icon-magnifier"></i>
                         <span> Search</span>
                     </a>
-                    <a
+                    {/* <a
                         className={`navigation__item ${
                             cartDrawer === true ? 'active' : ''
                         }`}
                         onClick={this.handleShowCartDrawer}>
                         <i className="icon-bag2"></i>
                         <span> Cart</span>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         );
