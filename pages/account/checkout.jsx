@@ -5,6 +5,8 @@ import FooterDefault from '~/components/shared/footers/FooterDefault';
 import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
 import { CartProvider } from 'react-use-cart';
+
+
 const CheckoutPage = () => {
     const breadCrumb = [
         {
@@ -19,6 +21,8 @@ const CheckoutPage = () => {
             text: 'Checkout Information',
         },
     ];
+
+    console.log('CBM', 'asd');
 
     return (
         <CartProvider>

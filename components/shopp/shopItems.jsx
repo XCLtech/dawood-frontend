@@ -8,6 +8,7 @@ import useEcomerce from '~/hooks/useEcomerce';
 import CustomCart from '~/components/ecomerce/modules/CustomCart';
 import Link from 'next/link';
 import CustomCartSummary from '~/components/ecomerce/modules/CustomCartSummary';
+import { useRouter } from 'next/router';
 
 const ShoppingCartScreen = ({ ecomerce }) => {
     // const { products, getProducts } = useEcomerce();
@@ -27,6 +28,11 @@ const ShoppingCartScreen = ({ ecomerce }) => {
             text: 'Shopping Cart',
         },
     ];
+    const router = useRouter();
+
+    const goToCheckout = () => {
+        router.push('/account/checkout');
+    };
 
     // View
     let contentView;
@@ -67,11 +73,13 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
                             <CustomCartSummary />
-                            <Link href="/account/checkout">
-                                <a className="ps-btn ps-btn--fullwidth">
-                                    Proceed to checkout
-                                </a>
-                            </Link>
+                            {/* <Link href="/account/checkout"> */}
+                            <button
+                                onClick={goToCheckout}
+                                className="ps-btn ps-btn--fullwidth">
+                                Proceed to checkout
+                            </button>
+                            {/* </Link> */}
                         </div>
                     </div>
                 </div>
