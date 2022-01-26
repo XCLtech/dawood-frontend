@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 const ModuleProductDetailSpecification = () => (
-    <div className="ps-product__specification">
-        <Link href="/page/blank">
+    <div >
+        {/* <Link href="/page/blank">
             <a className="report">Report Abuse</a>
         </Link>
         <p>
@@ -32,7 +32,7 @@ const ModuleProductDetailSpecification = () => (
             <Link href="/shop">
                 <a>wireless</a>
             </Link>
-        </p>
+        </p> */}
     </div>
 );
 

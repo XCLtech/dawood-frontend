@@ -65,7 +65,8 @@ const AccountQuickLinks = (props) => {
     } else {
         return (
             <div className="ps-block--user-header">
-                <div className="ps-block__left">
+                <h4 style={{color:"white"}}> Cart</h4>
+                {/* <div className="ps-block__left">
                     <i className="icon-user"></i>
                 </div>
                 <div className="ps-block__right">
@@ -75,7 +76,7 @@ const AccountQuickLinks = (props) => {
                     <Link href="/account/register">
                         <a>Register</a>
                     </Link>
-                </div>
+                </div> */}
             </div>
         );
     }

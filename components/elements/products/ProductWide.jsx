@@ -17,14 +17,14 @@ const ProductWide = ({ product }) => {
                 <div className="ps-product__content">
                     {title(product)}
                     <p className="ps-product__vendor">
-                        Sold by:
+                      sdfdfd
                         <Link href="/shop">
                             <a>{product.vendor}</a>
                         </Link>
                     </p>
                     <ul className="ps-product__desc">
                         <li>Unrestrained and portable active stereo speaker</li>
-                        <li> Free from the confines of wires and chords</li>
+                        <li> hello world</li>
                         <li> 20 hours of portable capabilities</li>
                         <li>
                             Double-ended Coil Cord with 3.5mm Stereo Plugs

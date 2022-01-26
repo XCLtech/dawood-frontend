@@ -41,8 +41,8 @@ const HomeDefaultDealOfDay = ({ collectionSlug }) => {
 
     return (
         <div className="ps-deal-of-day">
-            <div className="ps-container">
-                <div className="ps-section__header">
+            {/* <div className="ps-container"> */}
+                {/* <div className="ps-section__header">
                     <div className="ps-block--countdown-deal">
                         <div className="ps-block__left">
                             <h3>Deal of the day</h3>
@@ -60,9 +60,9 @@ const HomeDefaultDealOfDay = ({ collectionSlug }) => {
                     <Link href="/shop">
                         <a>View all</a>
                     </Link>
-                </div>
-                <div className="ps-section__content">{productItemsView}</div>
-            </div>
+                </div> */}
+                {/* <div className="ps-section__content">{productItemsView}</div> */}
+            {/* </div> */}
         </div>
     );
 };

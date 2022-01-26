@@ -37,7 +37,8 @@ const ProductDefaultPage = () => {
         setLoading(true);
         const responseData = await Axios.get(
             // `http://localhost:8082/api/v1/product/${pid}`
-            `https://dawoodbackend.herokuapp.com/api/v1/product/${pid}`
+            // `https://dawoodbackend.herokuapp.com/api/v1/product/${pid}`
+            `http://localhost:8080/api/v1/product/${pid}`
         );
         // console.log({ responseData });
         if (responseData) {
@@ -85,8 +86,8 @@ const ProductDefaultPage = () => {
         } else {
             headerView = (
                 <>
-                    <HeaderDefault />
-                    <HeaderMobileProduct />
+                    {/* <HeaderDefault />
+                    <HeaderMobileProduct /> */}
                 </>
             );
         }
@@ -104,20 +105,20 @@ const ProductDefaultPage = () => {
                     <div className="ps-container">
                         <div className="ps-page__container">
                             <div className="ps-page__left">{productView}</div>
-                            <div className="ps-page__right">
-                                <ProductWidgets />
-                            </div>
+                            {/* <div className="ps-page__right">
+                                <ProductWid gets />
+                            </div> */}
                         </div>
 
-                        <CustomerBought
+                        {/* <CustomerBought
                             layout="fullwidth"
                             collectionSlug="deal-of-the-day"
-                        />
-                        <RelatedProduct collectionSlug="shop-recommend-items" />
+                        /> */}
+                        {/* <RelatedProduct collectionSlug="shop-recommend-items" /> */}
                     </div>
                 </div>
-                <Newletters />
-            </PageContainer>
+                {/* <Newletters /> */}
+            </PageContainer>    
         </CartProvider>
     );
 };

@@ -18,7 +18,8 @@ const index = () => {
             try {
                 const data = await Axios.get(
                     // `http://localhost:8082/api/v1/product`
-                    `https://dawoodbackend.herokuapp.com/api/v1/product`
+                    // `https://dawoodbackend.herokuapp.com/api/v1/product`
+                    `http://localhost:8080/api/v1/product/id/3`
                 );
                 setData(data.data.data);
             } catch (error) {
@@ -34,13 +35,14 @@ const index = () => {
                 <div className="ps-page--shop">
                     <div className="ps-container">
                         <div className="ps-layout--shop">
-                            <div className="ps-layout__left">
+                            {/* <div className="ps-layout__left">
                                 <WidgetShopCategories />
                                 <WidgetShopBrands />
                                 <WidgetShopFilterByPriceRange />
-                            </div>
-                            <div className="ps-layout__right ">
-                                <div className="d-flex justify-content-center row">
+                            </div> */}
+                            {/* <div className="ps-layout__right "> */}
+                                {/* <div className="d-flex justify-content-center row"> */}
+                                <div className="d-flex  row">
                                     {data.map((item, index) => (
                                         <Product
                                             key={index}
@@ -51,7 +53,7 @@ const index = () => {
                                         />
                                     ))}
                                 </div>
-                            </div>
+                            {/* </div> */}
                         </div>
                     </div>
                 </div>

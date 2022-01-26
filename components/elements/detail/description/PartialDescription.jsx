@@ -1,7 +1,8 @@
 import React from 'react';
 
 const PartialDescription = () => (
-    <div className="ps-document">
+    <>
+    {/* <div className="ps-document">
         <h5>Embodying the Raw, Wayward Spirit of Rock 'N' Roll</h5>
         <p>
             Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn
@@ -63,7 +64,8 @@ const PartialDescription = () => (
             The Gala S6 was an excellently styled device, and the S7 has managed
             to improve on that.
         </p>
-    </div>
+    </div> */}
+    </>
 );
 
 export default PartialDescription;

@@ -2,7 +2,8 @@ import React from 'react';
 import PartialReview from '~/components/elements/detail/description/PartialReview';
 
 const DescriptionFullContent = () => (
-    <div className="ps-product__content">
+    <>
+    {/* <div className="ps-product__content">
         <h3 className="ps-product__heading">Description</h3>
         <div className="ps-document">
             <h5>Embodying the Raw, Wayward Spirit of Rock 'N' Roll</h5>
@@ -127,7 +128,8 @@ const DescriptionFullContent = () => (
         </div>
         <h3 className="ps-product__heading">More Offers</h3>
         <p>Sorry no more offers available</p>
-    </div>
+    </div> */}
+    </>
 );
 
 export default DescriptionFullContent;

@@ -20,7 +20,7 @@ const MobileHeaderActions = ({ auth, ecomerce }) => {
                 </a>
             </Link>
 
-            {auth.isLoggedIn && Boolean(auth.isLoggedIn) === true ? (
+            {/* {auth.isLoggedIn && Boolean(auth.isLoggedIn) === true ? (
                 <AccountQuickLinksMobile />
             ) : (
                 <div className="header__extra">
@@ -28,7 +28,7 @@ const MobileHeaderActions = ({ auth, ecomerce }) => {
                         <i className="icon-user"></i>
                     </Link>
                 </div>
-            )}
+            )} */}
         </div>
     );
 };

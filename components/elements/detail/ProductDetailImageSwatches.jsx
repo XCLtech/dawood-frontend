@@ -139,8 +139,7 @@ class ProductDetailImageSwatches extends Component {
                             </p>
                             <ul className="ps-list--dot">
                                 <li>
-                                    Unrestrained and portable active stereo
-                                    speaker
+                                    hello world
                                 </li>
                                 <li>
                                     Free from the confines of wires and chords
@@ -231,15 +230,15 @@ class ProductDetailImageSwatches extends Component {
                                 Buy Now
                             </a>
                             <div className="ps-product__actions">
-                                <a href="#">
+                                {/* <a href="#">
                                     <i className="icon-heart"></i>
-                                </a>
-                                <a href="#">
+                                </a> */}
+                                {/* <a href="#">
                                     <i className="icon-chart-bars"></i>
-                                </a>
+                                </a> */}
                             </div>
                         </div>
-                        <div className="ps-product__specification">
+                        {/* <div className="ps-product__specification">
                             <a className="report" href="#">
                                 Report Abuse
                             </a>
@@ -275,10 +274,10 @@ class ProductDetailImageSwatches extends Component {
                             <a className="instagram" href="#">
                                 <i className="fa fa-instagram"></i>
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
-                <DefaultDescription />
+                {/* <DefaultDescription /> */}
             </div>
         );
     }

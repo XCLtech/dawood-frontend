@@ -60,7 +60,9 @@ const WidgetShopBrands = () => {
         brandsView = <p>Loading...</p>;
     }
     return (
-        <aside className="widget widget_shop widget_shop--brand">
+        <aside className="widget widget_shop widget_shop--brand" style={{
+            display: "invisible"
+        }}>
             <h4 className="widget-title">By Brands</h4>
             <figure>
                 <Radio.Group

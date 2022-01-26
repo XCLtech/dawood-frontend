@@ -109,12 +109,12 @@ const ModuleDetailShoppingActions = ({
                     Buy Now
                 </a>
                 <div className="ps-product__actions">
-                    <a href="#" onClick={(e) => handleAddItemToWishlist(e)}>
-                        <i className="icon-heart"></i>
-                    </a>
-                    <a href="#" onClick={(e) => handleAddItemToCompare(e)}>
-                        <i className="icon-chart-bars"></i>
-                    </a>
+                    {/* <a href="#" onClick={(e) => handleAddItemToWishlist(e)}> */}
+                        {/* <i className="icon-heart"></i> */}
+                    {/* </a> */}
+                    {/* <a href="#" onClick={(e) => handleAddItemToCompare(e)}> */}
+                        {/* <i className="icon-chart-bars"></i> */}
+                    {/* </a> */}
                 </div>
             </div>
         );

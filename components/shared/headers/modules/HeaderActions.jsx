@@ -15,23 +15,23 @@ const HeaderActions = ({ ecomerce, auth }) => {
     }
     return (
         <div className="header__actions">
-            <Link href="/account/compare">
+            {/* <Link href="/account/compare">
                 <a className="header__extra">
                     <i className="icon-chart-bars"></i>
                     <span>
                         <i>{compareItems ? compareItems.length : 0}</i>
                     </span>
                 </a>
-            </Link>
-            <Link href="/account/wishlist">
+            </Link> */}
+            {/* <Link href="/account/wishlist">
                 <a className="header__extra">
                     <i className="icon-heart"></i>
                     <span>
-                        {/* <i>{wishlistItems ? wishlistItems.length : 0}</i> */}
+                        <i>{wishlistItems ? wishlistItems.length : 0}</i>
                         <i>0</i>
                     </span>
                 </a>
-            </Link>
+            </Link> */}
             <MiniCart />
             {headerAuthView}
         </div>

@@ -30,7 +30,7 @@ const ProductDetailOutOfStock = ({ product }) => (
                     <ul className="ps-list--dot">
                         <li>
                             {' '}
-                            Unrestrained and portable active stereo speaker
+                            Unfdfdsghghgfgheaker
                         </li>
                         <li> Free from the confines of wires and chords</li>
                         <li> 20 hours of portable capabilities</li>

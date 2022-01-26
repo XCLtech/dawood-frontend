@@ -2143,9 +2143,11 @@
         .ant-tabs {
             .ant-tabs-nav {
                 margin-bottom: 30px;
+                display: none;
 
                 .ant-tabs-nav-list {
                     margin: 0 auto;
+                    display: none;
 
                     button {
                         font-size: 20px;
