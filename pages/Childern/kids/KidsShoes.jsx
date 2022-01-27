@@ -19,8 +19,8 @@ const index = () => {
             try {
                 const data = await Axios.get(
                     // `http://localhost:8082/api/v1/product`
-                    // `https://dawoodbackend.herokuapp.com/api/v1/product/id/`
-                    `http://localhost:8080/api/v1/product/id/`
+                    // `https://dawoodbackend.herokuapp.com/api/v1/product/id/135`
+                    `http://localhost:8080/api/v1/product/id/135`
                 );
                 setData(data.data.data);
             } catch (error) {
