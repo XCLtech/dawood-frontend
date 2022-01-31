@@ -64,7 +64,8 @@ const index = () => {
     );
 };
 
-export default index97// import React from 'react';
+export default index
+// import React from 'react';
 // // import BreadCrumb from '~/components/elements/BreadCrumb';
 // import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
 // import PageContainer from '~/components/layouts/PageContainer';

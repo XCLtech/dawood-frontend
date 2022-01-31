@@ -64,7 +64,7 @@ const index = () => {
     );
 };
 
-export default inde126
+export default index
 
 // import React from 'react';
 // // import BreadCrumb from '~/components/elements/BreadCrumb';

@@ -63,7 +63,7 @@ const index = () => {
     );
 };
 
-export default inde88
+export default index
 // import React from 'react';
 // // import BreadCrumb from '~/components/elements/BreadCrumb';
 // import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
