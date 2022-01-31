@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Logo from '~/components/elements/common/Logo';
 import SearchHeader from '~/components/shared/headers/modules/SearchHeader';
+// import Searchbar222 from '~/components/shared/headers/modules/Searchbar222';
 import NavigationDefault from '~/components/shared/navigation/NavigationDefault';
 import HeaderActions from '~/components/shared/headers/modules/HeaderActions';
 import { stickyHeader } from '~/utilities/common-helpers';
@@ -28,6 +29,7 @@ const HeaderDefault = () => {
                         className="header__center"
                         style={{ marginTop: '10px' }}>
                         <SearchHeader />
+                        {/* <Searchbar222 /> */}
                     </div>
                     <div
                         className="header__right"
