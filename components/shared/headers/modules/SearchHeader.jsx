@@ -4,6 +4,7 @@ import Router from 'next/router';
 import { Spin } from 'antd';
 import ProductRepository from '~/repositories/ProductRepository';
 import ProductSearchResult from '~/components/elements/products/ProductSearchResult';
+import data from '@/public/static/data/demo.json';
 
 const exampleCategories = [
     'All',
@@ -143,7 +144,7 @@ const SearchHeader = () => {
                     </div>
                 );
             }
-            productItemsView = resultItems.map((product) => (
+            productItemsView = data.Jams.map((product) => (
                 <ProductSearchResult product={product} key={product.id} />
             ));
         } else {
