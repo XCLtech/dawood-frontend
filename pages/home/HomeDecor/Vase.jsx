@@ -41,18 +41,18 @@ const index = () => {
                                 <WidgetShopFilterByPriceRange />
                             </div> */}
                             {/* <div className="ps-layout__right "> */}
-                                {/* <div className="d-flex justify-content-center row"> */}
-                                <div className="d-flex  row">
-                                    {data.map((item, index) => (
-                                        <Product
-                                            key={index}
-                                            image={item?.imgUrl}
-                                            title={item.title}
-                                            price={item.price}
-                                            item={item}
-                                        />
-                                    ))}
-                                </div>
+                            {/* <div className="d-flex justify-content-center row"> */}
+                            <div className="d-flex  row">
+                                {data.map((item, index) => (
+                                    <Product
+                                        key={index}
+                                        image={item?.imgUrl}
+                                        title={item.title}
+                                        price={item.price}
+                                        item={item}
+                                    />
+                                ))}
+                            </div>
                             {/* </div> */}
                         </div>
                     </div>
