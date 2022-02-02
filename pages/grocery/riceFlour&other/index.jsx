@@ -42,7 +42,7 @@ const index = () => {
                             </div> */}
                             {/* <div className="ps-layout__right "> */}
                                 {/* <div className="d-flex justify-content-center row"> */}
-                                <div className="d-flex  row">
+                                <div className="d-flex justify-content-center row">
                                     {data.map((item, index) => (
                                         <Product
                                             key={index}
