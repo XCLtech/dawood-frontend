@@ -12,7 +12,10 @@ const DemoProduct = ({ image, title, price, item }) => {
                     <div
                         className="ps-product__thumbnail"
                         style={{
-                            width: '170px',
+                            display: 'flex',
+                            justifyItems: 'center',
+                            alignItems: 'center',
+                            width: '150px',
                             cursor: 'pointer',
                         }}>
                         <Link href="/product/[pid]" as={`/product/${item?.id}`}>
