@@ -1,18 +1,20 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import Link from 'next/link';
+// import Link from 'next/link';
 import MiniCart from '~/components/shared/headers/modules/MiniCart';
-import AccountQuickLinks from '~/components/shared/headers/modules/AccountQuickLinks';
+// import AccountQuickLinks from '~/components/shared/headers/modules/AccountQuickLinks';
+import Logo from '~/components/elements/common/SuperMart';
+import Link from 'next/link';
 
 const HeaderActions = ({ ecomerce, auth }) => {
-    const { compareItems, wishlistItems } = ecomerce;
+    // const { compareItems, wishlistItems } = ecomerce;
     // views
-    let headerAuthView;
-    if (auth.isLoggedIn && Boolean(auth.isLoggedIn) === true) {
-        headerAuthView = <AccountQuickLinks isLoggedIn={true} />;
-    } else {
-        headerAuthView = <AccountQuickLinks isLoggedIn={false} />;
-    }
+    // let headerAuthView;
+    // if (auth.isLoggedIn && Boolean(auth.isLoggedIn) === true) {
+    //     headerAuthView = <AccountQuickLinks isLoggedIn={true} />;
+    // } else {
+    //     headerAuthView = <AccountQuickLinks isLoggedIn={false} />;
+    // }
     return (
         <div className="header__actions">
             {/* <Link href="/account/compare">
@@ -32,8 +34,21 @@ const HeaderActions = ({ ecomerce, auth }) => {
                     </span>
                 </a>
             </Link> */}
+            <div style={{ marginRight: '100px' }}>
+                <Logo />
+            </div>
             <MiniCart />
-            {headerAuthView}
+            {/* {headerAuthView} */}
+            <Link href="/shopCartItems/shopCart">
+                <p
+                    style={{
+                        color: 'white',
+                        fontSize: '20px',
+                        cursor: 'pointer',
+                    }}>
+                    Cart
+                </p>
+            </Link>
         </div>
     );
 };

@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
-import { connect } from 'react-redux';
+// import React, { useEffect } from 'react';
+// import { connect } from 'react-redux';
 import Link from 'next/link';
-import ProductOnCart from '~/components/elements/products/ProductOnCart';
-import useEcomerce from '~/hooks/useEcomerce';
-import { calculateAmount } from '~/utilities/ecomerce-helpers';
+// import ProductOnCart from '~/components/elements/products/ProductOnCart';
+// import useEcomerce from '~/hooks/useEcomerce';
+// import { calculateAmount } from '~/utilities/ecomerce-helpers';
 import { useCart } from 'react-use-cart';
 const MiniCart = ({ ecomerce }) => {
     const { totalUniqueItems } = useCart();
@@ -66,7 +66,7 @@ const MiniCart = ({ ecomerce }) => {
         <div className="ps-cart--mini">
             <Link href="/shopCartItems/shopCart">
                 <a className="header__extra" href="#">
-                    <i className="icon-bag2" style={{height:"20px"}}></i>
+                    <i className="icon-bag2" style={{ height: '20px' }}></i>
                     <span>
                         {/* <i>{products ? products.length : 0}</i> */}
                         {totalUniqueItems}

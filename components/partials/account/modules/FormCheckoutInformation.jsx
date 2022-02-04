@@ -213,10 +213,6 @@
 
 // export default FormCheckoutInformation;
 
-
-
-
-
 import React, { Component } from 'react';
 import Link from 'next/link';
 import Router from 'next/router';
@@ -272,7 +268,7 @@ const FormCheckoutInformation = () => {
                     name="contactInfo"
                     rules={[
                         {
-                            required: false,
+                            required: true,
                             message: 'Enter an email or mobile phone number!',
                         },
                     ]}>
@@ -303,7 +299,7 @@ const FormCheckoutInformation = () => {
                             name="firstName"
                             rules={[
                                 {
-                                    required: false,
+                                    required: true,
                                     message: 'Enter your first name!',
                                 },
                             ]}>
@@ -321,7 +317,7 @@ const FormCheckoutInformation = () => {
                             name="lastName"
                             rules={[
                                 {
-                                    required: false,
+                                    required: true,
                                     message: 'Enter your last name!',
                                 },
                             ]}>
@@ -339,7 +335,7 @@ const FormCheckoutInformation = () => {
                     name="address"
                     rules={[
                         {
-                            required: false,
+                            required: true,
                             message: 'Enter an address!',
                         },
                     ]}>
@@ -355,7 +351,7 @@ const FormCheckoutInformation = () => {
                     name="near"
                     rules={[
                         {
-                            required: false,
+                            required: true,
                             message: 'Enter an Apartment!',
                         },
                     ]}>
@@ -373,7 +369,7 @@ const FormCheckoutInformation = () => {
                             name="city"
                             rules={[
                                 {
-                                    required: false,
+                                    required: true,
                                     message: 'Enter a city!',
                                 },
                             ]}>
@@ -391,7 +387,7 @@ const FormCheckoutInformation = () => {
                             name="postalCode"
                             rules={[
                                 {
-                                    required: false,
+                                    required: true,
                                     message: 'Enter a postal oce!',
                                 },
                             ]}>

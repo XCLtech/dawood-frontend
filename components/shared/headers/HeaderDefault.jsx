@@ -27,9 +27,8 @@ const HeaderDefault = () => {
                     </div>
                     <div
                         className="header__center"
-                        style={{ marginTop: '10px' }}>
+                        style={{ marginTop: '30px' }}>
                         <SearchHeader />
-                        {/* <Searchbar222 /> */}
                     </div>
                     <div
                         className="header__right"
