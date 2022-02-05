@@ -4,13 +4,16 @@ import PageContainer from '~/components/layouts/PageContainer';
 import FooterDefault from '~/components/shared/footers/FooterDefault';
 import Newletters from '~/components/partials/commons/Newletters';
 import { connect } from 'react-redux';
-import useEcomerce from '~/hooks/useEcomerce';
+// import useEcomerce from '~/hooks/useEcomerce';
 import CustomCart from '~/components/ecomerce/modules/CustomCart';
 import Link from 'next/link';
 import CustomCartSummary from '~/components/ecomerce/modules/CustomCartSummary';
 import { useRouter } from 'next/router';
+import { useCart } from 'react-use-cart';
 
 const ShoppingCartScreen = ({ ecomerce }) => {
+    const { items, cartTotal } = useCart();
+    console.log(cartTotal);
     // const { products, getProducts } = useEcomerce();
 
     // useEffect(() => {

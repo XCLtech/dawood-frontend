@@ -1,10 +1,10 @@
 import React from 'react';
-import Wahab from '~/components/shopp/shopItems';
+import Shop from '~/components/shopp/shopItems';
 import { CartProvider } from 'react-use-cart';
 const shop = () => {
     return (
         <CartProvider>
-            <Wahab />
+            <Shop />
         </CartProvider>
     );
 };
