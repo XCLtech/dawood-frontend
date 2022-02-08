@@ -388,7 +388,7 @@ const FormCheckoutInformation = () => {
                             rules={[
                                 {
                                     required: true,
-                                    message: 'Enter a postal oce!',
+                                    message: 'Enter a postal code!',
                                 },
                             ]}>
                             <Input
