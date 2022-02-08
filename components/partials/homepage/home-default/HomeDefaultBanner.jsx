@@ -7,7 +7,7 @@ import MediaRepository from '~/repositories/MediaRepository';
 import { baseUrl } from '~/repositories/Repository';
 import { getItemBySlug } from '~/utilities/product-helper';
 import Promotion from '~/components/elements/media/Promotion';
-import Grocery from '../../../../public/static/img/onlineGrocery.png';
+// import Grocery from '../../../../public/static/img/onlineGrocery.png';
 const HomeDefaultBanner = () => {
     const [bannerItems, setBannerItems] = useState(null);
     const [promotion1, setPromotion1] = useState(null);
@@ -40,8 +40,10 @@ const HomeDefaultBanner = () => {
     const carouselSetting = {
         dots: false,
         infinite: true,
-        speed: 750,
+        // speed: 750,
         fade: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1,
         nextArrow: <NextArrow />,
