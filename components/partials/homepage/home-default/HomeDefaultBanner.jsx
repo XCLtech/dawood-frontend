@@ -51,26 +51,53 @@ const HomeDefaultBanner = () => {
     };
 
     // Views
-    let mainCarouselView;
-    if (bannerItems) {
-        const carouseItems = bannerItems.map((item) => (
-            <div className="slide-item" key={item.id}>
-                <Link href="/shop">
-                    <a
-                        className="ps-banner-item--default bg--cover"
-                        style={{
-                            backgroundImage: `url(${baseUrl}${item.image.url})`,
-                        }}
-                    />
-                </Link>
+    // let mainCarouselView;
+    // if (bannerItems) {
+    //     const carouseItems = bannerItems.map((item) => (
+    //         <div className="slide-item" key={item.id}>
+    //             <Link href="/shop">
+    //                 <a
+    //                     className="ps-banner-item--default bg--cover"
+    //                     style={{
+    //                         // backgroundImage: `url(${baseUrl}${item.image.url})`,
+    //                         backgroundImage: `url("https://res.cloudinary.com/dv1jydljf/image/upload/v1644392273/img1_aunxhe.jpg")`,
+    //                     }}
+    //                 />
+    //             </Link>
+    //             <Link href="/shop">
+    //                 <a
+    //                     className="ps-banner-item--default bg--cover"
+    //                     style={{
+    //                         // backgroundImage: `url(${baseUrl}${item.image.url})`,
+    //                         backgroundImage: `url("https://res.cloudinary.com/dv1jydljf/image/upload/v1644392273/img2_tdnses.jpg")`,
+    //                     }}
+    //                 />
+    //             </Link>
+    //         </div>
+    //     ));
+    const mainCarouselView = (
+        <Slider {...carouselSetting} className="ps-carousel">
+            {/* {carouseItems} */}
+            <div>
+                <a
+                    className="ps-banner-item--default bg--cover"
+                    style={{
+                        backgroundImage: `url("https://res.cloudinary.com/dv1jydljf/image/upload/v1644392273/img2_tdnses.jpg")`,
+                    }}
+                />
             </div>
-        ));
-        mainCarouselView = (
-            <Slider {...carouselSetting} className="ps-carousel">
-                {carouseItems}
-            </Slider>
-        );
-    }
+            <div>
+                <a
+                    className="ps-banner-item--default bg--cover"
+                    style={{
+                        backgroundImage: `url("https://res.cloudinary.com/dv1jydljf/image/upload/v1644392273/img1_aunxhe.jpg")`,
+                    }}
+                />
+            </div>
+        </Slider>
+    );
+    // console.log(mainCarouselView);
+    // }
     return (
         <div className="ps-home-banner ps-home-banner--1">
             <div className="ps-container">
