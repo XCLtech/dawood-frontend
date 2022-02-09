@@ -82,7 +82,7 @@ const HomeDefaultBanner = () => {
                 <a
                     className="ps-banner-item--default bg--cover"
                     style={{
-                        backgroundImage: `url("https://res.cloudinary.com/dv1jydljf/image/upload/v1644392273/img2_tdnses.jpg")`,
+                        backgroundImage: `url("https://res.cloudinary.com/dv1jydljf/image/upload/v1644396052/toystation_lmjvyk.jpg")`,
                     }}
                 />
             </div>
@@ -90,7 +90,15 @@ const HomeDefaultBanner = () => {
                 <a
                     className="ps-banner-item--default bg--cover"
                     style={{
-                        backgroundImage: `url("https://res.cloudinary.com/dv1jydljf/image/upload/v1644392273/img1_aunxhe.jpg")`,
+                        backgroundImage: `url("https://res.cloudinary.com/dv1jydljf/image/upload/v1644396052/H_bag_qd7t4t.jpg")`,
+                    }}
+                />
+            </div>
+            <div>
+                <a
+                    className="ps-banner-item--default bg--cover"
+                    style={{
+                        backgroundImage: `url("https://res.cloudinary.com/dv1jydljf/image/upload/v1644396052/jewellry-empire_immex5.jpg")`,
                     }}
                 />
             </div>
