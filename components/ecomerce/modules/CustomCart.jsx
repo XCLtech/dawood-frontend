@@ -25,7 +25,9 @@ const CustomCart = () => {
     // console.log(items);
     return (
         <>
-            <table className="table  ps-table--shopping-cart ps-table--responsive">
+            <table
+                className="table  ps-table--shopping-cart ps-table--responsive"
+                style={{ marginTop: '-50px' }}>
                 <thead>
                     <tr>
                         <th>Product</th>

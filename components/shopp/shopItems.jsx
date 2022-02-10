@@ -74,7 +74,9 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
+                        <div
+                            className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 "
+                            style={{ marginTop: '-100px' }}>
                             <CustomCartSummary />
                             {/* <Link href="/account/checkout"> */}
                             <button
