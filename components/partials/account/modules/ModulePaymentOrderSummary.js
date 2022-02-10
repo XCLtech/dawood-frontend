@@ -5,8 +5,8 @@ import useEcomerce from '~/hooks/useEcomerce';
 import { calculateAmount } from '~/utilities/ecomerce-helpers';
 import { useCart } from 'react-use-cart';
 const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
-    const { cartTotal, items } = useCart();
-    console.log(cartTotal);
+    const { cartTotal, items, quantity } = useCart();
+
     // const { products, getProducts } = useEcomerce();
 
     // useEffect(() => {
@@ -18,17 +18,23 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
     // view
     let listItemsView, shippingView, totalView;
 
-    listItemsView = items.map((item) => (
-        <Link href="/" key={item.id}>
-            <a>
-                <strong>
-                    {item.title}
-                    <span>x{item.quantity}</span>
-                </strong>
-                <small>Rs. {item.quantity * item.price}</small>
-            </a>
-        </Link>
-    ));
+    listItemsView = items.map(
+        (item) => (
+            console.log(item.quantity),
+            (
+                <Link href="/" key={item.id}>
+                    <a>
+                        <strong>
+                            {item.title}
+                            <span>x{item.quantity}</span>
+                        </strong>
+                        <small>Rs. {item.quantity * item.price}</small>
+                    </a>
+                </Link>
+            )
+        )
+    );
+    console.log(listItemsView);
 
     if (shipping === true) {
         shippingView = (

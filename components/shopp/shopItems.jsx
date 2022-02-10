@@ -23,10 +23,10 @@ const ShoppingCartScreen = ({ ecomerce }) => {
     // }, [ecomerce]);
 
     const breadCrumb = [
-        {
-            text: 'Home',
-            url: '/',
-        },
+        // {
+        //     text: 'Home',
+        //     url: '/',
+        // },
         {
             text: 'Shopping Cart',
         },
@@ -97,9 +97,9 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                     <BreadCrumb breacrumb={breadCrumb} />
                     <div className="ps-section--shopping ps-shopping-cart">
                         <div className="container">
-                            <div className="ps-section__header">
+                            {/* <div className="ps-section__header">
                                 <h1>Shopping Cart</h1>
-                            </div>
+                            </div> */}
                             {contentView}
                         </div>
                     </div>

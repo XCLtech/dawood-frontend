@@ -8,10 +8,28 @@ const BreadCrumb = ({ breacrumb, layout }) => {
                 className={
                     layout === 'fullwidth' ? 'ps-container' : 'container'
                 }>
-                <ul className="breadcrumb">
+                <ul
+                    className="breadcrumb"
+                    style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                    }}>
                     {breacrumb.map((item, index) => {
                         if (!item.url) {
-                            return <li key={index}>{item.text}</li>;
+                            return (
+                                <li
+                                    key={index}
+                                    style={{
+                                        fontSize: '30px',
+                                        color: '#000',
+                                        display: 'flex',
+                                        justifyContent: 'center',
+                                        alignItems: 'center',
+                                    }}>
+                                    {item.text}
+                                </li>
+                            );
                         } else {
                             return (
                                 <li key={item.text}>

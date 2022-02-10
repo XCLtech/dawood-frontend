@@ -6,7 +6,6 @@
 // import Newletters from '~/components/partials/commons/Newletters';
 // import { CartProvider } from 'react-use-cart';
 
-
 // const CheckoutPage = () => {
 //     const breadCrumb = [
 //         {
@@ -39,7 +38,6 @@
 
 // export default CheckoutPage;
 
-
 import React from 'react';
 import BreadCrumb from '~/components/elements/BreadCrumb';
 import Checkout from '~/components/partials/account/Checkout';
@@ -48,23 +46,22 @@ import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
 import { CartProvider } from 'react-use-cart';
 
-
 const CheckoutPage = () => {
     const breadCrumb = [
-        {
-            text: 'Home',
-            url: '/',
-        },
-        {
-            text: 'Shopping Cart',
-            url: '/account/shopping-cart',
-        },
+        // {
+        //     text: 'Home',
+        //     url: '/',
+        // },
+        // {
+        //     text: 'Shopping Cart',
+        //     url: '/account/shopping-cart',
+        // },
         {
             text: 'Checkout Information',
         },
     ];
 
-    console.log('CBM', 'asd');
+    // console.log('CBM', 'asd');
 
     return (
         <CartProvider>

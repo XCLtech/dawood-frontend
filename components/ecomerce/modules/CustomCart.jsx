@@ -11,7 +11,7 @@ const CustomCart = () => {
         removeItem,
         emptyCart,
     } = useCart();
-    // console.log(items);
+    console.log('totalQuantity');
     if (isEmpty) return <h3 className="text-center">your cart is empty</h3>;
     const result = items.map((item, index) => {
         <tr key={index}>
@@ -22,7 +22,7 @@ const CustomCart = () => {
             <td>Rs. {item.title} </td>
         </tr>;
     });
-    console.log(items);
+    // console.log(items);
     return (
         <>
             <table className="table  ps-table--shopping-cart ps-table--responsive">
