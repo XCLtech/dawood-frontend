@@ -8,18 +8,18 @@ import Newletters from '~/components/partials/commons/Newletters';
 import { CartProvider } from 'react-use-cart';
 const PaymentPage = () => {
     const breadCrumb = [
-        {
-            text: 'Home',
-            url: '/',
-        },
-        {
-            text: 'Shopping Cart',
-            url: '/account/shopping-cart',
-        },
-        {
-            text: 'Checkout Information',
-            url: '/account/checkout',
-        },
+        // {
+        //     text: 'Home',
+        //     url: '/',
+        // },
+        // {
+        //     text: 'Shopping Cart',
+        //     url: '/account/shopping-cart',
+        // },
+        // {
+        //     text: 'Checkout Information',
+        //     url: '/account/checkout',
+        // },
         {
             text: 'Payment',
         },
