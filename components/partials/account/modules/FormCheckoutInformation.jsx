@@ -250,8 +250,8 @@ const FormCheckoutInformation = () => {
 
         try {
             const res = await axios.post(
-                'https://dawoodbackend.herokuapp.com/api/v1/order/',
-                // 'http://localhost:8080/api/v1/order/',
+                // 'https://dawoodbackend.herokuapp.com/api/v1/order/',
+                'http://localhost:8080/api/v1/order/',
                 body
             );
             console.log('CBM', { res });

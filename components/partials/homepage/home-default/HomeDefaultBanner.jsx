@@ -113,11 +113,11 @@ const HomeDefaultBanner = () => {
                 <div className="ps-section__right">
                     <Promotion
                         link="/shop"
-                        // image={promotion2 ? promotion2.image : null}
+                        image="https://res.cloudinary.com/dv1jydljf/image/upload/v1644572425/banner_cbmmgz.jpg"
                     />
                     <Promotion
                         link="/shop"
-                        image={promotion1 ? promotion1.image : null}
+                        image="https://res.cloudinary.com/dv1jydljf/image/upload/v1644572427/ban1_nth6zb.jpg"
                     />
                 </div>
             </div>

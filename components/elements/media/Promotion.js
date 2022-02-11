@@ -7,18 +7,15 @@ const Promotion = ({ link, image }) => {
         return (
             <Link href={link}>
                 <a className="ps-collection">
-                    <img src={`${baseUrl}${image.url}`} alt="dawood-online" />
+                    <img src={image} />
                 </a>
             </Link>
         );
     } else {
         return (
-            <Link href="/grocery/riceFlour&other">
+            <Link href={link}>
                 <a className="ps-collection">
-                    <img
-                        src="/static/img/onlineGrocery.png"
-                        alt="dawood-online"
-                    />
+                    <img src={image} alt="dawood-online" />
                 </a>
             </Link>
         );
