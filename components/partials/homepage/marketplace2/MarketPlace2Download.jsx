@@ -22,8 +22,7 @@ const MarketPlace2Download = () => (
                             </p>
                             <form
                                 className="ps-form--download-app"
-                                action="do_action"
-                                method="post">
+                                >
                                 <div className="form-group--nest">
                                     <input
                                         className="form-control"
