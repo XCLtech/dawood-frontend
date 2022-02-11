@@ -2,16 +2,11 @@ import React from 'react';
 import { Form, Input } from 'antd';
 import axios from 'axios';
 
-
 const DownloadApp = () => {
     const handleLoginSubmit = async (data) => {
         const body = {
-
             Email: data.Email,
-
         };
-
-
 
         try {
             const res = await axios.post(
@@ -22,14 +17,12 @@ const DownloadApp = () => {
             console.log('CBM', { res });
         } catch (error) {
             console.log('CBM', { error });
-            console.log("hello world")
+            console.log('hello world');
         }
     };
 
-
-
     return (
-     <form className="ps-form__billing-info" onFinish={handleLoginSubmit}>
+        <form className="ps-form__billing-info" onFinish={handleLoginSubmit}>
             <section className="ps-download-app">
                 <div className="ps-container">
                     <div className="ps-block--download-app">
@@ -47,32 +40,49 @@ const DownloadApp = () => {
                                     <div className="ps-block__content">
                                         <h3>Download dawood-online App Now!</h3>
                                         <p>
-                                            Shopping fastly and easily more with our
-                                            app. Get a link to download the app on your
-                                            phone
+                                            Shopping fastly and easily more with
+                                            our app. Get a link to download the
+                                            app on your phone
                                         </p>
-                                        
-                                        
-                                            
-                                            <div >
-                                                <Form.Item
-                                                    name="Email"
-                                                    rules={[
-                                                        {
-                                                            required: false,
-                                                            message: 'Enter an email or mobile phone number!',
-                                                        },
-                                                    ]}>
-                                                    <Input
-                                                        className="form-control"
-                                                        type="text"
-                                                        placeholder="Email your Email"
-                                                    />
-                                                </Form.Item>
-                                                <button>done</button>
-                                            </div>
-                                        
-                                      
+                                        <p className="download-link px-4">
+                                            <a href="#" className="px-3">
+                                                <img
+                                                    src="/static/img/google-play.png"
+                                                    alt="dawood-online"
+                                                />
+                                            </a>
+                                            <a href="#">
+                                                <img
+                                                    src="/static/img/app-store.png"
+                                                    alt="dawood-online"
+                                                />
+                                            </a>
+                                        </p>
+                                        {/* <div> */}
+                                        {/* <Form.Item
+                                                name="Email"
+                                                rules={[
+                                                    {
+                                                        required: false,
+                                                        message:
+                                                            'Enter an email or mobile phone number!',
+                                                    },
+                                                ]}>
+                                                <Input
+                                                    className="form-control"
+                                                    type="text"
+                                                    placeholder="Email your Email"
+                                                />
+                                            </Form.Item> */}
+                                        {/* <button
+                                                style={{
+                                                    backgroundColor: '#de0000',
+                                                    border: 'none',
+                                                    padding: '10px 30px',
+                                                }}>
+                                                done
+                                            </button> */}
+                                        {/* </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -80,8 +90,8 @@ const DownloadApp = () => {
                     </div>
                 </div>
             </section>
-            </form>
-    )
-}
+        </form>
+    );
+};
 
 export default DownloadApp;
