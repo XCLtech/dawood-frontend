@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import Router from 'next/router';
+import { useRouter } from 'next/router';
 import { Form, Input } from 'antd';
 import { useCart } from 'react-use-cart';
 import axios from 'axios';
 
 const FormCheckoutInformation = () => {
+    const Router = useRouter();
+
     const {
         isEmpty,
         totalUniqueItems,
@@ -32,7 +34,7 @@ const FormCheckoutInformation = () => {
                 contactNo: data.contactNo,
                 Email: data.Email,
             },
-            items: items.map((item) => parseInt(item.id)),
+            items: items,
         };
         try {
             const res = await axios.post(
@@ -40,6 +42,9 @@ const FormCheckoutInformation = () => {
                 // 'http://localhost:8080/api/v1/order/',
                 body
             );
+            if (res.data.success) {
+                Router.push('/account/payment');
+            }
             console.log('CBM', { res });
         } catch (error) {
             console.log('CBM', { error });
@@ -203,7 +208,7 @@ const FormCheckoutInformation = () => {
                         Return to shopping cart
                     </a>
                 </Link>
-                <div className="ps-block__footer">
+                {/* <div className="ps-block__footer">
                     <button
                         className="ps-btn"
                         onClick={() =>
@@ -213,13 +218,21 @@ const FormCheckoutInformation = () => {
                         }>
                         Confirm
                     </button>
-                </div>
+                </div> */}
                 <div className="ps-block__footer">
-                    <Link href="/account/payment">
-                        <a>
-                            <button className="ps-btn">Place Order</button>
-                        </a>
-                    </Link>
+                    {/* <Link href="/account/payment"> */}
+                    {/* <a> */}
+                    <button
+                        className="ps-btn"
+                        onClick={() =>
+                            alert(
+                                'please review your from then press place order button'
+                            )
+                        }>
+                        Place Order
+                    </button>
+                    {/* </a> */}
+                    {/* </Link> */}
                 </div>
             </div>
         </Form>
