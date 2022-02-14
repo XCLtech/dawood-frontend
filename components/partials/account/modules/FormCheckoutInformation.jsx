@@ -34,7 +34,6 @@ const FormCheckoutInformation = () => {
             },
             items: items.map((item) => parseInt(item.id)),
         };
-
         try {
             const res = await axios.post(
                 'https://dawoodbackend.herokuapp.com/api/v1/order/',
