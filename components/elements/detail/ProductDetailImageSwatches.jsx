@@ -138,9 +138,7 @@ class ProductDetailImageSwatches extends Component {
                                 </a>
                             </p>
                             <ul className="ps-list--dot">
-                                <li>
-                                    hello world
-                                </li>
+                                <li>hello world</li>
                                 <li>
                                     Free from the confines of wires and chords
                                 </li>

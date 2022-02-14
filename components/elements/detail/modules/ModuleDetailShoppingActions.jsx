@@ -11,7 +11,17 @@ const ModuleDetailShoppingActions = ({
     extended = false,
     item,
 }) => {
-    const { addItem } = useCart();
+    const {
+        isEmpty,
+        totalUniqueItems,
+        items,
+        totalItems,
+        cartTotal,
+        updateItemQuantity,
+        removeItem,
+        emptyCart,
+        addItem,
+    } = useCart();
     const [quantity, setQuantity] = useState(1);
     const Router = useRouter();
     // const { addItem } = useEcomerce();
@@ -26,13 +36,15 @@ const ModuleDetailShoppingActions = ({
 
     function handleBuynow(e) {
         e.preventDefault();
-        addItem(
-            { id: product.id, quantity: quantity },
-            ecomerce.cartItems,
-            'cart'
-        );
+
+        addItem({
+            id: product.id,
+            price: product.price,
+            title: product.title,
+        });
+
         setTimeout(function () {
-            Router.push('/account/checkout');
+            Router.push('/shopCartItems/shopCart');
         }, 1000);
     }
 
@@ -73,47 +85,59 @@ const ModuleDetailShoppingActions = ({
     if (!extended) {
         return (
             <div className="ps-product__shopping">
-                <figure>
-                    <figcaption>Quantity</figcaption>
-                    <div className="form-group--number">
-                        <button
-                            className="up"
-                            onClick={(e) => handleIncreaseItemQty(e)}>
-                            <i className="fa fa-plus"></i>
-                        </button>
-                        <button
-                            className="down"
-                            onClick={(e) => handleDecreaseItemQty(e)}>
-                            <i className="fa fa-minus"></i>
-                        </button>
-                        <input
-                            className="form-control"
-                            type="text"
-                            placeholder={quantity}
-                            disabled
-                        />
-                    </div>
-                </figure>
+                {/* {items.map((item) => (
+                    <figure>
+                        <figcaption>Quantity</figcaption>
+                        <div className="form-group--number">
+                            <button
+                                className="up"
+                                onClick={(e) =>
+                                    updateItemQuantity(
+                                        item.id,
+                                        item.quantity + 1
+                                    )
+                                }>
+                                <i className="fa fa-plus"></i>
+                            </button>
+                            <button
+                                className="down"
+                                onClick={(e) =>
+                                    updateItemQuantity(
+                                        item.id,
+                                        item.quantity - 1
+                                    )
+                                }>
+                                <i className="fa fa-minus"></i>
+                            </button>
+                            <input
+                                className="form-control"
+                                type="text"
+                                placeholder={item.quantity}
+                                disabled={true}
+                            />
+                        </div>
+                    </figure>
+                ))}
                 <a
                     className="ps-btn ps-btn--black"
                     onClick={() =>
                         addItem({
                             id: product.id,
                             price: product.price,
-                            quantity: quantity,
+                            title: product.title,
                         })
                     }>
                     Add to cart
-                </a>
-                <a className="ps-btn" href="#" onClick={(e) => handleBuynow(e)}>
+                </a> */}
+                <a className="ps-btn" onClick={(e) => handleBuynow(e)}>
                     Buy Now
                 </a>
                 <div className="ps-product__actions">
                     {/* <a href="#" onClick={(e) => handleAddItemToWishlist(e)}> */}
-                        {/* <i className="icon-heart"></i> */}
+                    {/* <i className="icon-heart"></i> */}
                     {/* </a> */}
                     {/* <a href="#" onClick={(e) => handleAddItemToCompare(e)}> */}
-                        {/* <i className="icon-chart-bars"></i> */}
+                    {/* <i className="icon-chart-bars"></i> */}
                     {/* </a> */}
                 </div>
             </div>

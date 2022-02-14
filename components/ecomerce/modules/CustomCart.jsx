@@ -11,18 +11,17 @@ const CustomCart = () => {
         removeItem,
         emptyCart,
     } = useCart();
-    console.log('totalQuantity');
-    if (isEmpty) return <h3 className="text-center">your cart is empty</h3>;
-    const result = items.map((item, index) => {
-        <tr key={index}>
-            <td>
-                <img src={item.url} alt="product" />
-            </td>
-            <td>Rs. {item.price} </td>
-            <td>Rs. {item.title} </td>
-        </tr>;
-    });
-    // console.log(items);
+    if (isEmpty) return <h3 className="text-center">Your Cart Is Empty</h3>;
+    // const result = items.map((item, index) => {
+    //     <tr key={index}>
+    //         <td>
+    //             <img src={item.url} alt="product" />
+    //         </td>
+    //         <td>Rs. {item.price} </td>
+    //         <td>Rs. {item.title} </td>
+    //     </tr>;
+    // });
+    // console.log(items.price);
     return (
         <>
             <table
@@ -50,6 +49,7 @@ const CustomCart = () => {
                                     style={{ width: '150px' }}
                                 />
                             </td>
+                            {console.log(item.price, item.title, item.imgUrl)}
                             <td data-label="price" className="price">
                                 Rs. {item.price}
                             </td>

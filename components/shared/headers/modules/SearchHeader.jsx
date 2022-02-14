@@ -4,7 +4,7 @@ import Router from 'next/router';
 import { Spin } from 'antd';
 import ProductRepository from '~/repositories/ProductRepository';
 import ProductSearchResult from '~/components/elements/products/ProductSearchResult';
-import data from '@/public/static/data/demo.json';
+// import data from '@/public/static/data/demo.json';
 
 const exampleCategories = [
     'All',
@@ -66,7 +66,6 @@ const exampleCategories = [
 ];
 // i wnat to create comment
 
-
 function useDebounce(value, delay) {
     const [debouncedValue, setDebouncedValue] = useState(value);
     useEffect(() => {
@@ -84,12 +83,19 @@ function useDebounce(value, delay) {
 }
 
 const SearchHeader = () => {
+    const [data, setData] = useState([]);
     const inputEl = useRef(null);
     const [isSearch, setIsSearch] = useState(false);
     const [keyword, setKeyword] = useState('');
     const [resultItems, setResultItems] = useState(null);
     const [loading, setLoading] = useState(false);
-    const debouncedSearchTerm = useDebounce(keyword, 300);
+    // const debouncedSearchTerm = useDebounce(keyword, 300);
+
+    useEffect(() => {
+        if (keyword) {
+            console.log(keyword);
+        }
+    }, [keyword]);
 
     function handleClearKeyword() {
         setKeyword('');
@@ -102,32 +108,32 @@ const SearchHeader = () => {
         Router.push(`/search?keyword=${keyword}`);
     }
 
-    useEffect(() => {
-        if (debouncedSearchTerm) {
-            setLoading(true);
-            if (keyword) {
-                const queries = {
-                    _limit: 5,
-                    title_contains: keyword,
-                };
-                const products = ProductRepository.getRecords(queries);
-                products.then((result) => {
-                    setLoading(false);
-                    setResultItems(result);
-                    setIsSearch(true);
-                });
-            } else {
-                setIsSearch(false);
-                setKeyword('');
-            }
-            if (loading) {
-                setIsSearch(false);
-            }
-        } else {
-            setLoading(false);
-            setIsSearch(false);
-        }
-    }, [debouncedSearchTerm]);
+    // useEffect(() => {
+    //     if (debouncedSearchTerm) {
+    //         setLoading(true);
+    //         if (keyword) {
+    //             const queries = {
+    //                 _limit: 5,
+    //                 title_contains: keyword,
+    //             };
+    //             const products = ProductRepository.getRecords(queries);
+    //             products.then((result) => {
+    //                 setLoading(false);
+    //                 setResultItems(result);
+    //                 setIsSearch(true);
+    //             });
+    //         } else {
+    //             setIsSearch(false);
+    //             setKeyword('');
+    //         }
+    //         if (loading) {
+    //             setIsSearch(false);
+    //         }
+    //     } else {
+    //         setLoading(false);
+    //         setIsSearch(false);
+    //     }
+    // }, [debouncedSearchTerm]);
 
     // Views
     let productItemsView,

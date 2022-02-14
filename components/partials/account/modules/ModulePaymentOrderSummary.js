@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import Link from 'next/link';
 import { connect } from 'react-redux';
-import useEcomerce from '~/hooks/useEcomerce';
-import { calculateAmount } from '~/utilities/ecomerce-helpers';
+import { CartProvider } from 'react-use-cart';
+// import useEcomerce from '~/hooks/useEcomerce';
+// import { calculateAmount } from '~/utilities/ecomerce-helpers';
 import { useCart } from 'react-use-cart';
 const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
     const { cartTotal, items, quantity } = useCart();
@@ -16,25 +17,20 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
     // }, [ecomerce]);
 
     // view
+
     let listItemsView, shippingView, totalView;
 
-    listItemsView = items.map(
-        (item) => (
-            console.log(item.quantity),
-            (
-                <Link href="/" key={item.id}>
-                    <a>
-                        <strong>
-                            {item.title}
-                            <span>x{item.quantity}</span>
-                        </strong>
-                        <small>Rs. {item.quantity * item.price}</small>
-                    </a>
-                </Link>
-            )
-        )
-    );
-    console.log(listItemsView);
+    listItemsView = items.map((item) => (
+        <Link href="/" key={item.id}>
+            <a>
+                <strong>
+                    {item.title}
+                    <span>x{item.quantity}</span>
+                </strong>
+                <small>Rs. {item.quantity * item.price}</small>
+            </a>
+        </Link>
+    ));
 
     if (shipping === true) {
         shippingView = (
@@ -64,25 +60,27 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
         );
     }
     return (
-        <div className="ps-block--checkout-order">
-            <div className="ps-block__content">
-                <figure>
-                    <figcaption>
-                        <strong>Product</strong>
-                        <strong>total</strong>
-                    </figcaption>
-                </figure>
-                <figure className="ps-block__items">{listItemsView}</figure>
-                <figure>
-                    <figcaption>
-                        <strong>Subtotal</strong>
-                        <small>Rs. {cartTotal}</small>
-                    </figcaption>
-                </figure>
-                {shippingView}
-                {totalView}
+        <CartProvider>
+            <div className="ps-block--checkout-order">
+                <div className="ps-block__content">
+                    <figure>
+                        <figcaption>
+                            <strong>Product</strong>
+                            <strong>total</strong>
+                        </figcaption>
+                    </figure>
+                    <figure className="ps-block__items">{listItemsView}</figure>
+                    <figure>
+                        <figcaption>
+                            <strong>Subtotal</strong>
+                            <small>Rs. {cartTotal}</small>
+                        </figcaption>
+                    </figure>
+                    {shippingView}
+                    {totalView}
+                </div>
             </div>
-        </div>
+        </CartProvider>
     );
 };
 export default connect((state) => state)(ModulePaymentOrderSummary);

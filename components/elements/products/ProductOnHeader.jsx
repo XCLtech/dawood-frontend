@@ -3,14 +3,15 @@ import Link from 'next/link';
 import { connect } from 'react-redux';
 import useProduct from '~/hooks/useProduct';
 import useEcomerce from '~/hooks/useEcomerce';
-
+import { useCart } from 'react-use-cart';
 const ProductOnHeader = ({ ecomerce, product }) => {
+    const { addItem } = useCart();
     const { thumbnailImage, price, title } = useProduct();
-    const { addItem } = useEcomerce();
-    function handleAddItemToCart(e) {
-        e.preventDefault();
-        addItem({ id: product.id, quantity: 1 }, ecomerce.cartItems, 'cart');
-    }
+    // const { addItem } = useEcomerce();
+    // function handleAddItemToCart(e) {
+    //     e.preventDefault();
+    //     addItem({ id: product.id, quantity: 1 });
+    // }
 
     return (
         <div className="ps-product--header-sticky">
@@ -26,7 +27,13 @@ const ProductOnHeader = ({ ecomerce, product }) => {
                     <a
                         className="ps-btn"
                         href="#"
-                        onClick={(e) => handleAddItemToCart(e)}>
+                        onClick={() =>
+                            addItem({
+                                id: product.id,
+                                price: product.price,
+                                title: product.title,
+                            })
+                        }>
                         Add to Cart
                     </a>
                 </div>
