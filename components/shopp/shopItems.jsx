@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import BreadCrumb from '~/components/elements/BreadCrumb';
 import PageContainer from '~/components/layouts/PageContainer';
 import FooterDefault from '~/components/shared/footers/FooterDefault';
@@ -12,7 +12,7 @@ import { useRouter } from 'next/router';
 import { useCart } from 'react-use-cart';
 
 const ShoppingCartScreen = ({ ecomerce }) => {
-    const { items, cartTotal } = useCart();
+    const { emptyCart, cartTotal } = useCart();
     console.log(cartTotal);
     // const { products, getProducts } = useEcomerce();
 
@@ -76,7 +76,14 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                         </div>
                         <div
                             className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 "
-                            style={{ marginTop: '-100px' }}>
+                            style={{ marginTop: '-115px' }}>
+                            <div className="ps-section__cart-actions">
+                                <button
+                                    className="ps-btn"
+                                    onClick={(e) => emptyCart(e)}>
+                                    Clear Your Cart
+                                </button>
+                            </div>
                             <CustomCartSummary />
                             {/* <Link href="/account/checkout"> */}
                             <button

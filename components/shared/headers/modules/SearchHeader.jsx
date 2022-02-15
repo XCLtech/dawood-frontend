@@ -6,81 +6,81 @@ import { Spin } from 'antd';
 import ProductSearchResult from '~/components/elements/products/ProductSearchResult';
 // import data from '@/public/static/data/demo.json';
 import axios from 'axios';
-const exampleCategories = [
-    'All',
-    'Babies & Moms',
-    'Books & Office',
-    'Cars & Motocycles',
-    'Clothing & Apparel',
-    ' Accessories',
-    'Bags',
-    'Kid’s Fashion',
-    'Mens',
-    'Shoes',
-    'Sunglasses',
-    'Womens',
-    'Computers & Technologies',
-    'Desktop PC',
-    'Laptop',
-    'Smartphones',
-    'Consumer Electrics',
-    'Air Conditioners',
-    'Accessories',
-    'Type Hanging Cell',
-    'Audios & Theaters',
-    'Headphone',
-    'Home Theater System',
-    'Speakers',
-    'Car Electronics',
-    'Audio & Video',
-    'Car Security',
-    'Radar Detector',
-    'Vehicle GPS',
-    'Office Electronics',
-    'Printers',
-    'Projectors',
-    'Scanners',
-    'Store & Business',
-    'Refrigerators',
-    'TV Televisions',
-    '4K Ultra HD TVs',
-    'LED TVs',
-    'OLED TVs',
-    'Washing Machines',
-    'Type Drying Clothes',
-    'Type Horizontal',
-    'Type Vertical',
-    'Garden & Kitchen',
-    'Cookware',
-    'Decoration',
-    'Furniture',
-    'Garden Tools',
-    'Home Improvement',
-    'Powers And Hand Tools',
-    'Utensil & Gadget',
-    'Health & Beauty',
-    'Equipments',
-    'Hair Care',
-    'Perfumer',
-    'Wine Cabinets',
-];
+// const exampleCategories = [
+//     'All',
+//     'Babies & Moms',
+//     'Books & Office',
+//     'Cars & Motocycles',
+//     'Clothing & Apparel',
+//     ' Accessories',
+//     'Bags',
+//     'Kid’s Fashion',
+//     'Mens',
+//     'Shoes',
+//     'Sunglasses',
+//     'Womens',
+//     'Computers & Technologies',
+//     'Desktop PC',
+//     'Laptop',
+//     'Smartphones',
+//     'Consumer Electrics',
+//     'Air Conditioners',
+//     'Accessories',
+//     'Type Hanging Cell',
+//     'Audios & Theaters',
+//     'Headphone',
+//     'Home Theater System',
+//     'Speakers',
+//     'Car Electronics',
+//     'Audio & Video',
+//     'Car Security',
+//     'Radar Detector',
+//     'Vehicle GPS',
+//     'Office Electronics',
+//     'Printers',
+//     'Projectors',
+//     'Scanners',
+//     'Store & Business',
+//     'Refrigerators',
+//     'TV Televisions',
+//     '4K Ultra HD TVs',
+//     'LED TVs',
+//     'OLED TVs',
+//     'Washing Machines',
+//     'Type Drying Clothes',
+//     'Type Horizontal',
+//     'Type Vertical',
+//     'Garden & Kitchen',
+//     'Cookware',
+//     'Decoration',
+//     'Furniture',
+//     'Garden Tools',
+//     'Home Improvement',
+//     'Powers And Hand Tools',
+//     'Utensil & Gadget',
+//     'Health & Beauty',
+//     'Equipments',
+//     'Hair Care',
+//     'Perfumer',
+//     'Wine Cabinets',
+// ];
 // i wnat to create comment
 
-function useDebounce(value, delay) {
-    const [debouncedValue, setDebouncedValue] = useState(value);
-    useEffect(() => {
-        // Update debounced value after delay
-        const handler = setTimeout(() => {
-            setDebouncedValue(value);
-        }, delay);
+// function useDebounce(value, delay) {
+//     const [debouncedValue, setDebouncedValue] = useState(value);
+//     useEffect(() => {
+//         // Update debounced value after delay
+//         const handler = setTimeout(() => {
+//             setDebouncedValue(value);
+//         }, delay);
 
-        return () => {
-            clearTimeout(handler);
-        };
-    }, [value, delay]);
+//         return () => {
+//             clearTimeout(handler);
+//         };
+//     }, [value, delay]);
 
-    return debouncedValue;
-}
+//     return debouncedValue;
+// }
 
 const SearchHeader = () => {
     const [data, setData] = useState([]);
@@ -145,7 +145,7 @@ const SearchHeader = () => {
     // Views
     let productItemsView,
         clearTextView,
-        selectOptionView,
+        // selectOptionView,
         loadingView,
         loadMoreView;
     if (!loading) {
@@ -180,11 +180,11 @@ const SearchHeader = () => {
         );
     }
 
-    selectOptionView = exampleCategories.map((option) => (
-        <option value={option} key={option}>
-            {option}
-        </option>
-    ));
+    // selectOptionView = exampleCategories.map((option) => (
+    //     <option value={option} key={option}>
+    //         {option}
+    //     </option>
+    // ));
 
     return (
         <form

@@ -49,7 +49,7 @@ const CustomCart = () => {
                                     style={{ width: '150px' }}
                                 />
                             </td>
-                            {console.log(item.price, item.title, item.imgUrl)}
+                            {/* {console.log(item.price, item.title, item.imgUrl)} */}
                             <td data-label="price" className="price">
                                 Rs. {item.price}
                             </td>
