@@ -98,7 +98,7 @@ const SearchHeader = () => {
                     `http://localhost:8080/api/v1/product?query=${keyword}`
                 );
 
-                console.log(response);
+                console.log(response.data.data);
             };
             getData();
         }
