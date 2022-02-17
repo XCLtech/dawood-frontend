@@ -27,7 +27,7 @@ const HomepageDefaultPage = () => {
                     />
                     <HomeDefaultProductListing
                         collectionSlug="clothings"
-                        title="Clothings"
+                        title="Clothing"
                     />
                     <HomeDefaultProductListing
                         collectionSlug="garden-and-kitchen"
