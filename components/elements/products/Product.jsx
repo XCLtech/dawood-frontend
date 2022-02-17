@@ -9,9 +9,9 @@ const Product = ({ product }) => {
     return (
         <div className="ps-product">
             <div className="ps-product__thumbnail">
-                <Link href="/product/[pid]" as={`/product/${product.id}`}>
-                    <a>{thumbnailImage(product)}</a>
-                </Link>
+                {/* <Link href="/product/[pid]" as={`/product/${product.id}`}> */}
+                <a>{thumbnailImage(product)}</a>
+                {/* </Link> */}
                 {badge(product)}
                 <ModuleProductActions product={product} />
             </div>

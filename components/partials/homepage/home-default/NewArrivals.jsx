@@ -33,34 +33,34 @@ const NewArrivals = ({ collectionSlug }) => {
                     <h3>Hot New Arrivals</h3>
                     <ul className="ps-section__links">
                         <li>
-                            <Link href="/shop">
-                                <a>Technologies</a>
-                            </Link>
+                            {/* <Link href="/shop"> */}
+                            <a>Technologies</a>
+                            {/* </Link> */}
                         </li>
                         <li>
-                            <Link href="/shop">
-                                <a>Electronic</a>
-                            </Link>
+                            {/* <Link href="/shop"> */}
+                            <a>Electronic</a>
+                            {/* </Link> */}
                         </li>
                         <li>
-                            <Link href="/shop">
-                                <a>Furnitures</a>
-                            </Link>
+                            {/* <Link href="/shop"> */}
+                            <a>Furnitures</a>
+                            {/* </Link> */}
                         </li>
                         <li>
-                            <Link href="/shop">
-                                <a>Clothing & Apparel</a>
-                            </Link>
+                            {/* <Link href="/shop"> */}
+                            <a>Clothing & Apparel</a>
+                            {/* </Link> */}
                         </li>
                         <li>
-                            <Link href="/shop?category=health-and-beauty">
-                                <a>Health & Beauty</a>
-                            </Link>
+                            {/* <Link href="/shop?category=health-and-beauty"> */}
+                            <a>Health & Beauty</a>
+                            {/* </Link> */}
                         </li>
                         <li>
-                            <Link href="/shop">
-                                <a>View All</a>
-                            </Link>
+                            {/* <Link href="/shop"> */}
+                            <a>View All</a>
+                            {/* </Link> */}
                         </li>
                     </ul>
                 </div>

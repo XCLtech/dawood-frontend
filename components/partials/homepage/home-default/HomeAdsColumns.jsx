@@ -29,19 +29,19 @@ const HomeAdsColumns = () => {
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
                         <Promotion
-                            link="/shop"
+                            link="#"
                             image="https://res.cloudinary.com/dv1jydljf/image/upload/v1644572425/ban2_vcokgr.jpg"
                         />
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
                         <Promotion
-                            link="/shop"
+                            link="#"
                             image="https://res.cloudinary.com/dv1jydljf/image/upload/v1644572425/ban4_gnfddo.jpg"
                         />
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
                         <Promotion
-                            link="/shop"
+                            link="#"
                             image="https://res.cloudinary.com/dv1jydljf/image/upload/v1644572424/ban3_w0nchh.jpg"
                         />
                     </div>
