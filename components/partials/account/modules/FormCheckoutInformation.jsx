@@ -3,8 +3,17 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Form, Input } from 'antd';
 import { useCart } from 'react-use-cart';
-import axios from 'axios';
+// import axios from 'axios';
+import Select from 'react-select';
 
+const options = [
+    { value: 'Latifabad', label: 'Latifabad' },
+    { value: 'City', label: 'City' },
+    { value: 'Qasimabad', label: 'Qasimabad' },
+    { value: 'Hirabad', label: 'Hirabad' },
+    { value: 'Jamshoro', label: 'Jamshoro' },
+    { value: 'Kohsar', label: 'Kohsar' },
+];
 const FormCheckoutInformation = () => {
     const Router = useRouter();
 
@@ -198,6 +207,31 @@ const FormCheckoutInformation = () => {
                 </div>
             </div>
             <div className="row">
+                <div className="col-12 py-4">
+                    <div className="form-group">
+                        <Form.Item
+                            name="location"
+                            rules={[
+                                {
+                                    required: true,
+                                    message: 'Please enter a location',
+                                },
+                            ]}>
+                            <Select
+                                options={options}
+                                isClearable
+                                placeholder="Choose a delivery location"
+                            />
+                        </Form.Item>
+                        {/* <Select
+                            options={options}
+                            isClearable
+                            placeholder="Choose a Delivery location"
+                        /> */}
+                    </div>
+                </div>
+            </div>
+            {/* <div className="row">
                 <div className="col-md-12">
                     <div className="form-group">
                         <Form.Item>
@@ -238,7 +272,7 @@ const FormCheckoutInformation = () => {
                         </Form.Item>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="form-group">
                 <div className="ps-checkbox">
                     <h5>Press confirm button before placing the order </h5>
