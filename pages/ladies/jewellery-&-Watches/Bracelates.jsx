@@ -18,8 +18,8 @@ const index = () => {
             try {
                 const data = await Axios.get(
                     // `http://localhost:8082/api/v1/product`
-                    `https://dawoodbackend.herokuapp.com/api/v1/product/id/5`
-                    // `http://localhost:8080/api/v1/product/id/5`
+                    // `https://dawoodbackend.herokuapp.com/api/v1/product/id/5`
+                    `http://localhost:8080/api/v1/product/id/5`
                 );
                 setData(data.data.data);
             } catch (error) {
@@ -41,18 +41,18 @@ const index = () => {
                                 <WidgetShopFilterByPriceRange />
                             </div> */}
                             {/* <div className="ps-layout__right "> */}
-                                {/* <div className="d-flex justify-content-center row"> */}
-                                <div className="d-flex  row">
-                                    {data.map((item, index) => (
-                                        <Product
-                                            key={index}
-                                            image={item?.imgUrl}
-                                            title={item.title}
-                                            price={item.price}
-                                            item={item}
-                                        />
-                                    ))}
-                                </div>
+                            {/* <div className="d-flex justify-content-center row"> */}
+                            <div className="d-flex  row">
+                                {data.map((item, index) => (
+                                    <Product
+                                        key={index}
+                                        image={item?.imgUrl}
+                                        title={item.title}
+                                        price={item.price}
+                                        item={item}
+                                    />
+                                ))}
+                            </div>
                             {/* </div> */}
                         </div>
                     </div>
@@ -64,7 +64,6 @@ const index = () => {
 };
 
 export default index;
-
 
 // import React from 'react';
 // // import BreadCrumb from '~/components/elements/BreadCrumb';

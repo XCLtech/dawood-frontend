@@ -2,9 +2,11 @@ import React, { useEffect } from 'react';
 import Link from 'next/link';
 import { connect } from 'react-redux';
 import { CartProvider } from 'react-use-cart';
-// import useEcomerce from '~/hooks/useEcomerce';
-// import { calculateAmount } from '~/utilities/ecomerce-helpers';
+import { useRouter } from 'next/router';
+import { Form, Input } from 'antd';
+
 import { useCart } from 'react-use-cart';
+// import Button from './Button';
 const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
     const { cartTotal, items, quantity } = useCart();
 
@@ -78,6 +80,10 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
                     </figure>
                     {shippingView}
                     {totalView}
+                    {/* <Button
+                            text="Place Order"
+                            onclick={handleLoginSubmit}
+                        /> */}
                 </div>
             </div>
         </CartProvider>
