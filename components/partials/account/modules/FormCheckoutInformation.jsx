@@ -56,8 +56,13 @@ const FormCheckoutInformation = () => {
                 'http://localhost:8080/api/v1/order/',
                 body
             );
+            console.log(res);
             if (res.data.success) {
-                Router.push('/account/payment');
+                // Router.push('/account/payment');
+                Router.push({
+                    pathname: '/account/payment',
+                    query: { orderId: res.data.data.dataValues.id },
+                });
             }
             console.log('CBM', { res });
         } catch (error) {

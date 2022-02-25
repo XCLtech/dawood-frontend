@@ -1,16 +1,20 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 // import ModulePaymentOrderSummary from '~/components/partials/account/modules/ModulePaymentOrderSummary';
 // import ModulePaymentShipping from '~/components/ecomerce/modules/ModulePaymentShipping';
 // import ModulePaymentMethods from '~/components/ecomerce/modules/ModulePaymentMethods';
 
 const Payment = () => {
+    const Router = useRouter();
+    console.log(Router);
     return (
         <div className="ps-checkout ps-section--shopping">
             <div className="container">
                 <div className="ps-section__header">
+                    <p>Your orderId is: {Router.query.orderId} </p>
                     <h1>Your order was successfully submited!</h1>
                     <h2>Thanks for choosing us!</h2>
                     <h3>you recieved email</h3>

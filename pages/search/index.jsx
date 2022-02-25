@@ -6,11 +6,12 @@ import PageContainer from '~/components/layouts/PageContainer';
 import Newsletters from '~/components/partials/commons/Newletters';
 import useGetProducts from '~/hooks/useGetProducts';
 import { useRouter } from 'next/router';
+import Axios from 'axios';
 
 const SearchPage = () => {
     const [pageSize] = useState(100);
     const [keyword, setKeyword] = useState('');
-    const { productItems, loading, getProducts } = useGetProducts();
+    // const { productItems, loading, getProducts } = useGetProducts();
     const Router = useRouter();
     const { query } = Router;
 
@@ -21,6 +22,20 @@ const SearchPage = () => {
             setKeyword('');
         }
     }
+
+    const [loading, setLoading] = useState(false);
+    const [productItems, setProductItems] = useState([]);
+
+    const getProducts = async (queries) => {
+        console.log(queries);
+        setLoading(true);
+        const response = await Axios.get(
+            `http://localhost:8080/api/v1/product?query=${queries.title_contains}`
+        );
+
+        setProductItems(response.data.data);
+        setLoading(false);
+    };
 
     useEffect(() => {
         if (query && query.keyword) {
@@ -53,7 +68,13 @@ const SearchPage = () => {
                 const items = productItems.map((item) => {
                     return (
                         <div className="col-md-3 col-sm-6 col-6" key={item.id}>
-                            <Product product={item} />
+                            <Product
+                                key={item.id}
+                                img={item?.imgUrl}
+                                title={item.title}
+                                price={item.price}
+                                item={item}
+                            />
                         </div>
                     );
                 });

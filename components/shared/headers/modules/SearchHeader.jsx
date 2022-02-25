@@ -94,13 +94,20 @@ const SearchHeader = () => {
     useEffect(() => {
         if (keyword) {
             const getData = async () => {
+                setLoading(true);
                 const response = await axios.get(
                     `http://localhost:8080/api/v1/product?query=${keyword}`
                 );
 
-                console.log(response.data.data);
+                setResultItems(response.data.data);
+                setIsSearch(true);
+                setLoading(false);
             };
-            getData();
+            if (keyword.length > 2) {
+                getData();
+            } else {
+                setIsSearch(false);
+            }
         }
     }, [keyword]);
 
@@ -150,16 +157,17 @@ const SearchHeader = () => {
         loadMoreView;
     if (!loading) {
         if (resultItems && resultItems.length > 0) {
+            console.log('first');
             if (resultItems.length > 5) {
                 loadMoreView = (
                     <div className="ps-panel__footer text-center">
-                        <Link href="/search">
+                        <Link href={`/search?keyword=${keyword}`}>
                             <a>See all results</a>
                         </Link>
                     </div>
                 );
             }
-            productItemsView = data.Jams.map((product) => (
+            productItemsView = resultItems.map((product) => (
                 <ProductSearchResult product={product} key={product.id} />
             ));
         } else {

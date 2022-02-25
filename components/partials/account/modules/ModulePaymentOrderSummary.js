@@ -2,14 +2,15 @@ import React, { useEffect } from 'react';
 import Link from 'next/link';
 import { connect } from 'react-redux';
 import { CartProvider } from 'react-use-cart';
-import { useRouter } from 'next/router';
-import { Form, Input } from 'antd';
+// import { useRouter } from 'next/router';
+// import { Form, Input } from 'antd';
 
 import { useCart } from 'react-use-cart';
 // import Button from './Button';
+import { useRouter } from 'next/router';
 const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
     const { cartTotal, items, quantity } = useCart();
-
+    // const Router = useRouter();
     // const { products, getProducts } = useEcomerce();
 
     // useEffect(() => {
@@ -20,6 +21,13 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
 
     // view
 
+    const handleLoginSubmit = async (data) => {
+        try {
+            Router.push('/account/payment');
+        } catch (err) {
+            console.log(err);
+        }
+    };
     let listItemsView, shippingView, totalView;
 
     listItemsView = items.map((item) => (
@@ -80,10 +88,7 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
                     </figure>
                     {shippingView}
                     {totalView}
-                    {/* <Button
-                            text="Place Order"
-                            onclick={handleLoginSubmit}
-                        /> */}
+                    {/* <Button text="Place Order" onclick={handleLoginSubmit} /> */}
                 </div>
             </div>
         </CartProvider>

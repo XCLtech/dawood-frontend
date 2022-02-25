@@ -34,7 +34,11 @@ const ShoppingCartScreen = ({ ecomerce }) => {
     const router = useRouter();
 
     const goToCheckout = () => {
-        router.push('/account/checkout');
+        if (cartTotal >= 2000) {
+            router.push('/account/checkout');
+        } else {
+            alert('Your order is less than 2000');
+        }
     };
 
     // View
