@@ -74,22 +74,33 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                                                 Apply
                                             </button>
                                         </div>
+                                        <div className="ps-section__cart-actions">
+                                            <button
+                                                className="ps-btn"
+                                                onClick={(e) => emptyCart(e)}>
+                                                Clear Your Cart
+                                            </button>
+                                        </div>
                                     </figure>
                                 </div>
                             </div>
                         </div>
                         <div
                             className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 "
-                            style={{ marginTop: '-115px' }}>
-                            <div className="ps-section__cart-actions">
+                            style={{ marginTop: '-90px' }}>
+                            {/* <div className="ps-section__cart-actions">
                                 <button
                                     className="ps-btn"
                                     onClick={(e) => emptyCart(e)}>
                                     Clear Your Cart
                                 </button>
-                            </div>
+                            </div> */}
+                            <p>
+                                <b>Your Order must be greater than 2000 Rs.</b>
+                            </p>
                             <CustomCartSummary />
                             {/* <Link href="/account/checkout"> */}
+
                             <button
                                 onClick={goToCheckout}
                                 className="ps-btn ps-btn--fullwidth">

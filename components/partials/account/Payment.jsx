@@ -14,10 +14,15 @@ const Payment = () => {
         <div className="ps-checkout ps-section--shopping">
             <div className="container">
                 <div className="ps-section__header">
-                    <p>Your orderId is: {Router.query.orderId} </p>
+                    <p style={{ fontSize: '25px' }}>
+                        Your orderId is: <b>QREW{Router.query.orderId}</b>
+                    </p>
                     <h1>Your order was successfully submited!</h1>
-                    <h2>Thanks for choosing us!</h2>
-                    <h3>you recieved email</h3>
+                    <h2>
+                        Thanks for choosing us{' '}
+                        <span style={{ color: 'red' }}> ❤</span>
+                    </h2>
+                    <h3>You recieved email</h3>
                 </div>
                 <div className="ps-section__content">
                     <div className="row">
