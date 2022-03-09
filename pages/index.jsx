@@ -14,7 +14,7 @@ import { CartProvider } from 'react-use-cart';
 const HomepageDefaultPage = () => {
     return (
         <CartProvider>
-            <PageContainer title="Online" className="asc">
+            <PageContainer title="Online">
                 <main id="homepage-1">
                     <HomeDefaultBanner />
                     <SiteFeatures />
