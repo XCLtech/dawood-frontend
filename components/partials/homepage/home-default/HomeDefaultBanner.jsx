@@ -4,7 +4,7 @@ import NextArrow from '~/components/elements/carousel/NextArrow';
 import PrevArrow from '~/components/elements/carousel/PrevArrow';
 // import Link from 'next/link';
 import MediaRepository from '~/repositories/MediaRepository';
-import { baseUrl } from '~/repositories/Repository';
+// import { baseUrl } from '~/repositories/Repository';
 import { getItemBySlug } from '~/utilities/product-helper';
 import Promotion from '~/components/elements/media/Promotion';
 // import Grocery from '../../../../public/static/img/onlineGrocery.png';

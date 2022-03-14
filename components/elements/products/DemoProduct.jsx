@@ -5,6 +5,7 @@ import { useCart } from 'react-use-cart';
 import Link from 'next/link';
 const DemoProduct = ({ image, title, price, item }) => {
     const { addItem } = useCart();
+
     return (
         <>
             <div className="row">
@@ -17,9 +18,15 @@ const DemoProduct = ({ image, title, price, item }) => {
                             alignItems: 'center',
                             width: '150px',
                             cursor: 'pointer',
+                            borderRadius: '6px',
                         }}>
                         <Link href="/product/[pid]" as={`/product/${item?.id}`}>
-                            <img src={image} alt="Product image" height={150} />
+                            <img
+                                src={image}
+                                alt="Product image"
+                                height={140}
+                                // style={style}
+                            />
                         </Link>
 
                         {/* <ModuleProductActions product={product} /> */}
