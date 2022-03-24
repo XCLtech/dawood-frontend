@@ -41,6 +41,7 @@ const ModuleDetailShoppingActions = ({
             id: product.id,
             price: product.price,
             title: product.title,
+            imgUrl: product.imgUrl,
         });
 
         setTimeout(function () {

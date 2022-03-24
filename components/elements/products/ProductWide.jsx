@@ -17,7 +17,7 @@ const ProductWide = ({ product }) => {
                 <div className="ps-product__content">
                     {title(product)}
                     <p className="ps-product__vendor">
-                      sdfdfd
+                        sdfdfd
                         <Link href="/shop">
                             <a>{product.vendor}</a>
                         </Link>

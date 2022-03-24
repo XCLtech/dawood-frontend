@@ -32,6 +32,7 @@ const ProductOnHeader = ({ ecomerce, product }) => {
                                 id: product.id,
                                 price: product.price,
                                 title: product.title,
+                                imgUrl: product.imgUrl,
                             })
                         }>
                         Add to Cart
