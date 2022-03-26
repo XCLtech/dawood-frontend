@@ -4,6 +4,7 @@ import SkeletonProduct from '~/components/elements/skeletons/SkeletonProduct';
 import { generateTempArray } from '~/utilities/common-helpers';
 import { ProductGroupWithCarousel } from '~/components/partials/product/ProductGroupWithCarousel';
 import useGetProducts from '~/hooks/useGetProducts';
+import { CartProvider } from 'react-use-cart';
 
 const HomeDefaultProductListing = ({ collectionSlug, title }) => {
     const [currentCollection, setCurrentCollection] = useState('new-arrivals');
@@ -48,6 +49,7 @@ const HomeDefaultProductListing = ({ collectionSlug, title }) => {
 
     // views
     let productItemsView;
+
     if (!loading) {
         if (productItems && productItems.length > 0) {
             productItemsView = (
@@ -69,22 +71,26 @@ const HomeDefaultProductListing = ({ collectionSlug, title }) => {
     }
 
     return (
-        <div className="ps-product-list">
-            <div className="ps-container">
-                <div className="ps-section__header">
-                    <h3>{title}</h3>
-                    <ul className="ps-section__links">
-                        {sectionLinksView}
-                        <li>
-                            <Link href={`/shop`}>
-                                <a>View All</a>
-                            </Link>
-                        </li>
-                    </ul>
+        <CartProvider>
+            <div className="ps-product-list">
+                <div className="ps-container">
+                    <div className="ps-section__header">
+                        <h3>{title}</h3>
+                        <ul className="ps-section__links">
+                            {sectionLinksView}
+                            <li>
+                                <Link href={`/shop`}>
+                                    <a>View All</a>
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="ps-section__content">
+                        {productItemsView}
+                    </div>
                 </div>
-                <div className="ps-section__content">{productItemsView}</div>
             </div>
-        </div>
+        </CartProvider>
     );
 };
 
