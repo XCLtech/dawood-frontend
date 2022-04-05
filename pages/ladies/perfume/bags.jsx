@@ -20,7 +20,9 @@ const index = () => {
                     // `http://localhost:8082/api/v1/product`
                     // `https://dawoodbackend.herokuapp.com/api/v1/product/id/3`
                     // `http://localhost:8080/api/v1/product/id/3`
-                    `https://dawoodddocker.herokuapp.com/api/v1/product/id/1`
+                    // `https://dawoodddocker.herokuapp.com/api/v1/product/id/1`
+                    // `http://localhost:8080/api/v1/product/id/174`
+                    `https://dawoodddocker.herokuapp.com/api/v1/product/id/4`
                 );
                 setData(data.data.data);
             } catch (error) {
@@ -43,7 +45,7 @@ const index = () => {
                             </div> */}
                             {/* <div className="ps-layout__right "> */}
                             {/* <div className="d-flex justify-content-center row"> */}
-                            <div className="d-flex  row">
+                            <div className=" row">
                                 {data.map((item, index) => (
                                     <Product
                                         key={index}

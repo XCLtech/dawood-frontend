@@ -8,14 +8,18 @@ const DemoProduct = ({ image, title, price, item }) => {
 
     return (
         <>
-            <div className="row">
+            <div
+                className="row"
+                style={{
+                    margin: 'auto',
+                }}>
                 <div className="ps-product ">
                     <div
                         className="ps-product__thumbnail"
                         style={{
-                            display: 'flex',
-                            justifyItems: 'center',
-                            alignItems: 'center',
+                            // display: 'flex',
+                            // justifyItems: 'center',
+                            // alignItems: 'center',
                             width: '150px',
                             cursor: 'pointer',
                             borderRadius: '6px',
@@ -43,7 +47,11 @@ const DemoProduct = ({ image, title, price, item }) => {
                         </button>
                     </div>
                     <div className="ps-product__container">
-                        <a className="ps-product__vendor">{title}</a>
+                        <a
+                            className="ps-product__vendor"
+                            style={{ width: '160px' }}>
+                            {title}
+                        </a>
                         <div className="ps-product__content">
                             {/* {title} */}
                             {/* <div className="ps-product__rating">
