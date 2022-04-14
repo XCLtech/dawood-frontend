@@ -31,7 +31,8 @@ const SearchPage = () => {
         console.log(queries);
         setLoading(true);
         const response = await Axios.get(
-            `http://localhost:8080/api/v1/product?query=${queries.title_contains}`
+            // `http://localhost:8080/api/v1/product?query=${queries.title_contains}`
+            `https://dawoodddocker.herokuapp.com/api/v1/product?query=${queries.title_contains}`
         );
 
         setProductItems(response.data.data);
