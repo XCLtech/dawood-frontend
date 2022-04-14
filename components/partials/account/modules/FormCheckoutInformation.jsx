@@ -30,7 +30,7 @@ const FormCheckoutInformation = () => {
     const handleLoginSubmit = async (data) => {
         const body = {
             total: cartTotal,
-            subTotal: cartTotal,
+            subTotal: cartTotal+result,
             contactInfo: data.contactInfo,
             shippingAddress: {
                 firstName: data.firstName,
