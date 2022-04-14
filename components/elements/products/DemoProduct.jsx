@@ -17,23 +17,14 @@ const DemoProduct = ({ image, title, price, item }) => {
                     <div
                         className="ps-product__thumbnail"
                         style={{
-                            // display: 'flex',
-                            // justifyItems: 'center',
-                            // alignItems: 'center',
                             width: '150px',
                             cursor: 'pointer',
                             borderRadius: '6px',
                         }}>
                         <Link href="/product/[pid]" as={`/product/${item?.id}`}>
-                            <img
-                                src={image}
-                                alt="Product image"
-                                height={140}
-                                // style={style}
-                            />
+                            <img referrerPolicy="no-referrer" src={image} alt="Product_image" height={140} />
                         </Link>
 
-                        {/* <ModuleProductActions product={product} /> */}
                         <button
                             className="ps-product__actions"
                             style={{
@@ -52,14 +43,7 @@ const DemoProduct = ({ image, title, price, item }) => {
                             style={{ width: '160px' }}>
                             {title}
                         </a>
-                        <div className="ps-product__content">
-                            {/* {title} */}
-                            {/* <div className="ps-product__rating">
-                                <Rating />
-                                <span>02</span>
-                            </div> */}
-                            Rs. {price}
-                        </div>
+                        <div className="ps-product__content">Rs. {price}</div>
                     </div>
                 </div>
             </div>

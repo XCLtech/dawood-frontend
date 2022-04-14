@@ -24,6 +24,7 @@ const index = () => {
                     // `http://localhost:8080/api/v1/product/id/174`
                     `https://dawoodddocker.herokuapp.com/api/v1/product/id/4`
                 );
+                // console.log(data.data.data);
                 setData(data.data.data);
             } catch (error) {
                 console.log(error);
