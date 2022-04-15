@@ -22,7 +22,7 @@ const Payment = () => {
                         Thanks for choosing us{' '}
                         <span style={{ color: 'red' }}> ❤</span>
                     </h2>
-                    <h3>You recieved email</h3>
+                    {/* <h3>You recieved email</h3> */}
                 </div>
                 <div className="ps-section__content">
                     <div className="row">

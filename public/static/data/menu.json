@@ -870,28 +870,28 @@
             "url": "/grocery/confectionery"
         },
         {
-            "text": "OIL, GHEE & SUGAR",
-            "url": "/grocery/oilGhee&sugar"
+            "text": "DSM GROCERY",
+            "url": "/grocery/dsmGrocery"
         },
         {
-            "text": "KETCHUP, SAUCES & CONDIMENTS",
-            "url": "/grocery/ketchupSauces&condiments"
+            "text": "DSM IMPORTED",
+            "url": "/grocery/dsmImported"
         },
         {
-            "text": "GRAMS & PULSES",
-            "url": "/grocery/gram&pluses"
+            "text": "DSM PACKING GROCERY",
+            "url": "/grocery/dsmPackingGrocery"
         },
         {
-            "text": "PASTA NOODLE & SOUPS",
-            "url": "/grocery/pastaNoodle&soups"
+            "text": "GROCERY",
+            "url": "/grocery/grocery"
         },
         {
-            "text": "JAMS JELLY & SPREADS",
+            "text": "",
             "url": "/grocery/jamsJelly"
         },
         {
             "text": "TEA & COFFEE",
-            "url": "/grocery/tea&coffee"
+            "url": "/grocery/tea&coffe"
         },
         {
             "text": "POWDERED DESSERTS",
