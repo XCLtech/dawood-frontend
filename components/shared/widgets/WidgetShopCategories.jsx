@@ -13,6 +13,7 @@ const WidgetShopCategories = () => {
     async function getCategories() {
         setLoading(true);
         const responseData = await ProductRepository.getProductCategories();
+        console.log(responseData);
         if (responseData) {
             setCategories(responseData);
             setTimeout(
