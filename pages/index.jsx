@@ -35,7 +35,7 @@ const HomepageDefaultPage = () => {
                     />
                     <HomeAds />
                     <DownLoadApp />
-                    <NewArrivals collectionSlug="new-arrivals-products" />
+                    {/* <NewArrivals collectionSlug="new-arrivals-products" /> */}
                     <Newletters />
                 </main>
             </PageContainer>
