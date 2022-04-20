@@ -50,7 +50,7 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                 <div className="ps-section__content">
                     <CustomCart />
                     <div className="ps-section__cart-actions">
-                        <Link href="/shop">
+                        <Link href="/">
                             <a className="ps-btn">Back to Shop</a>
                         </Link>
                     </div>
@@ -60,7 +60,7 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                         <div className="col-xl-8 col-lg-4 col-md-12 col-sm-12 col-12 ">
                             <div className="row">
                                 <div className="col-lg-6">
-                                    <figure>
+                                    {/* <figure>
                                         <figcaption>Coupon Discount</figcaption>
                                         <div className="form-group">
                                             <input
@@ -74,7 +74,7 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                                                 Apply
                                             </button>
                                         </div>
-                                    </figure>
+                                    </figure> */}
                                     <div className="form-group ps-section__cart-actions">
                                         <button
                                             className="ps-btn"

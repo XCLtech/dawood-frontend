@@ -167,8 +167,8 @@ const ThumbnailDefault = ({ product, vertical = true }) => {
                     </Slider>
                 </div>
             </figure>
-            {variantCarouselView}
-            {lightboxView}
+            {/* {variantCarouselView}
+            {lightboxView} */}
         </div>
     );
 };
