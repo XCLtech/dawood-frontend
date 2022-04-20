@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-// import Link from 'next/link';
 import { notification } from 'antd';
 import Menu from '../../elements/menu/Menu';
-import menuData from '../../../public/static/data/menu';
-// import CurrencyDropdown from '../headers/modules/CurrencyDropdown';
-// import LanguageSwicher from '../headers/modules/LanguageSwicher';
+import menuData from '../../../public/static/data/category';
 import MenuCategoriesDropdown from '~/components/shared/menus/MenuCategoriesDropdown';
 
 class NavigationDefault extends Component {
