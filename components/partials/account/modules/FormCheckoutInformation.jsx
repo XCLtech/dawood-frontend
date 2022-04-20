@@ -25,12 +25,12 @@ const FormCheckoutInformation = () => {
     // const lahore=40
     // const dadu=1000
 
-    const { items, cartTotal } = useCart();
+    const { items, cartTotal, emptyCart } = useCart();
 
     const handleLoginSubmit = async (data) => {
         const body = {
             total: cartTotal,
-            subTotal: cartTotal+result,
+            subTotal: cartTotal + result,
             contactInfo: data.contactInfo,
             shippingAddress: {
                 firstName: data.firstName,
@@ -64,6 +64,7 @@ const FormCheckoutInformation = () => {
                     pathname: '/account/payment',
                     query: { orderId: res.data.data.dataValues.id },
                 });
+                emptyCart();
             }
             console.log('CBM', { res });
         } catch (error) {
