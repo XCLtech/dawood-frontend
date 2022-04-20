@@ -1,7 +1,7 @@
 {
     "menuPrimary": {
         "menu_1": [{
-                "text": "Dairy Products",
+                "text": "Dairy",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
@@ -76,7 +76,7 @@
                 }]
             },
             {
-                "text": "Juices & Syrups",
+                "text": "Juices",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
@@ -104,7 +104,7 @@
             },
 
             {
-                "text": "Baking Items",
+                "text": "Baking",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
@@ -119,7 +119,7 @@
             },
 
             {
-                "text": "Fresh Fruits & Vegetables",
+                "text": "Fresh",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
@@ -202,68 +202,36 @@
             },
 
             {
-                "text": "Stationary",
+                "text": "Pet Foods",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
                 "subClass": "sub-menu",
                 "mega": "true",
                 "megaContent": [{
-                    "heading": "School Essentials ",
                     "megaItems": [{
-                            "text": "Boys School Bags",
-                            "url": "/Stationary/SchoolEssential/BoysSchoolBags"
+                            "text": "Cat Food",
+                            "url": "/grocery-category/cat-food"
                         },
                         {
-                            "text": "Girls School Bags",
-                            "url": "/Stationary/SchoolEssential/GirlsSchoolBags"
-                        },
-                        {
-                            "text": "Lunch Box",
-                            "url": "/Stationary/SchoolEssential/Lunchbox "
-                        },
-                        {
-                            "text": "Water Bottles",
-                            "url": "/Stationary/SchoolEssential/Waterbottles"
-                        },
-                        {
-                            "text": "Stationary & Accessories",
-                            "url": "/Stationary/SchoolEssential/StationaryAccessories"
+                            "text": "Fish Food",
+                            "url": "/grocery-category/fish-food "
                         }
                     ]
                 }]
             },
             {
-                "text": "Footwear",
+                "text": "Breakfast & Cereals",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
                 "subClass": "sub-menu",
                 "mega": "true",
                 "megaContent": [{
-                    "heading": " Ladies & Gents",
                     "megaItems": [{
-                            "text": "Slippers",
-                            "url": "/FootWare/LadiesAndGents/slippers"
-                        },
-                        {
-                            "text": "Gents Shoes ",
-                            "url": "/FootWare/LadiesAndGents/GentsShoes"
-                        },
-                        {
-                            "text": "Ladies Shoes",
-                            "url": "/FootWare/LadiesAndGents/Ladiesshoes"
-                        },
-                        {
-                            "text": "Ladies Sandal",
-                            "url": "/FootWare/LadiesAndGents/LadiesSandal"
-                        },
-
-                        {
-                            "text": "Kids Shoes",
-                            "url": "/FootWare/LadiesAndGents/KidsShoes"
-                        }
-                    ]
+                        "text": "Cereals & Corn Flakes",
+                        "url": "/grocery-category/cereals-corn-flakes"
+                    }]
                 }]
             }
         ]
