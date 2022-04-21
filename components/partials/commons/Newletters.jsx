@@ -35,7 +35,7 @@ const Newsletters = (layout) => {
                             {' '}
                             <h3>Newsletter</h3>
                             <p>
-                                Subcribe to get information about products and
+                                Subscribe to get information about products and
                                 coupons
                             </p>
                         </div>

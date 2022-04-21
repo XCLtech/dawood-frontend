@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 
 import { Menu } from 'antd';
 // import { menuPrimary } from '~/public/static/data/mobileMenu';
-import menu_data from '~/public/static/data/mobileMenu';
+// import menu_data from '~/public/static/data/mobileMenu';
+import menu_data from '~/public/static/data/mobileData';
 import Link from 'next/link';
 
 const { SubMenu } = Menu;

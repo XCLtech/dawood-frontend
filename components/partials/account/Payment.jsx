@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-// import ModulePaymentOrderSummary from '~/components/partials/account/modules/ModulePaymentOrderSummary';
+import ModulePaymentOrderSummary from '~/components/partials/account/modules/ModulePaymentOrderSummary';
 // import ModulePaymentShipping from '~/components/ecomerce/modules/ModulePaymentShipping';
 // import ModulePaymentMethods from '~/components/ecomerce/modules/ModulePaymentMethods';
 
@@ -15,7 +15,7 @@ const Payment = () => {
             <div className="container">
                 <div className="ps-section__header">
                     <p style={{ fontSize: '25px' }}>
-                        Your orderId is: <b>QREW{Router.query.orderId}</b>
+                        Your Order ID is: <b>QREW{Router.query.orderId}</b>
                     </p>
                     <h1>Your order was successfully submited!</h1>
                     <h2>
