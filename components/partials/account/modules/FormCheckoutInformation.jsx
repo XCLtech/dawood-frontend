@@ -76,7 +76,7 @@ const FormCheckoutInformation = () => {
         <Form className="ps-form__billing-info" onFinish={handleLoginSubmit}>
             {/* <h3 className="ps-form__heading">Contact information</h3> */}
 
-            <h3 className="ps-form__heading">Shipping address</h3>
+            <h3 className="ps-form__heading">Shipping Address</h3>
             <div className="row">
                 <div className="col-sm-6">
                     <div className="form-group">
