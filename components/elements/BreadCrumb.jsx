@@ -21,7 +21,7 @@ const BreadCrumb = ({ breacrumb, layout }) => {
                                 <li
                                     key={index}
                                     style={{
-                                        fontSize: '30px',
+                                        fontSize: '20px',
                                         color: '#000',
                                         display: 'flex',
                                         justifyContent: 'center',

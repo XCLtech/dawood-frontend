@@ -65,10 +65,7 @@ const ProductDefaultPage = () => {
             text: 'Home',
             url: '/',
         },
-        {
-            text: 'Shop',
-            url: '/shop',
-        },
+
         {
             text: product ? product.title : 'Loading...',
         },

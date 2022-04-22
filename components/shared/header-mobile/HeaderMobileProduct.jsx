@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import MobileHeaderActions from '../headers/modules/MobileHeaderActions';
 import Link from 'next/link';
-import { stickyHeader } from '~/utilities/common-helpers';
+// import { stickyHeader } from '~/utilities/common-helpers';
 
 const HeaderMobileProduct = () => {
     const stickyHeader = () => {
@@ -32,10 +32,12 @@ const HeaderMobileProduct = () => {
             data-sticky="true">
             <div className="navigation--mobile">
                 <div className="navigation__left">
-                    <Link href="/shop">
+                    <Link href="/">
                         <a href="/" className="header__back">
                             <i className="icon-chevron-left"></i>
-                            <strong>Back to previous</strong>
+                            <strong style={{ color: 'white' }}>
+                                Back to previous
+                            </strong>
                         </a>
                     </Link>
                 </div>

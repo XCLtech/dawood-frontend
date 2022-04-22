@@ -6,7 +6,7 @@ import { CartProvider } from 'react-use-cart';
 import { useEffect } from 'react';
 import Axios from 'axios';
 import { useState } from 'react';
-import Spinner from '../../../components/spinner/index';
+import Spinner from '~/components/spinner/index';
 const index = () => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
