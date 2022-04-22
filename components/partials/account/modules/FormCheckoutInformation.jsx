@@ -5,8 +5,10 @@ import { Form, Input } from 'antd';
 import { useCart } from 'react-use-cart';
 import axios from 'axios';
 import Select from 'react-select';
-
+// import Spinner from '~/components/spinner/index';
 const FormCheckoutInformation = () => {
+    // const [loading, setLoading] = useState(false);
+
     const options = [
         { value: 100, label: 'Latifabad' },
         { value: 'City', label: 'City' },
@@ -43,9 +45,6 @@ const FormCheckoutInformation = () => {
             items: items,
         };
 
-        // console.log(items);
-        console.log('hello world');
-        console.log(result);
         try {
             const res = await axios.post(
                 // 'https://dawoodbackend.herokuapp.com/api/v1/order/',
@@ -53,9 +52,10 @@ const FormCheckoutInformation = () => {
                 `https://dawoodddocker.herokuapp.com/api/v1/order/post/`,
                 body
             );
+            // setLoading(true);
+
             console.log(res);
             if (res.data.success) {
-                // Router.push('/account/payment');
                 Router.push({
                     pathname: '/account/payment',
                     query: { orderId: res.data.data.dataValues.id },
@@ -235,11 +235,11 @@ const FormCheckoutInformation = () => {
                 </div>
             </div>
 
-            <div className="form-group">
+            {/* <div className="form-group">
                 <div className="ps-checkbox">
                     <h5>Press confirm button before placing the order </h5>
                 </div>
-            </div>
+            </div> */}
             <div className="ps-form__submit">
                 <Link href="/">
                     <a>
@@ -255,7 +255,7 @@ const FormCheckoutInformation = () => {
                         className="ps-btn"
                         onClick={() =>
                             alert(
-                                'please review your from then press place order button'
+                                'Please review your from then press place order button'
                             )
                         }>
                         Place Order
