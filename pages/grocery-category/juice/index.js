@@ -17,7 +17,7 @@ const index = () => {
         const fetchBags = async () => {
             try {
                 const data = await Axios.get(
-                    `https://dawoodddocker.herokuapp.com/api/v1/product/id/84`
+                    `https://dawoodddocker.herokuapp.com/api/v1/product/id/4`
                 );
                 setData(data.data.data);
             } catch (error) {
@@ -41,7 +41,7 @@ const index = () => {
                             {/* <div className="ps-layout__right "> */}
                                 {/* <div className="d-flex justify-content-center row"> */}
                                 <div className="d-flex  row">
-                                     {data.filter((index)=>index.Sub_Cat=="HAIR OIL").map(item=>(
+                                     {data.filter((index)=>index.Sub_Cat=="JUICE").map(item=>(
                                         <Product
                                         key={item}
                                         image={item?.imgUrl}

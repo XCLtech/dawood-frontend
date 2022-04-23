@@ -60,7 +60,10 @@
                             "text": "Cakes",
                             "url": "/grocery-category/cakes"
                         },
-
+                        {
+                            "text": "Dry Fruit & Nimko",
+                            "url": "/grocery-category/dry-fruit-nimko"
+                        },
                         {
                             "text": "Chocolates & Toffees",
                             "url": "/grocery-category/chocolates-toffees"
@@ -68,30 +71,6 @@
                         {
                             "text": "Popcorns",
                             "url": "/grocery-category/popcorns"
-                        },
-                        {
-                            "text": "Sweet",
-                            "url": "/grocery-category/Sweet"
-                        },
-                        {
-                            "text": "Confectionary",
-                            "url": "/grocery-category/Confectionary"
-                        },
-                        {
-                            "text": "Candy & Toffee",
-                            "url": "/grocery-category/Candy-toffe"
-                        },
-                        {
-                            "text": "Nimko",
-                            "url": "/grocery-category/Nimko"
-                        },
-                        {
-                            "text": "Pan Masala",
-                            "url": "/grocery-category/Pan-Masala"
-                        },
-                        {
-                            "text": "Supari",
-                            "url": "/grocery-category/Supari"
                         }
                     ]
                 }]
@@ -119,14 +98,6 @@
                         {
                             "text": "Instant Drink",
                             "url": "/grocery-category/instant-drink"
-                        },
-                        {
-                            "text": "Juice",
-                            "url": "/grocery-category/juice"
-                        },
-                        {
-                            "text": "Energy Drinks",
-                            "url": "/grocery-category/Energy-Drinks"
                         }
                     ]
                 }]
