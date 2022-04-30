@@ -21,7 +21,7 @@ const HomepageDefaultPage = () => {
                     <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />
                     <HomeAdsColumns />
                     <HomeDefaultTopCategories />
-                    <HomeDefaultProductListing
+                    {/* <HomeDefaultProductListing
                         collectionSlug="consumer-electronics"
                         title="Consumer Electronics"
                     />
@@ -32,7 +32,7 @@ const HomepageDefaultPage = () => {
                     <HomeDefaultProductListing
                         collectionSlug="garden-and-kitchen"
                         title="Garden & Kitchen"
-                    />
+                    /> */}
                     <HomeAds />
                     <DownLoadApp />
                     {/* <NewArrivals collectionSlug="new-arrivals-products" /> */}
