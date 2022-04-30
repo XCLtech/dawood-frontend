@@ -6,7 +6,6 @@
     cursor: pointer;
     @include transform-style(preserve-3d);
     display: none;
-
     &:before,
     &:after {
         content: '';
@@ -17,15 +16,12 @@
         height: 1px;
         background-color: $color-heading;
     }
-
     &:before {
         @include transform(translateX(-50%));
     }
-
     &:after {
         @include transform(translateX(-50%) rotate(90deg));
     }
-
     &.active {
         &:after {
             display: none;
@@ -43,7 +39,6 @@
     background-color: #fff;
     border: 1px solid #ccc;
     @include hidden;
-
     &:before {
         content: '';
         position: absolute;
@@ -53,11 +48,9 @@
         @include triangle(12px, #fff, up);
         display: none;
     }
-
-    > li {
+    >li {
         display: block;
-
-        > a {
+        >a {
             display: inline-block;
             padding: 6px 20px;
             width: 100%;
@@ -65,41 +58,33 @@
             color: $color-heading;
             text-transform: capitalize;
             @include transition(all 0.8s $ease-out-expo);
-
             &:hover {
                 color: $color-1st;
             }
         }
-
         &:last-child {
             border-bottom: none;
-
             a {
                 border-bottom: 1px solid #eee;
             }
         }
-
         &.menu-item-has-children {
             position: relative;
-
-            > .sub-toggle {
+            >.sub-toggle {
                 display: none;
             }
-
-            > .sub-menu {
+            >.sub-menu {
                 position: absolute;
                 top: 0;
                 left: 100%;
                 @include hidden;
                 @include transform(translateY(30px));
-
                 &:before {
                     display: none;
                 }
             }
-
             &:hover {
-                > .sub-menu {
+                >.sub-menu {
                     @include show;
                     @include transform(translateY(0));
                 }
@@ -116,12 +101,10 @@
     background-color: #fff;
     @include transition(all 0.4s ease);
     border: 1px solid #ccc;
-
-    > * {
+    >* {
         width: 100%;
         padding: 10px 15px;
     }
-
     h4 {
         margin: 0;
         margin-bottom: 10px;
@@ -129,14 +112,11 @@
         font-weight: 600;
         color: $color-heading;
     }
-
     .mega-menu__column {
         min-width: 180px;
     }
-
     .mega-menu__list {
         background-color: transparent;
-
         li {
             a {
                 display: block;
@@ -145,10 +125,8 @@
                 padding: 5px 0;
                 font-size: 14px;
                 background-color: transparent;
-
                 &.has-badge {
                     padding-right: 20px;
-
                     &:after {
                         content: 'New';
                         display: inline-block;
@@ -162,17 +140,14 @@
                         @include border-radius(10px);
                         background-color: $color-1st;
                     }
-
                     &.sale {
                         color: $color-danger;
-
                         &:after {
                             content: 'Sale';
                             background-color: #ffa800;
                         }
                     }
                 }
-
                 &:hover {
                     color: $color-1st;
                 }
@@ -183,46 +158,37 @@
 
 .menu {
     text-align: left;
-
-    > li {
+    >li {
         display: inline-block;
-
-        > a {
+        >a {
             display: inline-block;
             padding: 15px 25px;
             font-size: 16px;
             font-weight: 400;
             line-height: 20px;
             color: $color-heading;
-
             &:hover {
                 color: $color-heading;
             }
         }
-
         &:first-child {
             padding-left: 0;
-
-            > a {
+            >a {
                 padding-left: 0;
             }
         }
-
         &:last-child {
             margin-right: 0;
             padding-right: 0;
         }
-
         .sub-toggle {
             margin-left: 5px;
             display: none;
         }
-
         .sub-menu {
             @include hidden();
             @include transform(scale3d(1, 1, 0) translateY(10px));
         }
-
         .mega-menu {
             position: absolute;
             top: 100%;
@@ -230,18 +196,15 @@
             z-index: 1000;
             @include hidden;
         }
-
         &.menu-item-has-children {
             position: relative;
-
-            > a {
+            >a {
                 &:after {
                     content: '\e93a';
                     font: normal normal normal 12px/1 linearicons;
                     @include vertical-align();
                     right: 0;
                 }
-
                 &:before {
                     content: '';
                     width: 13px;
@@ -258,23 +221,19 @@
                     @include hidden;
                 }
             }
-
             &:hover {
-                > .sub-menu {
+                >.sub-menu {
                     @include transform(scale3d(1, 1, 1) translateY(0));
                 }
             }
         }
-
         &.has-mega-menu {
             position: relative;
-
             .mega-menu {
                 position: absolute;
                 top: 100%;
                 left: 0;
             }
-
             &:hover {
                 .mega-menu {
                     @include show;
@@ -282,18 +241,15 @@
                 }
             }
         }
-
         &:hover {
             .sub-toggle {
                 color: #ffffff;
             }
-
-            > .sub-menu {
+            >.sub-menu {
                 @include show;
             }
-
             &.menu-item-has-children {
-                > a {
+                >a {
                     &:before {
                         @include show;
                     }
@@ -306,7 +262,6 @@
 .menu--product-categories {
     position: relative;
     height: 100%;
-
     .menu__toggle {
         position: relative;
         height: 100%;
@@ -314,19 +269,16 @@
         flex-flow: row nowrap;
         align-items: center;
         cursor: pointer;
-
         i {
             font-size: 20px;
             margin-right: 10px;
         }
-
         span {
             font-size: 20px;
             color: $color-heading;
             font-size: 16px;
             font-weight: 600;
         }
-
         &:before {
             content: '';
             position: absolute;
@@ -339,7 +291,6 @@
             @include transform(scale3d(0, 1, 1));
             @include transform-origin(100% 50%);
         }
-
         &:hover,
         &.active {
             &:before {
@@ -348,7 +299,6 @@
             }
         }
     }
-
     .menu__content {
         position: absolute;
         top: 100%;
@@ -361,7 +311,6 @@
         transition: all 0.3s ease;
         @include transform(scale3d(1, 1, 0) translateY(30px));
     }
-
     .menu--dropdown {
         background-color: #fff;
         border: 1px solid #d3d3d3;
@@ -370,7 +319,6 @@
             position: relative;
         }
     }
-
     &:hover {
         .menu__content {
             @include show;
@@ -385,22 +333,18 @@
         padding: 0;
         list-style-type: none;
     }
-
-    > li {
+    >li {
         padding: 0 20px;
         transition: all 0.4s ease;
-
-        > a {
+        >a {
             display: block;
             padding: 10px 0;
             color: $color-heading;
-
             i {
                 margin-right: 10px;
                 font-size: 18px;
             }
         }
-
         &.has-mega-menu {
             .mega-menu {
                 position: absolute;
@@ -412,10 +356,8 @@
                 border-left: none;
             }
         }
-
         &:hover {
             background-color: $color-1st;
-
             &.has-mega-menu {
                 .mega-menu {
                     @include show;
@@ -433,22 +375,19 @@
         @include show;
         @include transition(all 0s ease);
         border: none;
-
-        > li {
-            > a {
+        >li {
+            >a {
                 border: none;
                 padding: 10px 20px;
             }
         }
     }
-
     .mega-menu {
         display: none;
         @include flex-flow(row wrap);
         max-width: 100%;
         padding-left: 15px;
         @include transition(all 0s ease);
-
         h4 {
             position: relative;
             display: block;
@@ -457,20 +396,16 @@
             width: 100%;
             line-height: 20px;
         }
-
         .mega-menu__column {
             padding: 0;
         }
-
         .mega-menu__list {
             display: none;
             padding-left: 15px;
-
             li {
                 a {
                     color: $color-text;
                     border: none;
-
                     &:hover {
                         color: $color-heading;
                     }
@@ -478,27 +413,22 @@
             }
         }
     }
-
-    > li {
+    >li {
         border-bottom: 1px solid #dedede;
-
-        > a {
+        >a {
             position: relative;
             z-index: 10;
             display: block;
             padding: 15px 20px;
             line-height: 20px;
             font-size: 15px;
-
             &:hover {
                 padding-left: 5px;
                 color: $color-heading;
             }
         }
-
         &.menu-item-has-children {
             position: relative;
-
             .sub-toggle {
                 position: absolute;
                 top: 5px;
@@ -510,23 +440,18 @@
             }
         }
     }
-
     .mega-menu {
         border: none;
-
         h4 {
             font-weight: 500;
         }
     }
-
     .mega-menu__list {
-        > li {
+        >li {
             border-bottom: 1px solid #dedede;
-
             a {
                 padding: 10px 0;
             }
-
             &:last-child {
                 border: none;
             }
@@ -536,23 +461,20 @@
 
 .menu--mobile-2 {
     .ant-menu-submenu {
-        > .ant-menu-submenu-title {
-            > a {
+        >.ant-menu-submenu-title {
+            >a {
                 color: $color-heading;
                 font-size: 16px;
             }
-
-            > span {
+            >span {
                 font-size: 16px;
                 color: $color-heading;
             }
         }
-
-        > .ant-menu-sub {
+        >.ant-menu-sub {
             padding-left: 20px;
         }
     }
-
     .ant-menu-item-active {
         color: $color-1st;
         background-color: transparent;
